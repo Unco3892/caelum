@@ -1,0 +1,15 @@
+{
+ "input": "unc_opennq_gemma_4_e4b_it_vne_300.json",
+ "input_sha256": "7926138b5ec5e0ded81a4b86d8dfa9d85a50421acca2e48baac8584c251ff9b7",
+ "n": 300,
+ "label_resolution": {
+  "gpu": 300,
+  "cpu": 0,
+  "failed": 0
+ },
+ "sts_unique_pairs": 141347,
+ "seconds": 690.4985041618347,
+ "model": "cross-encoder/stsb-roberta-large",
+ "revision": "2b12c2c0088918e76151fd5937b7bba986ef1f98",
+ "job": "20002162"
+}

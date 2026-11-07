@@ -1,0 +1,19 @@
+# CAELUM runtime dependencies (Python 3.11).
+# Install in your Python environment: python -m pip install -r requirements.txt
+-c slurm/requirements-dcsr.lock.txt
+
+torch==2.11.0
+transformers==5.7.0
+sentence-transformers==5.4.1
+accelerate==1.13.0
+bitsandbytes==0.49.2
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.8.0
+matplotlib==3.10.9
+huggingface_hub==1.13.0
+nltk==3.9.4
+rouge_score==0.1.2
+tqdm==4.67.3
+openai==2.33.0
+google-genai==1.74.0

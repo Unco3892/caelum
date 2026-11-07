@@ -1,0 +1,128 @@
+{
+  "gen_triviaqa_qwen3_8b_300.json": {
+    "sentence-transformers/all-mpnet-base-v2": {
+      "n_samples": 300,
+      "match_rate": 0.78,
+      "lambda_star": 47.42419852602448,
+      "coverage": 0.8111111111111111,
+      "apss": 1.8222222222222222,
+      "auroc_total": 0.6583400483481063,
+      "auroc_epi": 0.7087026591458501,
+      "auroc_r": 0.7300564061240935
+    },
+    "sentence-transformers/all-MiniLM-L12-v2": {
+      "n_samples": 300,
+      "match_rate": 0.7533333333333333,
+      "lambda_star": 9.582967163063751,
+      "coverage": 0.7666666666666667,
+      "apss": 2.022222222222222,
+      "auroc_total": 0.6935817805383023,
+      "auroc_epi": 0.7236024844720497,
+      "auroc_r": 0.7198067632850241
+    },
+    "BAAI/bge-large-en-v1.5": {
+      "n_samples": 300,
+      "match_rate": 0.9366666666666666,
+      "lambda_star": 17.14944224675341,
+      "coverage": 0.9333333333333333,
+      "apss": 1.2777777777777777,
+      "auroc_total": 0.5668604651162791,
+      "auroc_epi": 0.5188953488372093,
+      "auroc_r": 0.5116279069767442
+    },
+    "intfloat/e5-large-v2": {
+      "n_samples": 300,
+      "match_rate": 1.0,
+      "lambda_star": 0.0,
+      "coverage": 1.0,
+      "apss": 1.0,
+      "auroc_total": NaN,
+      "auroc_epi": NaN,
+      "auroc_r": NaN
+    }
+  },
+  "gen_ambigqa_qwen3_8b_200.json": {
+    "sentence-transformers/all-mpnet-base-v2": {
+      "n_samples": 200,
+      "match_rate": 0.67,
+      "lambda_star": 7.5378935489956715,
+      "coverage": 0.6666666666666666,
+      "apss": 1.3,
+      "auroc_total": 0.57375,
+      "auroc_epi": 0.6325,
+      "auroc_r": 0.6775
+    },
+    "sentence-transformers/all-MiniLM-L12-v2": {
+      "n_samples": 200,
+      "match_rate": 0.665,
+      "lambda_star": 77.98301105232585,
+      "coverage": 0.6166666666666667,
+      "apss": 1.55,
+      "auroc_total": 0.5875440658049353,
+      "auroc_epi": 0.63572267920094,
+      "auroc_r": 0.6568742655699178
+    },
+    "BAAI/bge-large-en-v1.5": {
+      "n_samples": 200,
+      "match_rate": 0.88,
+      "lambda_star": 24.774220576332862,
+      "coverage": 0.8833333333333333,
+      "apss": 1.0,
+      "auroc_total": 0.7088948787061995,
+      "auroc_epi": 0.7358490566037735,
+      "auroc_r": 0.7115902964959568
+    },
+    "intfloat/e5-large-v2": {
+      "n_samples": 200,
+      "match_rate": 1.0,
+      "lambda_star": 0.0,
+      "coverage": 1.0,
+      "apss": 1.0,
+      "auroc_total": NaN,
+      "auroc_epi": NaN,
+      "auroc_r": NaN
+    }
+  },
+  "gen_popqa_qwen3_8b_500.json": {
+    "sentence-transformers/all-mpnet-base-v2": {
+      "n_samples": 500,
+      "match_rate": 0.536,
+      "lambda_star": 3.1459368459476478,
+      "coverage": 0.5333333333333333,
+      "apss": 1.74,
+      "auroc_total": 0.7610714285714286,
+      "auroc_epi": 0.78,
+      "auroc_r": 0.7644642857142857
+    },
+    "sentence-transformers/all-MiniLM-L12-v2": {
+      "n_samples": 500,
+      "match_rate": 0.522,
+      "lambda_star": 43.87832090084675,
+      "coverage": 0.5266666666666666,
+      "apss": 2.1266666666666665,
+      "auroc_total": 0.7528971296131217,
+      "auroc_epi": 0.7783918702085934,
+      "auroc_r": 0.7844535567837404
+    },
+    "BAAI/bge-large-en-v1.5": {
+      "n_samples": 500,
+      "match_rate": 0.762,
+      "lambda_star": 56.36376558259543,
+      "coverage": 0.7266666666666667,
+      "apss": 1.6533333333333333,
+      "auroc_total": 0.7488636363636364,
+      "auroc_epi": 0.7718181818181818,
+      "auroc_r": 0.7720454545454546
+    },
+    "intfloat/e5-large-v2": {
+      "n_samples": 500,
+      "match_rate": 1.0,
+      "lambda_star": 0.0,
+      "coverage": 1.0,
+      "apss": 1.0,
+      "auroc_total": NaN,
+      "auroc_epi": NaN,
+      "auroc_r": NaN
+    }
+  }
+}

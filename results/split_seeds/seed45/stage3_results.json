@@ -1,0 +1,1028 @@
+{
+  "gemma_4_e4b_it__ambiginst": {
+    "model": "gemma_4_e4b_it",
+    "dataset": "ambiginst",
+    "n_samples": 304,
+    "n_test": 92,
+    "match_rate": 0.9605263157894737,
+    "methods": {
+      "CAELUM": {
+        "label": "CAELUM",
+        "lambda_star": 46.69280883804212,
+        "tau_hat": 0.03992849583719615,
+        "coverage": 0.8913043478260869,
+        "apss": 1.641304347826087
+      },
+      "Vanilla": {
+        "label": "Vanilla",
+        "lambda_star": 0.0,
+        "tau_hat": 0.4102421871653827,
+        "coverage": 0.9239130434782609,
+        "apss": 1.815217391304348
+      },
+      "EqualWeight": {
+        "label": "EqualWeight",
+        "lambda_star": 1.0,
+        "tau_hat": 0.33600151726454186,
+        "coverage": 0.9239130434782609,
+        "apss": 1.75
+      },
+      "EpistemicOnly": {
+        "label": "EpistemicOnly",
+        "lambda_star": 1000000.0,
+        "tau_hat": 2.0150841036269137e-06,
+        "coverage": 0.8913043478260869,
+        "apss": 1.5543478260869565
+      },
+      "ConU": {
+        "label": "ConU",
+        "lambda_star": 0.0,
+        "tau_hat": 0.6,
+        "coverage": 0.8478260869565217,
+        "apss": 1.4456521739130435
+      },
+      "SemanticEntropyCP": {
+        "label": "SemanticEntropyCP",
+        "lambda_star": 0.0,
+        "tau_hat": 0.33600151726454186,
+        "coverage": 0.9239130434782609,
+        "apss": 1.75
+      }
+    },
+    "aurocs": {
+      "U_total": 0.9288389513108615,
+      "U_epi": 0.6067415730337079,
+      "U_ale": 0.9325842696629213,
+      "R(x)": 0.3857677902621723
+    }
+  },
+  "ministral_3_8b_instruct_2512__ambiginst": {
+    "model": "ministral_3_8b_instruct_2512",
+    "dataset": "ambiginst",
+    "n_samples": 304,
+    "n_test": 92,
+    "match_rate": 0.9144736842105263,
+    "methods": {
+      "CAELUM": {
+        "label": "CAELUM",
+        "lambda_star": 8.231898369213964,
+        "tau_hat": 0.07094399814099454,
+        "coverage": 0.8913043478260869,
+        "apss": 2.0760869565217392
+      },
+      "Vanilla": {
+        "label": "Vanilla",
+        "lambda_star": 0.0,
+        "tau_hat": 0.29057170853990893,
+        "coverage": 0.8913043478260869,
+        "apss": 2.032608695652174
+      },
+      "EqualWeight": {
+        "label": "EqualWeight",
+        "lambda_star": 1.0,
+        "tau_hat": 0.21394108805597312,
+        "coverage": 0.8913043478260869,
+        "apss": 2.032608695652174
+      },
+      "EpistemicOnly": {
+        "label": "EpistemicOnly",
+        "lambda_star": 1000000.0,
+        "tau_hat": 7.475656036320252e-07,
+        "coverage": 0.8695652173913043,
+        "apss": 2.0434782608695654
+      },
+      "ConU": {
+        "label": "ConU",
+        "lambda_star": 0.0,
+        "tau_hat": 0.8,
+        "coverage": 0.9021739130434783,
+        "apss": 2.967391304347826
+      },
+      "SemanticEntropyCP": {
+        "label": "SemanticEntropyCP",
+        "lambda_star": 0.0,
+        "tau_hat": 0.21394108805597312,
+        "coverage": 0.8913043478260869,
+        "apss": 2.032608695652174
+      }
+    },
+    "aurocs": {
+      "U_total": 0.8340026773761714,
+      "U_epi": 0.7670682730923695,
+      "U_ale": 0.8058902275769746,
+      "R(x)": 0.5555555555555556
+    }
+  },
+  "qwen3_8b__ambiginst": {
+    "model": "qwen3_8b",
+    "dataset": "ambiginst",
+    "n_samples": 304,
+    "n_test": 92,
+    "match_rate": 1.0,
+    "methods": {
+      "CAELUM": {
+        "label": "CAELUM",
+        "lambda_star": 0.0,
+        "tau_hat": 0.0,
+        "coverage": 0.9456521739130435,
+        "apss": 1.0
+      },
+      "Vanilla": {
+        "label": "Vanilla",
+        "lambda_star": 0.0,
+        "tau_hat": 0.0,
+        "coverage": 0.9456521739130435,
+        "apss": 1.0
+      },
+      "EqualWeight": {
+        "label": "EqualWeight",
+        "lambda_star": 1.0,
+        "tau_hat": 0.0,
+        "coverage": 0.9456521739130435,
+        "apss": 1.0
+      },
+      "EpistemicOnly": {
+        "label": "EpistemicOnly",
+        "lambda_star": 1000000.0,
+        "tau_hat": 0.0,
+        "coverage": 0.9456521739130435,
+        "apss": 1.0
+      },
+      "ConU": {
+        "label": "ConU",
+        "lambda_star": 0.0,
+        "tau_hat": 0.4,
+        "coverage": 0.9565217391304348,
+        "apss": 1.0108695652173914
+      },
+      "SemanticEntropyCP": {
+        "label": "SemanticEntropyCP",
+        "lambda_star": 0.0,
+        "tau_hat": 0.0,
+        "coverage": 0.9456521739130435,
+        "apss": 1.0
+      }
+    },
+    "aurocs": {
+      "U_total": NaN,
+      "U_epi": NaN,
+      "U_ale": NaN,
+      "R(x)": NaN
+    }
+  },
+  "gemma_4_e4b_it__ambigqa": {
+    "model": "gemma_4_e4b_it",
+    "dataset": "ambigqa",
+    "n_samples": 200,
+    "n_test": 60,
+    "match_rate": 0.58,
+    "methods": {
+      "CAELUM": {
+        "label": "CAELUM",
+        "lambda_star": 17.96801080173495,
+        "tau_hat": 0.16714415990915127,
+        "coverage": 0.55,
+        "apss": 2.183333333333333
+      },
+      "Vanilla": {
+        "label": "Vanilla",
+        "lambda_star": 0.0,
+        "tau_hat": 0.6856559029291629,
+        "coverage": 0.55,
+        "apss": 2.1666666666666665
+      },
+      "EqualWeight": {
+        "label": "EqualWeight",
+        "lambda_star": 1.0,
+        "tau_hat": 0.5414362854328083,
+        "coverage": 0.55,
+        "apss": 2.1666666666666665
+      },
+      "EpistemicOnly": {
+        "label": "EpistemicOnly",
+        "lambda_star": 1000000.0,
+        "tau_hat": 4.102569522815269e-06,
+        "coverage": 0.55,
+        "apss": 2.1666666666666665
+      },
+      "ConU": {
+        "label": "ConU",
+        "lambda_star": 0.0,
+        "tau_hat": 0.56,
+        "coverage": 0.5,
+        "apss": 1.0333333333333334
+      },
+      "SemanticEntropyCP": {
+        "label": "SemanticEntropyCP",
+        "lambda_star": 0.0,
+        "tau_hat": 0.5414362854328083,
+        "coverage": 0.55,
+        "apss": 2.1666666666666665
+      }
+    },
+    "aurocs": {
+      "U_total": 0.6453423120089786,
+      "U_epi": 0.7059483726150393,
+      "U_ale": 0.5454545454545454,
+      "R(x)": 0.6442199775533108
+    }
+  },
+  "ministral_3_8b_instruct_2512__ambigqa": {
+    "model": "ministral_3_8b_instruct_2512",
+    "dataset": "ambigqa",
+    "n_samples": 200,
+    "n_test": 60,
+    "match_rate": 0.67,
+    "methods": {
+      "CAELUM": {
+        "label": "CAELUM",
+        "lambda_star": 73.91796465554594,
+        "tau_hat": 0.03043165678468543,
+        "coverage": 0.6666666666666666,
+        "apss": 3.1333333333333333
+      },
+      "Vanilla": {
+        "label": "Vanilla",
+        "lambda_star": 0.0,
+        "tau_hat": 0.6585276362595933,
+        "coverage": 0.65,
+        "apss": 3.1333333333333333
+      },
+      "EqualWeight": {
+        "label": "EqualWeight",
+        "lambda_star": 1.0,
+        "tau_hat": 0.43599396326221884,
+        "coverage": 0.6666666666666666,
+        "apss": 3.1
+      },
+      "EpistemicOnly": {
+        "label": "EpistemicOnly",
+        "lambda_star": 1000000.0,
+        "tau_hat": 2.3855091400871986e-06,
+        "coverage": 0.6666666666666666,
+        "apss": 3.15
+      },
+      "ConU": {
+        "label": "ConU",
+        "lambda_star": 0.0,
+        "tau_hat": 0.72,
+        "coverage": 0.65,
+        "apss": 1.5666666666666667
+      },
+      "SemanticEntropyCP": {
+        "label": "SemanticEntropyCP",
+        "lambda_star": 0.0,
+        "tau_hat": 0.43599396326221884,
+        "coverage": 0.6666666666666666,
+        "apss": 3.1
+      }
+    },
+    "aurocs": {
+      "U_total": 0.6,
+      "U_epi": 0.6675,
+      "U_ale": 0.52875,
+      "R(x)": 0.59125
+    }
+  },
+  "qwen3_8b__ambigqa": {
+    "model": "qwen3_8b",
+    "dataset": "ambigqa",
+    "n_samples": 200,
+    "n_test": 60,
+    "match_rate": 0.67,
+    "methods": {
+      "CAELUM": {
+        "label": "CAELUM",
+        "lambda_star": 4.591980128368688,
+        "tau_hat": 0.4580131677913512,
+        "coverage": 0.6333333333333333,
+        "apss": 1.25
+      },
+      "Vanilla": {
+        "label": "Vanilla",
+        "lambda_star": 0.0,
+        "tau_hat": 0.7699368434415844,
+        "coverage": 0.6333333333333333,
+        "apss": 1.2833333333333334
+      },
+      "EqualWeight": {
+        "label": "EqualWeight",
+        "lambda_star": 1.0,
+        "tau_hat": 0.6676018888548887,
+        "coverage": 0.6333333333333333,
+        "apss": 1.2666666666666666
+      },
+      "EpistemicOnly": {
+        "label": "EpistemicOnly",
+        "lambda_star": 1000000.0,
+        "tau_hat": 5.3254750485120596e-06,
+        "coverage": 0.6333333333333333,
+        "apss": 1.2166666666666666
+      },
+      "ConU": {
+        "label": "ConU",
+        "lambda_star": 0.0,
+        "tau_hat": 0.21999999999999997,
+        "coverage": 0.6333333333333333,
+        "apss": 1.0
+      },
+      "SemanticEntropyCP": {
+        "label": "SemanticEntropyCP",
+        "lambda_star": 0.0,
+        "tau_hat": 0.6676018888548887,
+        "coverage": 0.6333333333333333,
+        "apss": 1.2666666666666666
+      }
+    },
+    "aurocs": {
+      "U_total": 0.527511961722488,
+      "U_epi": 0.5938995215311005,
+      "U_ale": 0.4820574162679426,
+      "R(x)": 0.6327751196172249
+    }
+  },
+  "gemma_4_e4b_it__opennq": {
+    "model": "gemma_4_e4b_it",
+    "dataset": "opennq",
+    "n_samples": 300,
+    "n_test": 90,
+    "match_rate": 0.5166666666666667,
+    "methods": {
+      "CAELUM": {
+        "label": "CAELUM",
+        "lambda_star": 34.63378846082794,
+        "tau_hat": 0.09462123508726021,
+        "coverage": 0.5777777777777777,
+        "apss": 1.5666666666666667
+      },
+      "Vanilla": {
+        "label": "Vanilla",
+        "lambda_star": 0.0,
+        "tau_hat": 0.6959858841260939,
+        "coverage": 0.5777777777777777,
+        "apss": 1.5444444444444445
+      },
+      "EqualWeight": {
+        "label": "EqualWeight",
+        "lambda_star": 1.0,
+        "tau_hat": 0.5979873637633234,
+        "coverage": 0.5777777777777777,
+        "apss": 1.5666666666666667
+      },
+      "EpistemicOnly": {
+        "label": "EpistemicOnly",
+        "lambda_star": 1000000.0,
+        "tau_hat": 3.7513412902630614e-06,
+        "coverage": 0.5777777777777777,
+        "apss": 1.5666666666666667
+      },
+      "ConU": {
+        "label": "ConU",
+        "lambda_star": 0.0,
+        "tau_hat": 0.21999999999999997,
+        "coverage": 0.5555555555555556,
+        "apss": 1.0
+      },
+      "SemanticEntropyCP": {
+        "label": "SemanticEntropyCP",
+        "lambda_star": 0.0,
+        "tau_hat": 0.5979873637633234,
+        "coverage": 0.5777777777777777,
+        "apss": 1.5666666666666667
+      }
+    },
+    "aurocs": {
+      "U_total": 0.562753036437247,
+      "U_epi": 0.5683198380566802,
+      "U_ale": 0.5475708502024291,
+      "R(x)": 0.5227732793522267
+    }
+  },
+  "ministral_3_8b_instruct_2512__opennq": {
+    "model": "ministral_3_8b_instruct_2512",
+    "dataset": "opennq",
+    "n_samples": 300,
+    "n_test": 90,
+    "match_rate": 0.67,
+    "methods": {
+      "CAELUM": {
+        "label": "CAELUM",
+        "lambda_star": 42.83018990289129,
+        "tau_hat": 0.0401611152093814,
+        "coverage": 0.7,
+        "apss": 1.7
+      },
+      "Vanilla": {
+        "label": "Vanilla",
+        "lambda_star": 0.0,
+        "tau_hat": 0.6719994384709281,
+        "coverage": 0.7,
+        "apss": 1.7777777777777777
+      },
+      "EqualWeight": {
+        "label": "EqualWeight",
+        "lambda_star": 1.0,
+        "tau_hat": 0.4833506471491207,
+        "coverage": 0.7,
+        "apss": 1.7777777777777777
+      },
+      "EpistemicOnly": {
+        "label": "EpistemicOnly",
+        "lambda_star": 1000000.0,
+        "tau_hat": 1.8135738744394218e-06,
+        "coverage": 0.7,
+        "apss": 1.7
+      },
+      "ConU": {
+        "label": "ConU",
+        "lambda_star": 0.0,
+        "tau_hat": 0.16000000000000003,
+        "coverage": 0.6555555555555556,
+        "apss": 1.0
+      },
+      "SemanticEntropyCP": {
+        "label": "SemanticEntropyCP",
+        "lambda_star": 0.0,
+        "tau_hat": 0.4833506471491207,
+        "coverage": 0.7,
+        "apss": 1.7777777777777777
+      }
+    },
+    "aurocs": {
+      "U_total": 0.6343327454438565,
+      "U_epi": 0.7242798353909465,
+      "U_ale": 0.4620811287477954,
+      "R(x)": 0.7724867724867724
+    }
+  },
+  "qwen3_8b__opennq": {
+    "model": "qwen3_8b",
+    "dataset": "opennq",
+    "n_samples": 300,
+    "n_test": 90,
+    "match_rate": 0.6366666666666667,
+    "methods": {
+      "CAELUM": {
+        "label": "CAELUM",
+        "lambda_star": 0.0,
+        "tau_hat": 0.7067632590136631,
+        "coverage": 0.6333333333333333,
+        "apss": 1.2333333333333334
+      },
+      "Vanilla": {
+        "label": "Vanilla",
+        "lambda_star": 0.0,
+        "tau_hat": 0.7067632590136631,
+        "coverage": 0.6333333333333333,
+        "apss": 1.2333333333333334
+      },
+      "EqualWeight": {
+        "label": "EqualWeight",
+        "lambda_star": 1.0,
+        "tau_hat": 0.6624237923358748,
+        "coverage": 0.6333333333333333,
+        "apss": 1.2333333333333334
+      },
+      "EpistemicOnly": {
+        "label": "EpistemicOnly",
+        "lambda_star": 1000000.0,
+        "tau_hat": 1.000278519029919e-05,
+        "coverage": 0.6333333333333333,
+        "apss": 1.211111111111111
+      },
+      "ConU": {
+        "label": "ConU",
+        "lambda_star": 0.0,
+        "tau_hat": 0.18000000000000005,
+        "coverage": 0.6222222222222222,
+        "apss": 1.0
+      },
+      "SemanticEntropyCP": {
+        "label": "SemanticEntropyCP",
+        "lambda_star": 0.0,
+        "tau_hat": 0.6624237923358748,
+        "coverage": 0.6333333333333333,
+        "apss": 1.2333333333333334
+      }
+    },
+    "aurocs": {
+      "U_total": 0.5252525252525253,
+      "U_epi": 0.6049973418394471,
+      "U_ale": 0.4635832004253057,
+      "R(x)": 0.5364167995746943
+    }
+  },
+  "gemma_4_e4b_it__popqa": {
+    "model": "gemma_4_e4b_it",
+    "dataset": "popqa",
+    "n_samples": 500,
+    "n_test": 150,
+    "match_rate": 0.38,
+    "methods": {
+      "CAELUM": {
+        "label": "CAELUM",
+        "lambda_star": 22.02926463053456,
+        "tau_hat": 0.09150933411034502,
+        "coverage": 0.32666666666666666,
+        "apss": 1.9266666666666667
+      },
+      "Vanilla": {
+        "label": "Vanilla",
+        "lambda_star": 0.0,
+        "tau_hat": 0.7015742056987582,
+        "coverage": 0.32666666666666666,
+        "apss": 1.9733333333333334
+      },
+      "EqualWeight": {
+        "label": "EqualWeight",
+        "lambda_star": 1.0,
+        "tau_hat": 0.5239175575419704,
+        "coverage": 0.32666666666666666,
+        "apss": 1.98
+      },
+      "EpistemicOnly": {
+        "label": "EpistemicOnly",
+        "lambda_star": 1000000.0,
+        "tau_hat": 2.338374429933795e-06,
+        "coverage": 0.32666666666666666,
+        "apss": 1.9266666666666667
+      },
+      "ConU": {
+        "label": "ConU",
+        "lambda_star": 0.0,
+        "tau_hat": 0.4,
+        "coverage": 0.3,
+        "apss": 1.0333333333333334
+      },
+      "SemanticEntropyCP": {
+        "label": "SemanticEntropyCP",
+        "lambda_star": 0.0,
+        "tau_hat": 0.5239175575419704,
+        "coverage": 0.32666666666666666,
+        "apss": 1.98
+      }
+    },
+    "aurocs": {
+      "U_total": 0.7407557082238836,
+      "U_epi": 0.69852495453627,
+      "U_ale": 0.733279450394019,
+      "R(x)": 0.5659729238229946
+    }
+  },
+  "ministral_3_8b_instruct_2512__popqa": {
+    "model": "ministral_3_8b_instruct_2512",
+    "dataset": "popqa",
+    "n_samples": 500,
+    "n_test": 150,
+    "match_rate": 0.516,
+    "methods": {
+      "CAELUM": {
+        "label": "CAELUM",
+        "lambda_star": 55.11248580808258,
+        "tau_hat": 0.023685936475853066,
+        "coverage": 0.5133333333333333,
+        "apss": 3.26
+      },
+      "Vanilla": {
+        "label": "Vanilla",
+        "lambda_star": 0.0,
+        "tau_hat": 0.6481246603541365,
+        "coverage": 0.5133333333333333,
+        "apss": 3.3066666666666666
+      },
+      "EqualWeight": {
+        "label": "EqualWeight",
+        "lambda_star": 1.0,
+        "tau_hat": 0.43166101855045586,
+        "coverage": 0.5133333333333333,
+        "apss": 3.3066666666666666
+      },
+      "EpistemicOnly": {
+        "label": "EpistemicOnly",
+        "lambda_star": 1000000.0,
+        "tau_hat": 1.355503638810512e-06,
+        "coverage": 0.5133333333333333,
+        "apss": 3.26
+      },
+      "ConU": {
+        "label": "ConU",
+        "lambda_star": 0.0,
+        "tau_hat": 0.54,
+        "coverage": 0.44,
+        "apss": 1.1533333333333333
+      },
+      "SemanticEntropyCP": {
+        "label": "SemanticEntropyCP",
+        "lambda_star": 0.0,
+        "tau_hat": 0.43166101855045586,
+        "coverage": 0.5133333333333333,
+        "apss": 3.3066666666666666
+      }
+    },
+    "aurocs": {
+      "U_total": 0.6710549724248355,
+      "U_epi": 0.6831524639743818,
+      "U_ale": 0.6326276463262764,
+      "R(x)": 0.6443693293008361
+    }
+  },
+  "qwen3_8b__popqa": {
+    "model": "qwen3_8b",
+    "dataset": "popqa",
+    "n_samples": 500,
+    "n_test": 150,
+    "match_rate": 0.536,
+    "methods": {
+      "CAELUM": {
+        "label": "CAELUM",
+        "lambda_star": 96.77206311194985,
+        "tau_hat": 0.0410356992340476,
+        "coverage": 0.5333333333333333,
+        "apss": 1.8
+      },
+      "Vanilla": {
+        "label": "Vanilla",
+        "lambda_star": 0.0,
+        "tau_hat": 0.6575467745404177,
+        "coverage": 0.5333333333333333,
+        "apss": 1.8933333333333333
+      },
+      "EqualWeight": {
+        "label": "EqualWeight",
+        "lambda_star": 1.0,
+        "tau_hat": 0.5423033512215389,
+        "coverage": 0.5333333333333333,
+        "apss": 1.8733333333333333
+      },
+      "EpistemicOnly": {
+        "label": "EpistemicOnly",
+        "lambda_star": 1000000.0,
+        "tau_hat": 4.243194356568264e-06,
+        "coverage": 0.5333333333333333,
+        "apss": 1.7933333333333332
+      },
+      "ConU": {
+        "label": "ConU",
+        "lambda_star": 0.0,
+        "tau_hat": 0.38,
+        "coverage": 0.5133333333333333,
+        "apss": 1.0
+      },
+      "SemanticEntropyCP": {
+        "label": "SemanticEntropyCP",
+        "lambda_star": 0.0,
+        "tau_hat": 0.5423033512215389,
+        "coverage": 0.5333333333333333,
+        "apss": 1.8733333333333333
+      }
+    },
+    "aurocs": {
+      "U_total": 0.6769642857142857,
+      "U_epi": 0.6842857142857143,
+      "U_ale": 0.6071428571428571,
+      "R(x)": 0.6682142857142858
+    }
+  },
+  "gemma_4_e4b_it__simpleqa": {
+    "model": "gemma_4_e4b_it",
+    "dataset": "simpleqa",
+    "n_samples": 500,
+    "n_test": 150,
+    "match_rate": 0.212,
+    "methods": {
+      "CAELUM": {
+        "label": "CAELUM",
+        "lambda_star": 0.0,
+        "tau_hat": 0.763598634412658,
+        "coverage": 0.18,
+        "apss": 1.7333333333333334
+      },
+      "Vanilla": {
+        "label": "Vanilla",
+        "lambda_star": 0.0,
+        "tau_hat": 0.763598634412658,
+        "coverage": 0.18,
+        "apss": 1.7333333333333334
+      },
+      "EqualWeight": {
+        "label": "EqualWeight",
+        "lambda_star": 1.0,
+        "tau_hat": 0.644143820562586,
+        "coverage": 0.18,
+        "apss": 1.74
+      },
+      "EpistemicOnly": {
+        "label": "EpistemicOnly",
+        "lambda_star": 1000000.0,
+        "tau_hat": 4.767888548232316e-06,
+        "coverage": 0.18,
+        "apss": 1.7333333333333334
+      },
+      "ConU": {
+        "label": "ConU",
+        "lambda_star": 0.0,
+        "tau_hat": 0.19999999999999996,
+        "coverage": 0.16666666666666666,
+        "apss": 1.0
+      },
+      "SemanticEntropyCP": {
+        "label": "SemanticEntropyCP",
+        "lambda_star": 0.0,
+        "tau_hat": 0.644143820562586,
+        "coverage": 0.18,
+        "apss": 1.74
+      }
+    },
+    "aurocs": {
+      "U_total": 0.4483589280337248,
+      "U_epi": 0.4441433303221921,
+      "U_ale": 0.4727491719361638,
+      "R(x)": 0.5272508280638362
+    }
+  },
+  "ministral_3_8b_instruct_2512__simpleqa": {
+    "model": "ministral_3_8b_instruct_2512",
+    "dataset": "simpleqa",
+    "n_samples": 500,
+    "n_test": 150,
+    "match_rate": 0.426,
+    "methods": {
+      "CAELUM": {
+        "label": "CAELUM",
+        "lambda_star": 0.5902010801718444,
+        "tau_hat": 0.6189012065161503,
+        "coverage": 0.3933333333333333,
+        "apss": 2.3333333333333335
+      },
+      "Vanilla": {
+        "label": "Vanilla",
+        "lambda_star": 0.0,
+        "tau_hat": 0.7301710687359406,
+        "coverage": 0.3933333333333333,
+        "apss": 2.3333333333333335
+      },
+      "EqualWeight": {
+        "label": "EqualWeight",
+        "lambda_star": 1.0,
+        "tau_hat": 0.5548444820075713,
+        "coverage": 0.3933333333333333,
+        "apss": 2.3333333333333335
+      },
+      "EpistemicOnly": {
+        "label": "EpistemicOnly",
+        "lambda_star": 1000000.0,
+        "tau_hat": 2.4336835532195713e-06,
+        "coverage": 0.3933333333333333,
+        "apss": 2.3266666666666667
+      },
+      "ConU": {
+        "label": "ConU",
+        "lambda_star": 0.0,
+        "tau_hat": 0.36,
+        "coverage": 0.32666666666666666,
+        "apss": 1.0266666666666666
+      },
+      "SemanticEntropyCP": {
+        "label": "SemanticEntropyCP",
+        "lambda_star": 0.0,
+        "tau_hat": 0.5548444820075713,
+        "coverage": 0.3933333333333333,
+        "apss": 2.3333333333333335
+      }
+    },
+    "aurocs": {
+      "U_total": 0.5371577574967406,
+      "U_epi": 0.5382752840379958,
+      "U_ale": 0.5330601601788042,
+      "R(x)": 0.5045632333767927
+    }
+  },
+  "qwen3_8b__simpleqa": {
+    "model": "qwen3_8b",
+    "dataset": "simpleqa",
+    "n_samples": 500,
+    "n_test": 150,
+    "match_rate": 0.356,
+    "methods": {
+      "CAELUM": {
+        "label": "CAELUM",
+        "lambda_star": 0.0,
+        "tau_hat": 0.7843478445034586,
+        "coverage": 0.3933333333333333,
+        "apss": 1.7733333333333334
+      },
+      "Vanilla": {
+        "label": "Vanilla",
+        "lambda_star": 0.0,
+        "tau_hat": 0.7843478445034586,
+        "coverage": 0.3933333333333333,
+        "apss": 1.7733333333333334
+      },
+      "EqualWeight": {
+        "label": "EqualWeight",
+        "lambda_star": 1.0,
+        "tau_hat": 0.7124057514017466,
+        "coverage": 0.3933333333333333,
+        "apss": 1.7733333333333334
+      },
+      "EpistemicOnly": {
+        "label": "EpistemicOnly",
+        "lambda_star": 1000000.0,
+        "tau_hat": 1.46743117632043e-05,
+        "coverage": 0.3933333333333333,
+        "apss": 1.76
+      },
+      "ConU": {
+        "label": "ConU",
+        "lambda_star": 0.0,
+        "tau_hat": 0.30000000000000004,
+        "coverage": 0.32,
+        "apss": 1.0
+      },
+      "SemanticEntropyCP": {
+        "label": "SemanticEntropyCP",
+        "lambda_star": 0.0,
+        "tau_hat": 0.7124057514017466,
+        "coverage": 0.3933333333333333,
+        "apss": 1.7733333333333334
+      }
+    },
+    "aurocs": {
+      "U_total": 0.4999068727882287,
+      "U_epi": 0.5157384987893463,
+      "U_ale": 0.49487800335257964,
+      "R(x)": 0.5051219966474204
+    }
+  },
+  "gemma_4_e4b_it__triviaqa": {
+    "model": "gemma_4_e4b_it",
+    "dataset": "triviaqa",
+    "n_samples": 300,
+    "n_test": 90,
+    "match_rate": 0.6866666666666666,
+    "methods": {
+      "CAELUM": {
+        "label": "CAELUM",
+        "lambda_star": 14.731602776237056,
+        "tau_hat": 0.1592095733826999,
+        "coverage": 0.7333333333333333,
+        "apss": 1.7222222222222223
+      },
+      "Vanilla": {
+        "label": "Vanilla",
+        "lambda_star": 0.0,
+        "tau_hat": 0.7060840701176855,
+        "coverage": 0.7333333333333333,
+        "apss": 1.7444444444444445
+      },
+      "EqualWeight": {
+        "label": "EqualWeight",
+        "lambda_star": 1.0,
+        "tau_hat": 0.5515116672127363,
+        "coverage": 0.7333333333333333,
+        "apss": 1.7444444444444445
+      },
+      "EpistemicOnly": {
+        "label": "EpistemicOnly",
+        "lambda_star": 1000000.0,
+        "tau_hat": 2.995216982743709e-06,
+        "coverage": 0.7333333333333333,
+        "apss": 1.7222222222222223
+      },
+      "ConU": {
+        "label": "ConU",
+        "lambda_star": 0.0,
+        "tau_hat": 0.30000000000000004,
+        "coverage": 0.7,
+        "apss": 1.0222222222222221
+      },
+      "SemanticEntropyCP": {
+        "label": "SemanticEntropyCP",
+        "lambda_star": 0.0,
+        "tau_hat": 0.5515116672127363,
+        "coverage": 0.7333333333333333,
+        "apss": 1.7444444444444445
+      }
+    },
+    "aurocs": {
+      "U_total": 0.7474747474747475,
+      "U_epi": 0.7247474747474747,
+      "U_ale": 0.7083333333333334,
+      "R(x)": 0.5883838383838383
+    }
+  },
+  "ministral_3_8b_instruct_2512__triviaqa": {
+    "model": "ministral_3_8b_instruct_2512",
+    "dataset": "triviaqa",
+    "n_samples": 300,
+    "n_test": 90,
+    "match_rate": 0.8466666666666667,
+    "methods": {
+      "CAELUM": {
+        "label": "CAELUM",
+        "lambda_star": 62.95061828571975,
+        "tau_hat": 0.017243283257293896,
+        "coverage": 0.8555555555555555,
+        "apss": 2.5444444444444443
+      },
+      "Vanilla": {
+        "label": "Vanilla",
+        "lambda_star": 0.0,
+        "tau_hat": 0.5280803737234951,
+        "coverage": 0.8555555555555555,
+        "apss": 2.7
+      },
+      "EqualWeight": {
+        "label": "EqualWeight",
+        "lambda_star": 1.0,
+        "tau_hat": 0.3510472548257234,
+        "coverage": 0.8555555555555555,
+        "apss": 2.611111111111111
+      },
+      "EpistemicOnly": {
+        "label": "EpistemicOnly",
+        "lambda_star": 1000000.0,
+        "tau_hat": 1.1253089285078035e-06,
+        "coverage": 0.8555555555555555,
+        "apss": 2.5555555555555554
+      },
+      "ConU": {
+        "label": "ConU",
+        "lambda_star": 0.0,
+        "tau_hat": 0.43999999999999995,
+        "coverage": 0.8,
+        "apss": 1.1666666666666667
+      },
+      "SemanticEntropyCP": {
+        "label": "SemanticEntropyCP",
+        "lambda_star": 0.0,
+        "tau_hat": 0.3510472548257234,
+        "coverage": 0.8555555555555555,
+        "apss": 2.611111111111111
+      }
+    },
+    "aurocs": {
+      "U_total": 0.7302697302697303,
+      "U_epi": 0.7792207792207793,
+      "U_ale": 0.6203796203796204,
+      "R(x)": 0.7572427572427572
+    }
+  },
+  "qwen3_8b__triviaqa": {
+    "model": "qwen3_8b",
+    "dataset": "triviaqa",
+    "n_samples": 300,
+    "n_test": 90,
+    "match_rate": 0.78,
+    "methods": {
+      "CAELUM": {
+        "label": "CAELUM",
+        "lambda_star": 9.868473971838977,
+        "tau_hat": 0.27779415085412895,
+        "coverage": 0.8222222222222222,
+        "apss": 1.6777777777777778
+      },
+      "Vanilla": {
+        "label": "Vanilla",
+        "lambda_star": 0.0,
+        "tau_hat": 0.6402163353088303,
+        "coverage": 0.8333333333333334,
+        "apss": 1.711111111111111
+      },
+      "EqualWeight": {
+        "label": "EqualWeight",
+        "lambda_star": 1.0,
+        "tau_hat": 0.540935143817188,
+        "coverage": 0.8333333333333334,
+        "apss": 1.7222222222222223
+      },
+      "EpistemicOnly": {
+        "label": "EpistemicOnly",
+        "lambda_star": 1000000.0,
+        "tau_hat": 4.781148866281079e-06,
+        "coverage": 0.8222222222222222,
+        "apss": 1.6444444444444444
+      },
+      "ConU": {
+        "label": "ConU",
+        "lambda_star": 0.0,
+        "tau_hat": 0.43999999999999995,
+        "coverage": 0.7555555555555555,
+        "apss": 1.011111111111111
+      },
+      "SemanticEntropyCP": {
+        "label": "SemanticEntropyCP",
+        "lambda_star": 0.0,
+        "tau_hat": 0.540935143817188,
+        "coverage": 0.8333333333333334,
+        "apss": 1.7222222222222223
+      }
+    },
+    "aurocs": {
+      "U_total": 0.6106666666666667,
+      "U_epi": 0.6195555555555555,
+      "U_ale": 0.5955555555555555,
+      "R(x)": 0.5955555555555555
+    }
+  }
+}

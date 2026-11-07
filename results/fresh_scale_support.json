@@ -1,0 +1,260 @@
+{
+  "description": "All-query heuristic matchability (correct_cluster_idx >= 0) of Qwen3-8B and Qwen3-32B on fresh FP16 caches; delta_pp = 32B rate minus 8B rate in percentage points. Not conformal coverage.",
+  "run_id": "caelum_fresh_20261103_0633",
+  "generation_seed": 42,
+  "generations_dir": "results/generations/fresh_scale_20261103",
+  "all_hashes_match_run_record": true,
+  "datasets": [
+    {
+      "dataset": "TriviaQA",
+      "n": 300,
+      "identical_ordered_questions_references": true,
+      "qwen3_8b": {
+        "model": "Qwen3-8B",
+        "file": "results/generations/fresh_scale_20261103/unc_triviaqa_qwen3_8b_vne_300.json",
+        "n_matched": 232,
+        "rate": 0.7733333333333333,
+        "rate_pct": 77.3
+      },
+      "qwen3_32b": {
+        "model": "Qwen3-32B",
+        "file": "results/generations/fresh_scale_20261103/unc_triviaqa_qwen3_32b_vne_300.json",
+        "n_matched": 253,
+        "rate": 0.8433333333333334,
+        "rate_pct": 84.3
+      },
+      "delta_pp": 7.0,
+      "delta_pp_rounded": 7.0
+    },
+    {
+      "dataset": "AmbigQA",
+      "n": 200,
+      "identical_ordered_questions_references": true,
+      "qwen3_8b": {
+        "model": "Qwen3-8B",
+        "file": "results/generations/fresh_scale_20261103/unc_ambigqa_qwen3_8b_vne_200.json",
+        "n_matched": 128,
+        "rate": 0.64,
+        "rate_pct": 64.0
+      },
+      "qwen3_32b": {
+        "model": "Qwen3-32B",
+        "file": "results/generations/fresh_scale_20261103/unc_ambigqa_qwen3_32b_vne_200.json",
+        "n_matched": 155,
+        "rate": 0.775,
+        "rate_pct": 77.5
+      },
+      "delta_pp": 13.5,
+      "delta_pp_rounded": 13.5
+    },
+    {
+      "dataset": "OpenNQ",
+      "n": 300,
+      "identical_ordered_questions_references": true,
+      "qwen3_8b": {
+        "model": "Qwen3-8B",
+        "file": "results/generations/fresh_scale_20261103/unc_opennq_qwen3_8b_vne_300.json",
+        "n_matched": 184,
+        "rate": 0.6133333333333333,
+        "rate_pct": 61.3
+      },
+      "qwen3_32b": {
+        "model": "Qwen3-32B",
+        "file": "results/generations/fresh_scale_20261103/unc_opennq_qwen3_32b_vne_300.json",
+        "n_matched": 216,
+        "rate": 0.72,
+        "rate_pct": 72.0
+      },
+      "delta_pp": 10.666666666666666,
+      "delta_pp_rounded": 10.7
+    },
+    {
+      "dataset": "AmbigInst",
+      "n": 304,
+      "identical_ordered_questions_references": true,
+      "qwen3_8b": {
+        "model": "Qwen3-8B",
+        "file": "results/generations/fresh_scale_20261103/unc_ambiginst_qwen3_8b_vne_304.json",
+        "n_matched": 301,
+        "rate": 0.9901315789473685,
+        "rate_pct": 99.0
+      },
+      "qwen3_32b": {
+        "model": "Qwen3-32B",
+        "file": "results/generations/fresh_scale_20261103/unc_ambiginst_qwen3_32b_vne_304.json",
+        "n_matched": 295,
+        "rate": 0.9703947368421053,
+        "rate_pct": 97.0
+      },
+      "delta_pp": -1.9736842105263157,
+      "delta_pp_rounded": -2.0
+    },
+    {
+      "dataset": "SimpleQA",
+      "n": 500,
+      "identical_ordered_questions_references": true,
+      "qwen3_8b": {
+        "model": "Qwen3-8B",
+        "file": "results/generations/fresh_scale_20261103/unc_simpleqa_qwen3_8b_vne_500.json",
+        "n_matched": 175,
+        "rate": 0.35,
+        "rate_pct": 35.0
+      },
+      "qwen3_32b": {
+        "model": "Qwen3-32B",
+        "file": "results/generations/fresh_scale_20261103/unc_simpleqa_qwen3_32b_vne_500.json",
+        "n_matched": 183,
+        "rate": 0.366,
+        "rate_pct": 36.6
+      },
+      "delta_pp": 1.6,
+      "delta_pp_rounded": 1.6
+    },
+    {
+      "dataset": "PopQA",
+      "n": 500,
+      "identical_ordered_questions_references": true,
+      "qwen3_8b": {
+        "model": "Qwen3-8B",
+        "file": "results/generations/fresh_scale_20261103/unc_popqa_qwen3_8b_vne_500.json",
+        "n_matched": 265,
+        "rate": 0.53,
+        "rate_pct": 53.0
+      },
+      "qwen3_32b": {
+        "model": "Qwen3-32B",
+        "file": "results/generations/fresh_scale_20261103/unc_popqa_qwen3_32b_vne_500.json",
+        "n_matched": 287,
+        "rate": 0.574,
+        "rate_pct": 57.4
+      },
+      "delta_pp": 4.4,
+      "delta_pp_rounded": 4.4
+    }
+  ],
+  "pooled": {
+    "dataset": "All questions",
+    "n": 2104,
+    "qwen3_8b": {
+      "model": "Qwen3-8B",
+      "n_matched": 1285,
+      "rate": 0.6107414448669202,
+      "rate_pct": 61.1
+    },
+    "qwen3_32b": {
+      "model": "Qwen3-32B",
+      "n_matched": 1389,
+      "rate": 0.660171102661597,
+      "rate_pct": 66.0
+    },
+    "delta_pp": 4.942965779467681,
+    "delta_pp_rounded": 4.9
+  },
+  "latex_rows": [
+    "TriviaQA & 300 & $232/300$ (\\underline{77.3\\%}) & $253/300$ (\\textbf{84.3\\%}) & $+7.0$ \\\\",
+    "AmbigQA & 200 & $128/200$ (\\underline{64.0\\%}) & $155/200$ (\\textbf{77.5\\%}) & $+13.5$ \\\\",
+    "OpenNQ & 300 & $184/300$ (\\underline{61.3\\%}) & $216/300$ (\\textbf{72.0\\%}) & $+10.7$ \\\\",
+    "AmbigInst & 304 & $301/304$ (\\textbf{99.0\\%}) & $295/304$ (\\underline{97.0\\%}) & $-2.0$ \\\\",
+    "SimpleQA & 500 & $175/500$ (\\underline{35.0\\%}) & $183/500$ (\\textbf{36.6\\%}) & $+1.6$ \\\\",
+    "PopQA & 500 & $265/500$ (\\underline{53.0\\%}) & $287/500$ (\\textbf{57.4\\%}) & $+4.4$ \\\\",
+    "\\textbf{All questions} & 2,104 & $1285/2104$ (\\underline{61.1\\%}) & $1389/2104$ (\\textbf{66.0\\%}) & $+4.9$ \\\\"
+  ],
+  "inputs": [
+    {
+      "file": "results/generations/fresh_scale_20261103/unc_triviaqa_qwen3_8b_vne_300.json",
+      "cell_id": "00_qwen3_8b_triviaqa",
+      "sha256": "ff8ec4357e178fd63676905ca49e1da7fc2f67cac0e88927899af406d832d928",
+      "expected_sha256": "ff8ec4357e178fd63676905ca49e1da7fc2f67cac0e88927899af406d832d928",
+      "hash_ok": true,
+      "n_records": 300
+    },
+    {
+      "file": "results/generations/fresh_scale_20261103/unc_triviaqa_qwen3_32b_vne_300.json",
+      "cell_id": "24_qwen3_32b_triviaqa",
+      "sha256": "45533e84c22631e3ab2ab5ec1d2c952e06ce0559ae60f45dbf5b6fab20a01d24",
+      "expected_sha256": "45533e84c22631e3ab2ab5ec1d2c952e06ce0559ae60f45dbf5b6fab20a01d24",
+      "hash_ok": true,
+      "n_records": 300
+    },
+    {
+      "file": "results/generations/fresh_scale_20261103/unc_ambigqa_qwen3_8b_vne_200.json",
+      "cell_id": "01_qwen3_8b_ambigqa",
+      "sha256": "7e512cbf2b20a4c5b3471254fef9debdf0a502763c6d827a09f6a1bc0975fb37",
+      "expected_sha256": "7e512cbf2b20a4c5b3471254fef9debdf0a502763c6d827a09f6a1bc0975fb37",
+      "hash_ok": true,
+      "n_records": 200
+    },
+    {
+      "file": "results/generations/fresh_scale_20261103/unc_ambigqa_qwen3_32b_vne_200.json",
+      "cell_id": "25_qwen3_32b_ambigqa",
+      "sha256": "9b61942c6d4acdf0984106d3ff328adb3885b1d24ed60df39ccb31525e3ee501",
+      "expected_sha256": "9b61942c6d4acdf0984106d3ff328adb3885b1d24ed60df39ccb31525e3ee501",
+      "hash_ok": true,
+      "n_records": 200
+    },
+    {
+      "file": "results/generations/fresh_scale_20261103/unc_opennq_qwen3_8b_vne_300.json",
+      "cell_id": "02_qwen3_8b_opennq",
+      "sha256": "a97b8d68e3868e2dc8f02fa79d7ff4b57a9e601aa2789bcf5bb78ea250bb0d8f",
+      "expected_sha256": "a97b8d68e3868e2dc8f02fa79d7ff4b57a9e601aa2789bcf5bb78ea250bb0d8f",
+      "hash_ok": true,
+      "n_records": 300
+    },
+    {
+      "file": "results/generations/fresh_scale_20261103/unc_opennq_qwen3_32b_vne_300.json",
+      "cell_id": "26_qwen3_32b_opennq",
+      "sha256": "0a537a2995513c4df01cf0577d5855f8ff899bd89eb7143ed2178d7e77ec068e",
+      "expected_sha256": "0a537a2995513c4df01cf0577d5855f8ff899bd89eb7143ed2178d7e77ec068e",
+      "hash_ok": true,
+      "n_records": 300
+    },
+    {
+      "file": "results/generations/fresh_scale_20261103/unc_ambiginst_qwen3_8b_vne_304.json",
+      "cell_id": "03_qwen3_8b_ambiginst",
+      "sha256": "515d7889c7920870bf4dfc5e8acc8ca984f03f92176d498aa08ea78e59d919bb",
+      "expected_sha256": "515d7889c7920870bf4dfc5e8acc8ca984f03f92176d498aa08ea78e59d919bb",
+      "hash_ok": true,
+      "n_records": 304
+    },
+    {
+      "file": "results/generations/fresh_scale_20261103/unc_ambiginst_qwen3_32b_vne_304.json",
+      "cell_id": "27_qwen3_32b_ambiginst",
+      "sha256": "aef7c9bed73e2a9009cf53be1f95bc0410f56cdb0c76676bba08d34a6657f10f",
+      "expected_sha256": "aef7c9bed73e2a9009cf53be1f95bc0410f56cdb0c76676bba08d34a6657f10f",
+      "hash_ok": true,
+      "n_records": 304
+    },
+    {
+      "file": "results/generations/fresh_scale_20261103/unc_simpleqa_qwen3_8b_vne_500.json",
+      "cell_id": "04_qwen3_8b_simpleqa",
+      "sha256": "b43cb0bcd3062e109e231fd1ca620618213e5669eb7f4ad92be10e9bc7af1f86",
+      "expected_sha256": "b43cb0bcd3062e109e231fd1ca620618213e5669eb7f4ad92be10e9bc7af1f86",
+      "hash_ok": true,
+      "n_records": 500
+    },
+    {
+      "file": "results/generations/fresh_scale_20261103/unc_simpleqa_qwen3_32b_vne_500.json",
+      "cell_id": "28_qwen3_32b_simpleqa",
+      "sha256": "62cc7ccdd6b25e384264157dbf83613979b3208737150f6e95c7108843387beb",
+      "expected_sha256": "62cc7ccdd6b25e384264157dbf83613979b3208737150f6e95c7108843387beb",
+      "hash_ok": true,
+      "n_records": 500
+    },
+    {
+      "file": "results/generations/fresh_scale_20261103/unc_popqa_qwen3_8b_vne_500.json",
+      "cell_id": "05_qwen3_8b_popqa",
+      "sha256": "25f9d16e029db7bd692b454445146f25be56b44189a89cff395fedc31db7807c",
+      "expected_sha256": "25f9d16e029db7bd692b454445146f25be56b44189a89cff395fedc31db7807c",
+      "hash_ok": true,
+      "n_records": 500
+    },
+    {
+      "file": "results/generations/fresh_scale_20261103/unc_popqa_qwen3_32b_vne_500.json",
+      "cell_id": "29_qwen3_32b_popqa",
+      "sha256": "9d46804b001295e003d5b5a209927a3506a2a651175f03e980e0ad783b7b2ef8",
+      "expected_sha256": "9d46804b001295e003d5b5a209927a3506a2a651175f03e980e0ad783b7b2ef8",
+      "hash_ok": true,
+      "n_records": 500
+    }
+  ]
+}

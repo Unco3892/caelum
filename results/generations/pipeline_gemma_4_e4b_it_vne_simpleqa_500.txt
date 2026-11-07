@@ -1,0 +1,705 @@
+14:16:41 [INFO] clear_llm: ======================================================================
+14:16:41 [INFO] clear_llm: CAELUM Experiment Pipeline
+14:16:41 [INFO] clear_llm: ======================================================================
+14:16:41 [INFO] clear_llm: Log file: /scratch/iazizi/caelum/src/results/pipeline_gemma_4_e4b_it_vne_simpleqa_500.txt
+14:16:41 [INFO] clear_llm: Config: {
+  "dataset": "simpleqa",
+  "n_samples": 500,
+  "triviaqa_path": null,
+  "ambigqa_path": null,
+  "opennq_path": null,
+  "ambiginst_path": null,
+  "simpleqa_path": "/scratch/iazizi/caelum/data/eval/SimpleQA.json",
+  "popqa_path": null,
+  "condambigqa_path": null,
+  "model_name": "google/gemma-4-E4B-it",
+  "backend": "hf",
+  "engine_dir": null,
+  "clarif_provider": "none",
+  "clarif_model": null,
+  "n_clarifications": 5,
+  "n_answers": 10,
+  "uncertainty_method": "vne",
+  "vne_gamma": 1.0,
+  "cluster_threshold": 0.7,
+  "use_nli": false,
+  "alpha": 0.1,
+  "weight_fn": "additive",
+  "randomize": false,
+  "seed": 42,
+  "regenerate": false
+}
+14:16:41 [INFO] caelum.utils: Loaded 500 SimpleQA samples from /scratch/iazizi/caelum/data/eval/SimpleQA.json
+14:16:41 [INFO] clear_llm: === Stage: Generation (triviaqa, 500 samples) ===
+14:16:41 [INFO] caelum.generation: Loading model google/gemma-4-E4B-it …
+14:16:45 [INFO] caelum.generation: flash_attn not installed, using SDPA attention
+14:16:51 [INFO] caelum.generation: torch.compile applied (reduce-overhead mode)
+14:16:51 [INFO] caelum.generation: [1/500] Generating for question_id=8
+14:17:19 [INFO] caelum.generation: [2/500] Generating for question_id=14
+14:17:57 [INFO] caelum.generation: [3/500] Generating for question_id=17
+14:18:27 [INFO] caelum.generation: [4/500] Generating for question_id=23
+14:18:48 [INFO] caelum.generation: [5/500] Generating for question_id=33
+14:19:13 [INFO] caelum.generation: [6/500] Generating for question_id=45
+14:19:37 [INFO] caelum.generation: [7/500] Generating for question_id=51
+14:19:59 [INFO] caelum.generation: [8/500] Generating for question_id=61
+14:20:22 [INFO] caelum.generation: [9/500] Generating for question_id=69
+14:20:50 [INFO] caelum.generation: [10/500] Generating for question_id=70
+14:21:14 [INFO] caelum.generation: [11/500] Generating for question_id=80
+14:21:38 [INFO] caelum.generation: [12/500] Generating for question_id=84
+14:22:26 [INFO] caelum.generation: [13/500] Generating for question_id=93
+14:22:56 [INFO] caelum.generation: [14/500] Generating for question_id=96
+14:23:18 [INFO] caelum.generation: [15/500] Generating for question_id=109
+14:23:41 [INFO] caelum.generation: [16/500] Generating for question_id=120
+14:24:15 [INFO] caelum.generation: [17/500] Generating for question_id=132
+14:24:38 [INFO] caelum.generation: [18/500] Generating for question_id=134
+14:24:59 [INFO] caelum.generation: [19/500] Generating for question_id=144
+14:25:18 [INFO] caelum.generation: [20/500] Generating for question_id=149
+14:25:38 [INFO] caelum.generation: [21/500] Generating for question_id=150
+14:26:04 [INFO] caelum.generation: [22/500] Generating for question_id=151
+14:26:29 [INFO] caelum.generation: [23/500] Generating for question_id=152
+14:26:54 [INFO] caelum.generation: [24/500] Generating for question_id=157
+14:27:14 [INFO] caelum.generation: [25/500] Generating for question_id=166
+14:27:38 [INFO] caelum.generation: [26/500] Generating for question_id=175
+14:28:02 [INFO] caelum.generation: [27/500] Generating for question_id=179
+14:28:22 [INFO] caelum.generation: [28/500] Generating for question_id=184
+14:28:41 [INFO] caelum.generation: [29/500] Generating for question_id=188
+14:29:06 [INFO] caelum.generation: [30/500] Generating for question_id=196
+14:29:32 [INFO] caelum.generation: [31/500] Generating for question_id=205
+14:30:02 [INFO] caelum.generation: [32/500] Generating for question_id=211
+14:30:26 [INFO] caelum.generation: [33/500] Generating for question_id=220
+14:30:57 [INFO] caelum.generation: [34/500] Generating for question_id=238
+14:31:19 [INFO] caelum.generation: [35/500] Generating for question_id=239
+14:31:44 [INFO] caelum.generation: [36/500] Generating for question_id=254
+14:32:16 [INFO] caelum.generation: [37/500] Generating for question_id=270
+14:32:44 [INFO] caelum.generation: [38/500] Generating for question_id=274
+14:33:09 [INFO] caelum.generation: [39/500] Generating for question_id=287
+14:33:38 [INFO] caelum.generation: [40/500] Generating for question_id=290
+14:34:02 [INFO] caelum.generation: [41/500] Generating for question_id=296
+14:34:21 [INFO] caelum.generation: [42/500] Generating for question_id=297
+14:34:46 [INFO] caelum.generation: [43/500] Generating for question_id=298
+14:35:12 [INFO] caelum.generation: [44/500] Generating for question_id=305
+14:35:39 [INFO] caelum.generation: [45/500] Generating for question_id=308
+14:35:59 [INFO] caelum.generation: [46/500] Generating for question_id=309
+14:36:20 [INFO] caelum.generation: [47/500] Generating for question_id=314
+14:36:44 [INFO] caelum.generation: [48/500] Generating for question_id=315
+14:37:01 [INFO] caelum.generation: [49/500] Generating for question_id=318
+14:37:22 [INFO] caelum.generation: [50/500] Generating for question_id=332
+14:37:48 [INFO] caelum.generation: [51/500] Generating for question_id=351
+14:38:15 [INFO] caelum.generation: [52/500] Generating for question_id=360
+14:38:38 [INFO] caelum.generation: [53/500] Generating for question_id=366
+14:39:03 [INFO] caelum.generation: [54/500] Generating for question_id=371
+14:39:28 [INFO] caelum.generation: [55/500] Generating for question_id=376
+14:39:53 [INFO] caelum.generation: [56/500] Generating for question_id=410
+14:40:14 [INFO] caelum.generation: [57/500] Generating for question_id=414
+14:40:38 [INFO] caelum.generation: [58/500] Generating for question_id=432
+14:41:13 [INFO] caelum.generation: [59/500] Generating for question_id=438
+14:41:37 [INFO] caelum.generation: [60/500] Generating for question_id=457
+14:42:12 [INFO] caelum.generation: [61/500] Generating for question_id=461
+14:42:39 [INFO] caelum.generation: [62/500] Generating for question_id=463
+14:43:06 [INFO] caelum.generation: [63/500] Generating for question_id=468
+14:43:26 [INFO] caelum.generation: [64/500] Generating for question_id=471
+14:43:52 [INFO] caelum.generation: [65/500] Generating for question_id=497
+14:44:10 [INFO] caelum.generation: [66/500] Generating for question_id=505
+14:44:32 [INFO] caelum.generation: [67/500] Generating for question_id=511
+14:44:53 [INFO] caelum.generation: [68/500] Generating for question_id=530
+14:45:21 [INFO] caelum.generation: [69/500] Generating for question_id=544
+14:45:42 [INFO] caelum.generation: [70/500] Generating for question_id=551
+14:46:12 [INFO] caelum.generation: [71/500] Generating for question_id=555
+14:46:43 [INFO] caelum.generation: [72/500] Generating for question_id=561
+14:47:12 [INFO] caelum.generation: [73/500] Generating for question_id=584
+14:47:35 [INFO] caelum.generation: [74/500] Generating for question_id=589
+14:48:03 [INFO] caelum.generation: [75/500] Generating for question_id=598
+14:48:28 [INFO] caelum.generation: [76/500] Generating for question_id=599
+14:48:58 [INFO] caelum.generation: [77/500] Generating for question_id=602
+14:49:20 [INFO] caelum.generation: [78/500] Generating for question_id=621
+14:49:44 [INFO] caelum.generation: [79/500] Generating for question_id=657
+14:50:04 [INFO] caelum.generation: [80/500] Generating for question_id=670
+14:50:22 [INFO] caelum.generation: [81/500] Generating for question_id=676
+14:50:42 [INFO] caelum.generation: [82/500] Generating for question_id=683
+14:51:04 [INFO] caelum.generation: [83/500] Generating for question_id=691
+14:51:34 [INFO] caelum.generation: [84/500] Generating for question_id=693
+14:51:51 [INFO] caelum.generation: [85/500] Generating for question_id=705
+14:52:16 [INFO] caelum.generation: [86/500] Generating for question_id=718
+14:52:42 [INFO] caelum.generation: [87/500] Generating for question_id=734
+14:53:03 [INFO] caelum.generation: [88/500] Generating for question_id=744
+14:53:22 [INFO] caelum.generation: [89/500] Generating for question_id=746
+14:53:46 [INFO] caelum.generation: [90/500] Generating for question_id=751
+14:54:16 [INFO] caelum.generation: [91/500] Generating for question_id=764
+14:54:36 [INFO] caelum.generation: [92/500] Generating for question_id=787
+14:55:00 [INFO] caelum.generation: [93/500] Generating for question_id=790
+14:55:24 [INFO] caelum.generation: [94/500] Generating for question_id=803
+14:55:53 [INFO] caelum.generation: [95/500] Generating for question_id=809
+14:56:18 [INFO] caelum.generation: [96/500] Generating for question_id=810
+14:56:39 [INFO] caelum.generation: [97/500] Generating for question_id=812
+14:57:02 [INFO] caelum.generation: [98/500] Generating for question_id=829
+14:57:34 [INFO] caelum.generation: [99/500] Generating for question_id=831
+14:57:58 [INFO] caelum.generation: [100/500] Generating for question_id=842
+14:58:30 [INFO] caelum.generation: [101/500] Generating for question_id=857
+14:59:00 [INFO] caelum.generation: [102/500] Generating for question_id=869
+14:59:22 [INFO] caelum.generation: [103/500] Generating for question_id=877
+14:59:50 [INFO] caelum.generation: [104/500] Generating for question_id=879
+15:00:15 [INFO] caelum.generation: [105/500] Generating for question_id=881
+15:00:39 [INFO] caelum.generation: [106/500] Generating for question_id=888
+15:01:03 [INFO] caelum.generation: [107/500] Generating for question_id=889
+15:01:30 [INFO] caelum.generation: [108/500] Generating for question_id=903
+15:01:57 [INFO] caelum.generation: [109/500] Generating for question_id=907
+15:02:25 [INFO] caelum.generation: [110/500] Generating for question_id=911
+15:02:46 [INFO] caelum.generation: [111/500] Generating for question_id=949
+15:03:12 [INFO] caelum.generation: [112/500] Generating for question_id=969
+15:03:36 [INFO] caelum.generation: [113/500] Generating for question_id=990
+15:04:04 [INFO] caelum.generation: [114/500] Generating for question_id=999
+15:04:27 [INFO] caelum.generation: [115/500] Generating for question_id=1025
+15:04:52 [INFO] caelum.generation: [116/500] Generating for question_id=1029
+15:05:19 [INFO] caelum.generation: [117/500] Generating for question_id=1038
+15:05:41 [INFO] caelum.generation: [118/500] Generating for question_id=1041
+15:06:08 [INFO] caelum.generation: [119/500] Generating for question_id=1044
+15:06:36 [INFO] caelum.generation: [120/500] Generating for question_id=1047
+15:07:10 [INFO] caelum.generation: [121/500] Generating for question_id=1051
+15:07:33 [INFO] caelum.generation: [122/500] Generating for question_id=1052
+15:08:07 [INFO] caelum.generation: [123/500] Generating for question_id=1061
+15:08:31 [INFO] caelum.generation: [124/500] Generating for question_id=1084
+15:08:56 [INFO] caelum.generation: [125/500] Generating for question_id=1108
+15:09:26 [INFO] caelum.generation: [126/500] Generating for question_id=1114
+15:09:45 [INFO] caelum.generation: [127/500] Generating for question_id=1116
+15:10:12 [INFO] caelum.generation: [128/500] Generating for question_id=1123
+15:10:37 [INFO] caelum.generation: [129/500] Generating for question_id=1130
+15:11:11 [INFO] caelum.generation: [130/500] Generating for question_id=1158
+15:11:33 [INFO] caelum.generation: [131/500] Generating for question_id=1159
+15:11:56 [INFO] caelum.generation: [132/500] Generating for question_id=1161
+15:12:23 [INFO] caelum.generation: [133/500] Generating for question_id=1170
+15:12:50 [INFO] caelum.generation: [134/500] Generating for question_id=1174
+15:13:15 [INFO] caelum.generation: [135/500] Generating for question_id=1178
+15:13:42 [INFO] caelum.generation: [136/500] Generating for question_id=1180
+15:13:59 [INFO] caelum.generation: [137/500] Generating for question_id=1192
+15:14:24 [INFO] caelum.generation: [138/500] Generating for question_id=1207
+15:14:40 [INFO] caelum.generation: [139/500] Generating for question_id=1210
+15:15:06 [INFO] caelum.generation: [140/500] Generating for question_id=1231
+15:15:32 [INFO] caelum.generation: [141/500] Generating for question_id=1235
+15:16:00 [INFO] caelum.generation: [142/500] Generating for question_id=1237
+15:16:22 [INFO] caelum.generation: [143/500] Generating for question_id=1253
+15:16:52 [INFO] caelum.generation: [144/500] Generating for question_id=1255
+15:17:17 [INFO] caelum.generation: [145/500] Generating for question_id=1257
+15:17:47 [INFO] caelum.generation: [146/500] Generating for question_id=1258
+15:18:13 [INFO] caelum.generation: [147/500] Generating for question_id=1263
+15:18:37 [INFO] caelum.generation: [148/500] Generating for question_id=1264
+15:19:02 [INFO] caelum.generation: [149/500] Generating for question_id=1272
+15:19:23 [INFO] caelum.generation: [150/500] Generating for question_id=1278
+15:19:40 [INFO] caelum.generation: [151/500] Generating for question_id=1281
+15:20:02 [INFO] caelum.generation: [152/500] Generating for question_id=1293
+15:20:26 [INFO] caelum.generation: [153/500] Generating for question_id=1295
+15:20:51 [INFO] caelum.generation: [154/500] Generating for question_id=1298
+15:21:12 [INFO] caelum.generation: [155/500] Generating for question_id=1322
+15:21:35 [INFO] caelum.generation: [156/500] Generating for question_id=1330
+15:21:50 [INFO] caelum.generation: [157/500] Generating for question_id=1334
+15:22:13 [INFO] caelum.generation: [158/500] Generating for question_id=1366
+15:22:33 [INFO] caelum.generation: [159/500] Generating for question_id=1370
+15:22:57 [INFO] caelum.generation: [160/500] Generating for question_id=1392
+15:23:18 [INFO] caelum.generation: [161/500] Generating for question_id=1393
+15:23:36 [INFO] caelum.generation: [162/500] Generating for question_id=1413
+15:24:02 [INFO] caelum.generation: [163/500] Generating for question_id=1419
+15:24:29 [INFO] caelum.generation: [164/500] Generating for question_id=1424
+15:25:01 [INFO] caelum.generation: [165/500] Generating for question_id=1429
+15:25:26 [INFO] caelum.generation: [166/500] Generating for question_id=1434
+15:25:46 [INFO] caelum.generation: [167/500] Generating for question_id=1451
+15:26:12 [INFO] caelum.generation: [168/500] Generating for question_id=1456
+15:26:39 [INFO] caelum.generation: [169/500] Generating for question_id=1457
+15:27:03 [INFO] caelum.generation: [170/500] Generating for question_id=1479
+15:27:32 [INFO] caelum.generation: [171/500] Generating for question_id=1480
+15:27:56 [INFO] caelum.generation: [172/500] Generating for question_id=1482
+15:28:15 [INFO] caelum.generation: [173/500] Generating for question_id=1483
+15:28:41 [INFO] caelum.generation: [174/500] Generating for question_id=1488
+15:29:05 [INFO] caelum.generation: [175/500] Generating for question_id=1491
+15:29:23 [INFO] caelum.generation: [176/500] Generating for question_id=1497
+15:29:50 [INFO] caelum.generation: [177/500] Generating for question_id=1503
+15:30:15 [INFO] caelum.generation: [178/500] Generating for question_id=1505
+15:30:45 [INFO] caelum.generation: [179/500] Generating for question_id=1507
+15:31:05 [INFO] caelum.generation: [180/500] Generating for question_id=1513
+15:31:37 [INFO] caelum.generation: [181/500] Generating for question_id=1522
+15:31:57 [INFO] caelum.generation: [182/500] Generating for question_id=1532
+15:32:19 [INFO] caelum.generation: [183/500] Generating for question_id=1550
+15:32:41 [INFO] caelum.generation: [184/500] Generating for question_id=1563
+15:33:06 [INFO] caelum.generation: [185/500] Generating for question_id=1572
+15:33:27 [INFO] caelum.generation: [186/500] Generating for question_id=1578
+15:33:52 [INFO] caelum.generation: [187/500] Generating for question_id=1580
+15:34:19 [INFO] caelum.generation: [188/500] Generating for question_id=1588
+15:34:37 [INFO] caelum.generation: [189/500] Generating for question_id=1593
+15:35:04 [INFO] caelum.generation: [190/500] Generating for question_id=1606
+15:35:31 [INFO] caelum.generation: [191/500] Generating for question_id=1609
+15:35:51 [INFO] caelum.generation: [192/500] Generating for question_id=1611
+15:36:16 [INFO] caelum.generation: [193/500] Generating for question_id=1621
+15:36:39 [INFO] caelum.generation: [194/500] Generating for question_id=1626
+15:37:05 [INFO] caelum.generation: [195/500] Generating for question_id=1642
+15:37:28 [INFO] caelum.generation: [196/500] Generating for question_id=1643
+15:37:49 [INFO] caelum.generation: [197/500] Generating for question_id=1647
+15:38:16 [INFO] caelum.generation: [198/500] Generating for question_id=1650
+15:38:45 [INFO] caelum.generation: [199/500] Generating for question_id=1657
+15:39:13 [INFO] caelum.generation: [200/500] Generating for question_id=1666
+15:39:44 [INFO] caelum.generation: [201/500] Generating for question_id=1672
+15:40:02 [INFO] caelum.generation: [202/500] Generating for question_id=1675
+15:40:26 [INFO] caelum.generation: [203/500] Generating for question_id=1714
+15:40:48 [INFO] caelum.generation: [204/500] Generating for question_id=1718
+15:41:12 [INFO] caelum.generation: [205/500] Generating for question_id=1721
+15:41:34 [INFO] caelum.generation: [206/500] Generating for question_id=1732
+15:41:55 [INFO] caelum.generation: [207/500] Generating for question_id=1739
+15:42:22 [INFO] caelum.generation: [208/500] Generating for question_id=1743
+15:42:49 [INFO] caelum.generation: [209/500] Generating for question_id=1744
+15:43:10 [INFO] caelum.generation: [210/500] Generating for question_id=1751
+15:43:41 [INFO] caelum.generation: [211/500] Generating for question_id=1769
+15:44:03 [INFO] caelum.generation: [212/500] Generating for question_id=1770
+15:44:24 [INFO] caelum.generation: [213/500] Generating for question_id=1777
+15:44:48 [INFO] caelum.generation: [214/500] Generating for question_id=1788
+15:45:08 [INFO] caelum.generation: [215/500] Generating for question_id=1807
+15:45:45 [INFO] caelum.generation: [216/500] Generating for question_id=1812
+15:46:13 [INFO] caelum.generation: [217/500] Generating for question_id=1813
+15:46:34 [INFO] caelum.generation: [218/500] Generating for question_id=1822
+15:47:04 [INFO] caelum.generation: [219/500] Generating for question_id=1850
+15:47:29 [INFO] caelum.generation: [220/500] Generating for question_id=1876
+15:47:52 [INFO] caelum.generation: [221/500] Generating for question_id=1897
+15:48:10 [INFO] caelum.generation: [222/500] Generating for question_id=1905
+15:48:35 [INFO] caelum.generation: [223/500] Generating for question_id=1909
+15:49:21 [INFO] caelum.generation: [224/500] Generating for question_id=1918
+15:49:43 [INFO] caelum.generation: [225/500] Generating for question_id=1923
+15:50:04 [INFO] caelum.generation: [226/500] Generating for question_id=1954
+15:50:26 [INFO] caelum.generation: [227/500] Generating for question_id=1964
+15:50:52 [INFO] caelum.generation: [228/500] Generating for question_id=1967
+15:51:23 [INFO] caelum.generation: [229/500] Generating for question_id=1978
+15:51:53 [INFO] caelum.generation: [230/500] Generating for question_id=1979
+15:52:17 [INFO] caelum.generation: [231/500] Generating for question_id=1991
+15:52:36 [INFO] caelum.generation: [232/500] Generating for question_id=2002
+15:53:00 [INFO] caelum.generation: [233/500] Generating for question_id=2004
+15:53:29 [INFO] caelum.generation: [234/500] Generating for question_id=2005
+15:53:49 [INFO] caelum.generation: [235/500] Generating for question_id=2015
+15:54:12 [INFO] caelum.generation: [236/500] Generating for question_id=2016
+15:54:48 [INFO] caelum.generation: [237/500] Generating for question_id=2022
+15:55:16 [INFO] caelum.generation: [238/500] Generating for question_id=2023
+15:55:45 [INFO] caelum.generation: [239/500] Generating for question_id=2029
+15:56:09 [INFO] caelum.generation: [240/500] Generating for question_id=2034
+15:56:34 [INFO] caelum.generation: [241/500] Generating for question_id=2042
+15:56:56 [INFO] caelum.generation: [242/500] Generating for question_id=2066
+15:57:18 [INFO] caelum.generation: [243/500] Generating for question_id=2069
+15:57:42 [INFO] caelum.generation: [244/500] Generating for question_id=2077
+15:58:02 [INFO] caelum.generation: [245/500] Generating for question_id=2090
+15:58:21 [INFO] caelum.generation: [246/500] Generating for question_id=2095
+15:58:54 [INFO] caelum.generation: [247/500] Generating for question_id=2110
+15:59:23 [INFO] caelum.generation: [248/500] Generating for question_id=2117
+15:59:55 [INFO] caelum.generation: [249/500] Generating for question_id=2118
+16:00:26 [INFO] caelum.generation: [250/500] Generating for question_id=2170
+16:00:54 [INFO] caelum.generation: [251/500] Generating for question_id=2181
+16:01:11 [INFO] caelum.generation: [252/500] Generating for question_id=2183
+16:01:34 [INFO] caelum.generation: [253/500] Generating for question_id=2186
+16:02:00 [INFO] caelum.generation: [254/500] Generating for question_id=2189
+16:02:21 [INFO] caelum.generation: [255/500] Generating for question_id=2221
+16:02:46 [INFO] caelum.generation: [256/500] Generating for question_id=2222
+16:03:05 [INFO] caelum.generation: [257/500] Generating for question_id=2226
+16:03:34 [INFO] caelum.generation: [258/500] Generating for question_id=2227
+16:03:59 [INFO] caelum.generation: [259/500] Generating for question_id=2250
+16:04:17 [INFO] caelum.generation: [260/500] Generating for question_id=2254
+16:04:40 [INFO] caelum.generation: [261/500] Generating for question_id=2258
+16:05:02 [INFO] caelum.generation: [262/500] Generating for question_id=2277
+16:05:24 [INFO] caelum.generation: [263/500] Generating for question_id=2282
+16:05:43 [INFO] caelum.generation: [264/500] Generating for question_id=2288
+16:06:07 [INFO] caelum.generation: [265/500] Generating for question_id=2292
+16:06:39 [INFO] caelum.generation: [266/500] Generating for question_id=2319
+16:07:06 [INFO] caelum.generation: [267/500] Generating for question_id=2333
+16:07:30 [INFO] caelum.generation: [268/500] Generating for question_id=2354
+16:07:59 [INFO] caelum.generation: [269/500] Generating for question_id=2358
+16:08:24 [INFO] caelum.generation: [270/500] Generating for question_id=2366
+16:08:46 [INFO] caelum.generation: [271/500] Generating for question_id=2381
+16:09:15 [INFO] caelum.generation: [272/500] Generating for question_id=2389
+16:09:40 [INFO] caelum.generation: [273/500] Generating for question_id=2399
+16:10:00 [INFO] caelum.generation: [274/500] Generating for question_id=2411
+16:10:20 [INFO] caelum.generation: [275/500] Generating for question_id=2420
+16:10:39 [INFO] caelum.generation: [276/500] Generating for question_id=2422
+16:11:04 [INFO] caelum.generation: [277/500] Generating for question_id=2431
+16:11:33 [INFO] caelum.generation: [278/500] Generating for question_id=2432
+16:11:57 [INFO] caelum.generation: [279/500] Generating for question_id=2447
+16:12:21 [INFO] caelum.generation: [280/500] Generating for question_id=2451
+16:12:58 [INFO] caelum.generation: [281/500] Generating for question_id=2456
+16:13:17 [INFO] caelum.generation: [282/500] Generating for question_id=2458
+16:13:35 [INFO] caelum.generation: [283/500] Generating for question_id=2459
+16:14:01 [INFO] caelum.generation: [284/500] Generating for question_id=2460
+16:14:24 [INFO] caelum.generation: [285/500] Generating for question_id=2474
+16:14:47 [INFO] caelum.generation: [286/500] Generating for question_id=2478
+16:15:07 [INFO] caelum.generation: [287/500] Generating for question_id=2480
+16:15:39 [INFO] caelum.generation: [288/500] Generating for question_id=2498
+16:16:07 [INFO] caelum.generation: [289/500] Generating for question_id=2509
+16:16:28 [INFO] caelum.generation: [290/500] Generating for question_id=2515
+16:16:55 [INFO] caelum.generation: [291/500] Generating for question_id=2522
+16:17:19 [INFO] caelum.generation: [292/500] Generating for question_id=2525
+16:17:46 [INFO] caelum.generation: [293/500] Generating for question_id=2527
+16:18:10 [INFO] caelum.generation: [294/500] Generating for question_id=2529
+16:18:32 [INFO] caelum.generation: [295/500] Generating for question_id=2533
+16:19:02 [INFO] caelum.generation: [296/500] Generating for question_id=2534
+16:19:26 [INFO] caelum.generation: [297/500] Generating for question_id=2543
+16:19:51 [INFO] caelum.generation: [298/500] Generating for question_id=2545
+16:20:18 [INFO] caelum.generation: [299/500] Generating for question_id=2562
+16:20:43 [INFO] caelum.generation: [300/500] Generating for question_id=2605
+16:21:07 [INFO] caelum.generation: [301/500] Generating for question_id=2610
+16:21:26 [INFO] caelum.generation: [302/500] Generating for question_id=2631
+16:21:41 [INFO] caelum.generation: [303/500] Generating for question_id=2638
+16:22:13 [INFO] caelum.generation: [304/500] Generating for question_id=2644
+16:22:32 [INFO] caelum.generation: [305/500] Generating for question_id=2648
+16:22:58 [INFO] caelum.generation: [306/500] Generating for question_id=2649
+16:23:24 [INFO] caelum.generation: [307/500] Generating for question_id=2655
+16:23:44 [INFO] caelum.generation: [308/500] Generating for question_id=2659
+16:24:07 [INFO] caelum.generation: [309/500] Generating for question_id=2697
+16:24:34 [INFO] caelum.generation: [310/500] Generating for question_id=2700
+16:24:56 [INFO] caelum.generation: [311/500] Generating for question_id=2715
+16:25:20 [INFO] caelum.generation: [312/500] Generating for question_id=2725
+16:25:49 [INFO] caelum.generation: [313/500] Generating for question_id=2751
+16:26:11 [INFO] caelum.generation: [314/500] Generating for question_id=2767
+16:26:43 [INFO] caelum.generation: [315/500] Generating for question_id=2770
+16:27:06 [INFO] caelum.generation: [316/500] Generating for question_id=2780
+16:27:23 [INFO] caelum.generation: [317/500] Generating for question_id=2781
+16:27:46 [INFO] caelum.generation: [318/500] Generating for question_id=2788
+16:28:07 [INFO] caelum.generation: [319/500] Generating for question_id=2803
+16:28:28 [INFO] caelum.generation: [320/500] Generating for question_id=2804
+16:29:04 [INFO] caelum.generation: [321/500] Generating for question_id=2813
+16:29:43 [INFO] caelum.generation: [322/500] Generating for question_id=2821
+16:30:06 [INFO] caelum.generation: [323/500] Generating for question_id=2823
+16:30:25 [INFO] caelum.generation: [324/500] Generating for question_id=2828
+16:30:50 [INFO] caelum.generation: [325/500] Generating for question_id=2848
+16:31:19 [INFO] caelum.generation: [326/500] Generating for question_id=2850
+16:31:41 [INFO] caelum.generation: [327/500] Generating for question_id=2865
+16:32:11 [INFO] caelum.generation: [328/500] Generating for question_id=2887
+16:32:34 [INFO] caelum.generation: [329/500] Generating for question_id=2889
+16:33:00 [INFO] caelum.generation: [330/500] Generating for question_id=2905
+16:33:23 [INFO] caelum.generation: [331/500] Generating for question_id=2913
+16:33:48 [INFO] caelum.generation: [332/500] Generating for question_id=2916
+16:34:10 [INFO] caelum.generation: [333/500] Generating for question_id=2939
+16:34:42 [INFO] caelum.generation: [334/500] Generating for question_id=2941
+16:35:07 [INFO] caelum.generation: [335/500] Generating for question_id=2943
+16:35:42 [INFO] caelum.generation: [336/500] Generating for question_id=2951
+16:36:04 [INFO] caelum.generation: [337/500] Generating for question_id=2952
+16:36:23 [INFO] caelum.generation: [338/500] Generating for question_id=2977
+16:36:39 [INFO] caelum.generation: [339/500] Generating for question_id=2991
+16:37:10 [INFO] caelum.generation: [340/500] Generating for question_id=3012
+16:37:33 [INFO] caelum.generation: [341/500] Generating for question_id=3013
+16:37:55 [INFO] caelum.generation: [342/500] Generating for question_id=3014
+16:38:29 [INFO] caelum.generation: [343/500] Generating for question_id=3024
+16:38:57 [INFO] caelum.generation: [344/500] Generating for question_id=3033
+16:39:24 [INFO] caelum.generation: [345/500] Generating for question_id=3034
+16:39:44 [INFO] caelum.generation: [346/500] Generating for question_id=3039
+16:40:09 [INFO] caelum.generation: [347/500] Generating for question_id=3058
+16:40:30 [INFO] caelum.generation: [348/500] Generating for question_id=3070
+16:40:52 [INFO] caelum.generation: [349/500] Generating for question_id=3075
+16:41:16 [INFO] caelum.generation: [350/500] Generating for question_id=3112
+16:41:49 [INFO] caelum.generation: [351/500] Generating for question_id=3113
+16:42:11 [INFO] caelum.generation: [352/500] Generating for question_id=3114
+16:42:38 [INFO] caelum.generation: [353/500] Generating for question_id=3115
+16:43:09 [INFO] caelum.generation: [354/500] Generating for question_id=3132
+16:43:38 [INFO] caelum.generation: [355/500] Generating for question_id=3172
+16:44:00 [INFO] caelum.generation: [356/500] Generating for question_id=3174
+16:44:26 [INFO] caelum.generation: [357/500] Generating for question_id=3176
+16:44:55 [INFO] caelum.generation: [358/500] Generating for question_id=3181
+16:45:14 [INFO] caelum.generation: [359/500] Generating for question_id=3195
+16:45:28 [INFO] caelum.generation: [360/500] Generating for question_id=3201
+16:45:48 [INFO] caelum.generation: [361/500] Generating for question_id=3209
+16:46:08 [INFO] caelum.generation: [362/500] Generating for question_id=3217
+16:46:29 [INFO] caelum.generation: [363/500] Generating for question_id=3223
+16:46:57 [INFO] caelum.generation: [364/500] Generating for question_id=3237
+16:47:26 [INFO] caelum.generation: [365/500] Generating for question_id=3239
+16:47:47 [INFO] caelum.generation: [366/500] Generating for question_id=3241
+16:48:13 [INFO] caelum.generation: [367/500] Generating for question_id=3256
+16:48:31 [INFO] caelum.generation: [368/500] Generating for question_id=3260
+16:48:53 [INFO] caelum.generation: [369/500] Generating for question_id=3265
+16:49:24 [INFO] caelum.generation: [370/500] Generating for question_id=3269
+16:49:57 [INFO] caelum.generation: [371/500] Generating for question_id=3275
+16:50:22 [INFO] caelum.generation: [372/500] Generating for question_id=3288
+16:50:49 [INFO] caelum.generation: [373/500] Generating for question_id=3292
+16:51:23 [INFO] caelum.generation: [374/500] Generating for question_id=3296
+16:51:46 [INFO] caelum.generation: [375/500] Generating for question_id=3297
+16:52:06 [INFO] caelum.generation: [376/500] Generating for question_id=3298
+16:52:31 [INFO] caelum.generation: [377/500] Generating for question_id=3320
+16:52:58 [INFO] caelum.generation: [378/500] Generating for question_id=3328
+16:53:32 [INFO] caelum.generation: [379/500] Generating for question_id=3335
+16:53:50 [INFO] caelum.generation: [380/500] Generating for question_id=3340
+16:54:15 [INFO] caelum.generation: [381/500] Generating for question_id=3351
+16:54:39 [INFO] caelum.generation: [382/500] Generating for question_id=3360
+16:55:02 [INFO] caelum.generation: [383/500] Generating for question_id=3375
+16:55:33 [INFO] caelum.generation: [384/500] Generating for question_id=3380
+16:55:57 [INFO] caelum.generation: [385/500] Generating for question_id=3395
+16:56:16 [INFO] caelum.generation: [386/500] Generating for question_id=3399
+16:56:38 [INFO] caelum.generation: [387/500] Generating for question_id=3400
+16:56:58 [INFO] caelum.generation: [388/500] Generating for question_id=3406
+16:57:20 [INFO] caelum.generation: [389/500] Generating for question_id=3407
+16:57:43 [INFO] caelum.generation: [390/500] Generating for question_id=3408
+16:58:07 [INFO] caelum.generation: [391/500] Generating for question_id=3418
+16:58:38 [INFO] caelum.generation: [392/500] Generating for question_id=3422
+16:59:00 [INFO] caelum.generation: [393/500] Generating for question_id=3434
+16:59:26 [INFO] caelum.generation: [394/500] Generating for question_id=3437
+16:59:44 [INFO] caelum.generation: [395/500] Generating for question_id=3462
+17:00:13 [INFO] caelum.generation: [396/500] Generating for question_id=3469
+17:00:32 [INFO] caelum.generation: [397/500] Generating for question_id=3494
+17:00:56 [INFO] caelum.generation: [398/500] Generating for question_id=3499
+17:01:16 [INFO] caelum.generation: [399/500] Generating for question_id=3519
+17:01:40 [INFO] caelum.generation: [400/500] Generating for question_id=3524
+17:02:10 [INFO] caelum.generation: [401/500] Generating for question_id=3541
+17:02:35 [INFO] caelum.generation: [402/500] Generating for question_id=3560
+17:03:00 [INFO] caelum.generation: [403/500] Generating for question_id=3562
+17:03:23 [INFO] caelum.generation: [404/500] Generating for question_id=3565
+17:03:47 [INFO] caelum.generation: [405/500] Generating for question_id=3570
+17:04:11 [INFO] caelum.generation: [406/500] Generating for question_id=3571
+17:04:34 [INFO] caelum.generation: [407/500] Generating for question_id=3580
+17:04:55 [INFO] caelum.generation: [408/500] Generating for question_id=3585
+17:05:17 [INFO] caelum.generation: [409/500] Generating for question_id=3591
+17:05:34 [INFO] caelum.generation: [410/500] Generating for question_id=3595
+17:05:55 [INFO] caelum.generation: [411/500] Generating for question_id=3616
+17:06:14 [INFO] caelum.generation: [412/500] Generating for question_id=3621
+17:06:44 [INFO] caelum.generation: [413/500] Generating for question_id=3622
+17:07:04 [INFO] caelum.generation: [414/500] Generating for question_id=3642
+17:07:31 [INFO] caelum.generation: [415/500] Generating for question_id=3655
+17:07:53 [INFO] caelum.generation: [416/500] Generating for question_id=3667
+17:08:11 [INFO] caelum.generation: [417/500] Generating for question_id=3669
+17:08:29 [INFO] caelum.generation: [418/500] Generating for question_id=3673
+17:08:54 [INFO] caelum.generation: [419/500] Generating for question_id=3692
+17:09:22 [INFO] caelum.generation: [420/500] Generating for question_id=3697
+17:09:54 [INFO] caelum.generation: [421/500] Generating for question_id=3715
+17:10:19 [INFO] caelum.generation: [422/500] Generating for question_id=3731
+17:10:48 [INFO] caelum.generation: [423/500] Generating for question_id=3738
+17:11:22 [INFO] caelum.generation: [424/500] Generating for question_id=3756
+17:11:41 [INFO] caelum.generation: [425/500] Generating for question_id=3771
+17:12:07 [INFO] caelum.generation: [426/500] Generating for question_id=3774
+17:12:31 [INFO] caelum.generation: [427/500] Generating for question_id=3796
+17:12:59 [INFO] caelum.generation: [428/500] Generating for question_id=3820
+17:13:20 [INFO] caelum.generation: [429/500] Generating for question_id=3821
+17:13:50 [INFO] caelum.generation: [430/500] Generating for question_id=3829
+17:14:14 [INFO] caelum.generation: [431/500] Generating for question_id=3830
+17:14:36 [INFO] caelum.generation: [432/500] Generating for question_id=3841
+17:14:58 [INFO] caelum.generation: [433/500] Generating for question_id=3848
+17:15:19 [INFO] caelum.generation: [434/500] Generating for question_id=3850
+17:15:41 [INFO] caelum.generation: [435/500] Generating for question_id=3853
+17:16:02 [INFO] caelum.generation: [436/500] Generating for question_id=3857
+17:16:33 [INFO] caelum.generation: [437/500] Generating for question_id=3894
+17:17:02 [INFO] caelum.generation: [438/500] Generating for question_id=3906
+17:17:30 [INFO] caelum.generation: [439/500] Generating for question_id=3910
+17:17:54 [INFO] caelum.generation: [440/500] Generating for question_id=3913
+17:18:16 [INFO] caelum.generation: [441/500] Generating for question_id=3915
+17:18:37 [INFO] caelum.generation: [442/500] Generating for question_id=3917
+17:19:11 [INFO] caelum.generation: [443/500] Generating for question_id=3926
+17:19:27 [INFO] caelum.generation: [444/500] Generating for question_id=3929
+17:20:01 [INFO] caelum.generation: [445/500] Generating for question_id=3937
+17:20:27 [INFO] caelum.generation: [446/500] Generating for question_id=3938
+17:20:50 [INFO] caelum.generation: [447/500] Generating for question_id=3941
+17:21:11 [INFO] caelum.generation: [448/500] Generating for question_id=3942
+17:21:33 [INFO] caelum.generation: [449/500] Generating for question_id=3948
+17:21:57 [INFO] caelum.generation: [450/500] Generating for question_id=3952
+17:22:23 [INFO] caelum.generation: [451/500] Generating for question_id=3953
+17:22:45 [INFO] caelum.generation: [452/500] Generating for question_id=3969
+17:23:08 [INFO] caelum.generation: [453/500] Generating for question_id=3984
+17:23:36 [INFO] caelum.generation: [454/500] Generating for question_id=3985
+17:24:07 [INFO] caelum.generation: [455/500] Generating for question_id=3989
+17:24:35 [INFO] caelum.generation: [456/500] Generating for question_id=4005
+17:24:57 [INFO] caelum.generation: [457/500] Generating for question_id=4019
+17:25:20 [INFO] caelum.generation: [458/500] Generating for question_id=4023
+17:25:42 [INFO] caelum.generation: [459/500] Generating for question_id=4030
+17:26:05 [INFO] caelum.generation: [460/500] Generating for question_id=4044
+17:26:23 [INFO] caelum.generation: [461/500] Generating for question_id=4052
+17:26:48 [INFO] caelum.generation: [462/500] Generating for question_id=4056
+17:27:12 [INFO] caelum.generation: [463/500] Generating for question_id=4059
+17:27:44 [INFO] caelum.generation: [464/500] Generating for question_id=4063
+17:28:04 [INFO] caelum.generation: [465/500] Generating for question_id=4075
+17:28:35 [INFO] caelum.generation: [466/500] Generating for question_id=4077
+17:28:56 [INFO] caelum.generation: [467/500] Generating for question_id=4079
+17:29:17 [INFO] caelum.generation: [468/500] Generating for question_id=4081
+17:29:43 [INFO] caelum.generation: [469/500] Generating for question_id=4086
+17:30:09 [INFO] caelum.generation: [470/500] Generating for question_id=4089
+17:30:52 [INFO] caelum.generation: [471/500] Generating for question_id=4091
+17:31:21 [INFO] caelum.generation: [472/500] Generating for question_id=4098
+17:31:45 [INFO] caelum.generation: [473/500] Generating for question_id=4099
+17:32:16 [INFO] caelum.generation: [474/500] Generating for question_id=4104
+17:32:37 [INFO] caelum.generation: [475/500] Generating for question_id=4107
+17:33:01 [INFO] caelum.generation: [476/500] Generating for question_id=4119
+17:33:24 [INFO] caelum.generation: [477/500] Generating for question_id=4127
+17:33:45 [INFO] caelum.generation: [478/500] Generating for question_id=4139
+17:34:13 [INFO] caelum.generation: [479/500] Generating for question_id=4145
+17:34:36 [INFO] caelum.generation: [480/500] Generating for question_id=4153
+17:34:49 [INFO] caelum.generation: [481/500] Generating for question_id=4155
+17:35:08 [INFO] caelum.generation: [482/500] Generating for question_id=4161
+17:35:32 [INFO] caelum.generation: [483/500] Generating for question_id=4178
+17:35:49 [INFO] caelum.generation: [484/500] Generating for question_id=4179
+17:36:16 [INFO] caelum.generation: [485/500] Generating for question_id=4184
+17:36:40 [INFO] caelum.generation: [486/500] Generating for question_id=4201
+17:37:12 [INFO] caelum.generation: [487/500] Generating for question_id=4202
+17:37:47 [INFO] caelum.generation: [488/500] Generating for question_id=4205
+17:38:13 [INFO] caelum.generation: [489/500] Generating for question_id=4209
+17:38:52 [INFO] caelum.generation: [490/500] Generating for question_id=4216
+17:39:13 [INFO] caelum.generation: [491/500] Generating for question_id=4220
+17:39:42 [INFO] caelum.generation: [492/500] Generating for question_id=4228
+17:40:07 [INFO] caelum.generation: [493/500] Generating for question_id=4230
+17:40:31 [INFO] caelum.generation: [494/500] Generating for question_id=4257
+17:41:01 [INFO] caelum.generation: [495/500] Generating for question_id=4273
+17:41:24 [INFO] caelum.generation: [496/500] Generating for question_id=4284
+17:41:44 [INFO] caelum.generation: [497/500] Generating for question_id=4291
+17:42:08 [INFO] caelum.generation: [498/500] Generating for question_id=4298
+17:42:37 [INFO] caelum.generation: [499/500] Generating for question_id=4304
+17:42:58 [INFO] caelum.generation: [500/500] Generating for question_id=4307
+17:43:28 [INFO] caelum.generation: Model unloaded and GPU memory freed.
+17:43:28 [INFO] clear_llm: Saved generations to /scratch/iazizi/caelum/src/results/gen_simpleqa_gemma_4_e4b_it_500.json (206.8 min)
+17:43:28 [INFO] clear_llm: === Stage: Uncertainty Decomposition (500 samples) ===
+17:43:32 [INFO] caelum.uncertainty: Using VNE uncertainty decomposition
+17:43:34 [INFO] caelum.uncertainty: [20/500] VNE: U_total=1.267  U_epi=0.639  U_ale=0.628  K=2  correct_k=-1
+17:43:36 [INFO] caelum.uncertainty: [40/500] VNE: U_total=0.839  U_epi=0.337  U_ale=0.502  K=2  correct_k=-1
+17:43:38 [INFO] caelum.uncertainty: [60/500] VNE: U_total=1.044  U_epi=0.565  U_ale=0.479  K=1  correct_k=0
+17:43:40 [INFO] caelum.uncertainty: [80/500] VNE: U_total=0.579  U_epi=0.108  U_ale=0.471  K=1  correct_k=-1
+17:43:42 [INFO] caelum.uncertainty: [100/500] VNE: U_total=1.161  U_epi=0.520  U_ale=0.641  K=2  correct_k=-1
+17:43:44 [INFO] caelum.uncertainty: [120/500] VNE: U_total=0.747  U_epi=0.330  U_ale=0.417  K=1  correct_k=0
+17:43:46 [INFO] caelum.uncertainty: [140/500] VNE: U_total=1.752  U_epi=1.066  U_ale=0.686  K=3  correct_k=-1
+17:43:48 [INFO] caelum.uncertainty: [160/500] VNE: U_total=0.736  U_epi=0.412  U_ale=0.324  K=1  correct_k=0
+17:43:50 [INFO] caelum.uncertainty: [180/500] VNE: U_total=1.275  U_epi=0.711  U_ale=0.564  K=2  correct_k=-1
+17:43:52 [INFO] caelum.uncertainty: [200/500] VNE: U_total=0.606  U_epi=0.229  U_ale=0.377  K=1  correct_k=-1
+17:43:54 [INFO] caelum.uncertainty: [220/500] VNE: U_total=0.483  U_epi=0.175  U_ale=0.308  K=1  correct_k=-1
+17:43:56 [INFO] caelum.uncertainty: [240/500] VNE: U_total=1.159  U_epi=0.568  U_ale=0.591  K=1  correct_k=-1
+17:43:58 [INFO] caelum.uncertainty: [260/500] VNE: U_total=1.151  U_epi=0.504  U_ale=0.647  K=2  correct_k=-1
+17:44:00 [INFO] caelum.uncertainty: [280/500] VNE: U_total=0.428  U_epi=0.196  U_ale=0.232  K=1  correct_k=-1
+17:44:02 [INFO] caelum.uncertainty: [300/500] VNE: U_total=1.041  U_epi=0.342  U_ale=0.700  K=2  correct_k=-1
+17:44:04 [INFO] caelum.uncertainty: [320/500] VNE: U_total=1.098  U_epi=0.431  U_ale=0.667  K=1  correct_k=-1
+17:44:06 [INFO] caelum.uncertainty: [340/500] VNE: U_total=0.657  U_epi=0.285  U_ale=0.373  K=1  correct_k=-1
+17:44:08 [INFO] caelum.uncertainty: [360/500] VNE: U_total=1.596  U_epi=0.798  U_ale=0.797  K=3  correct_k=-1
+17:44:10 [INFO] caelum.uncertainty: [380/500] VNE: U_total=1.157  U_epi=0.575  U_ale=0.582  K=2  correct_k=-1
+17:44:12 [INFO] caelum.uncertainty: [400/500] VNE: U_total=0.377  U_epi=0.184  U_ale=0.193  K=1  correct_k=-1
+17:44:14 [INFO] caelum.uncertainty: [420/500] VNE: U_total=1.106  U_epi=0.476  U_ale=0.631  K=1  correct_k=0
+17:44:16 [INFO] caelum.uncertainty: [440/500] VNE: U_total=1.138  U_epi=0.513  U_ale=0.626  K=1  correct_k=-1
+17:44:18 [INFO] caelum.uncertainty: [460/500] VNE: U_total=1.224  U_epi=0.791  U_ale=0.433  K=3  correct_k=-1
+17:44:20 [INFO] caelum.uncertainty: [480/500] VNE: U_total=1.533  U_epi=0.827  U_ale=0.706  K=2  correct_k=0
+17:44:22 [INFO] caelum.uncertainty: [500/500] VNE: U_total=0.760  U_epi=0.271  U_ale=0.489  K=1  correct_k=-1
+17:44:22 [INFO] caelum.uncertainty: Match rate: 106/500 (21.2%)
+17:44:22 [INFO] clear_llm: Saved uncertainties to /scratch/iazizi/caelum/src/results/unc_simpleqa_gemma_4_e4b_it_vne_500.json (0.9 min)
+17:44:22 [INFO] clear_llm: === Stage: Calibrate & Evaluate (Simpleqa, 500 samples) ===
+17:44:22 [INFO] caelum.utils: Split 500 items -> Val1=200, Val2=150, Test=150
+17:44:22 [INFO] clear_llm: Split: Val1=200, Val2=150, Test=150
+17:44:27 [INFO] caelum.calibration: Lambda grid search on Val1 (200 samples, score_mode=hard, weight_fn=additive, randomize=False):
+17:44:27 [INFO] caelum.calibration:   optimal lambda* = 0.2828  (APSS = 1.840)
+17:44:27 [INFO] caelum.calibration: Conformal threshold on Val2 (150 samples):
+17:44:27 [INFO] caelum.calibration:   tau_hat  = 0.7360
+17:44:27 [INFO] caelum.calibration:   Val2 APSS = 1.667
+17:44:27 [INFO] caelum.calibration:   Val2 empirical coverage = 0.193 (target 0.90)
+17:44:27 [INFO] caelum.evaluation: Computing evaluation metrics for CAELUM / Simpleqa (150 samples)...
+17:44:27 [INFO] caelum.evaluation:   Computing coverage...
+17:44:27 [INFO] caelum.evaluation:     Coverage: processed 50/150 samples...
+17:44:27 [INFO] caelum.evaluation:     Coverage: processed 100/150 samples...
+17:44:27 [INFO] caelum.evaluation:     Coverage: processed 150/150 samples...
+17:44:27 [INFO] caelum.evaluation:     Coverage = 0.207
+17:44:27 [INFO] caelum.evaluation:   Computing APSS...
+17:44:27 [INFO] caelum.evaluation:     APSS: processed 50/150 samples...
+17:44:27 [INFO] caelum.evaluation:     APSS: processed 100/150 samples...
+17:44:27 [INFO] caelum.evaluation:     APSS: processed 150/150 samples...
+17:44:27 [INFO] caelum.evaluation:     APSS = 1.66
+17:44:27 [INFO] caelum.evaluation:   Computing AUROC metrics...
+17:44:27 [INFO] caelum.evaluation:   Computing AUPR metrics...
+17:44:27 [INFO] caelum.evaluation: ============================================================
+17:44:27 [INFO] caelum.evaluation: Evaluation results for CAELUM / Simpleqa
+17:44:27 [INFO] caelum.evaluation: ------------------------------------------------------------
+17:44:27 [INFO] caelum.evaluation:   Coverage:          0.207  (target >= 0.90)
+17:44:27 [INFO] caelum.evaluation:   APSS:              1.660
+17:44:27 [INFO] caelum.evaluation:   λ*:                0.2828
+17:44:27 [INFO] caelum.evaluation:   τ̂:                 0.7360
+17:44:27 [INFO] caelum.evaluation:   AUROC(U_epi→hall): 0.399  (baseline U_total: 0.389)
+17:44:27 [INFO] caelum.evaluation:   AUROC(U_ale→ambig):0.500  (baseline U_total: 0.500)
+17:44:27 [INFO] caelum.evaluation:   AUPR(U_epi→hall): 0.746  (baseline U_total: 0.730)
+17:44:27 [INFO] caelum.evaluation:   AUPR(U_ale→ambig):0.000  (baseline U_total: 0.000)
+17:44:27 [INFO] caelum.evaluation: ============================================================
+17:44:27 [INFO] clear_llm: Stratified coverage on TEST (by U_total quartile):
+17:44:27 [INFO] clear_llm:   Q1: n= 38  coverage=0.105  APSS=1.00  edge<=0.707
+17:44:27 [INFO] clear_llm:   Q2: n= 37  coverage=0.243  APSS=1.22  edge<=1.041
+17:44:27 [INFO] clear_llm:   Q3: n= 37  coverage=0.162  APSS=1.81  edge<=1.286
+17:44:27 [INFO] clear_llm:   Q4: n= 38  coverage=0.316  APSS=2.61  edge<=1.998
+17:44:27 [INFO] caelum.evaluation: R(x) diagnostic evaluation:
+17:44:27 [INFO] caelum.evaluation:   mean R(correct)=-1.404  mean R(incorrect)=-1.434  mean R(ambig)=nan
+17:44:27 [INFO] caelum.evaluation:   AUROC R(x)->hall: 0.457   AUROC -R(x)->ambig: 0.500
+17:44:27 [INFO] caelum.evaluation:   R>0 (epistemic): 0.0%   R<0 (aleatoric): 100.0%
+17:44:27 [INFO] clear_llm: 
+R(x) Distribution:
+        R < -2:   13 (  8.7%) ####
+   -2 < R < -1:  115 ( 76.7%) ######################################
+    -1 < R < 0:   22 ( 14.7%) #######
+     0 < R < 1:    0 (  0.0%) 
+     1 < R < 2:    0 (  0.0%) 
+         R > 2:    0 (  0.0%) 
+        median: -1.436
+          mean: -1.428
+17:44:27 [INFO] caelum.evaluation: Generating lambda optimization curve...
+17:44:27 [INFO] caelum.evaluation:   Lambda grid size: 4011 points
+17:44:27 [INFO] caelum.evaluation:   Optimal lambda*: 0.2828
+17:44:28 [INFO] caelum.evaluation: Saved lambda curve to /scratch/iazizi/caelum/src/plots/lambda_curve_Simpleqa.png
+17:44:28 [INFO] caelum.evaluation: Generating diagnostic scatter plot...
+17:44:28 [INFO] caelum.evaluation: Saved diagnostic scatter to /scratch/iazizi/caelum/src/plots/diagnostic_scatter_Simpleqa.png
+17:44:28 [INFO] caelum.calibration: Lambda grid search on Val1 (200 samples, score_mode=hard, weight_fn=additive, randomize=False):
+17:44:28 [INFO] caelum.calibration:   optimal lambda* = 0.0000  (APSS = 1.845)
+17:44:28 [INFO] caelum.calibration: Conformal threshold on Val2 (150 samples):
+17:44:28 [INFO] caelum.calibration:   tau_hat  = 0.7761
+17:44:28 [INFO] caelum.calibration:   Val2 APSS = 1.660
+17:44:28 [INFO] caelum.calibration:   Val2 empirical coverage = 0.193 (target 0.90)
+17:44:28 [INFO] caelum.evaluation: Computing evaluation metrics for Vanilla / Simpleqa (150 samples)...
+17:44:28 [INFO] caelum.evaluation:   Computing coverage...
+17:44:28 [INFO] caelum.evaluation:     Coverage: processed 50/150 samples...
+17:44:28 [INFO] caelum.evaluation:     Coverage: processed 100/150 samples...
+17:44:28 [INFO] caelum.evaluation:     Coverage: processed 150/150 samples...
+17:44:28 [INFO] caelum.evaluation:     Coverage = 0.207
+17:44:28 [INFO] caelum.evaluation:   Computing APSS...
+17:44:28 [INFO] caelum.evaluation:     APSS: processed 50/150 samples...
+17:44:28 [INFO] caelum.evaluation:     APSS: processed 100/150 samples...
+17:44:28 [INFO] caelum.evaluation:     APSS: processed 150/150 samples...
+17:44:28 [INFO] caelum.evaluation:     APSS = 1.66
+17:44:28 [INFO] caelum.evaluation:   Computing AUROC metrics...
+17:44:28 [INFO] caelum.evaluation:   Computing AUPR metrics...
+17:44:28 [INFO] caelum.evaluation: ============================================================
+17:44:28 [INFO] caelum.evaluation: Evaluation results for Vanilla / Simpleqa
+17:44:28 [INFO] caelum.evaluation: ------------------------------------------------------------
+17:44:28 [INFO] caelum.evaluation:   Coverage:          0.207  (target >= 0.90)
+17:44:28 [INFO] caelum.evaluation:   APSS:              1.660
+17:44:28 [INFO] caelum.evaluation:   λ*:                0.0000
+17:44:28 [INFO] caelum.evaluation:   τ̂:                 0.7761
+17:44:28 [INFO] caelum.evaluation:   AUROC(U_epi→hall): 0.399  (baseline U_total: 0.389)
+17:44:28 [INFO] caelum.evaluation:   AUROC(U_ale→ambig):0.500  (baseline U_total: 0.500)
+17:44:28 [INFO] caelum.evaluation:   AUPR(U_epi→hall): 0.746  (baseline U_total: 0.730)
+17:44:28 [INFO] caelum.evaluation:   AUPR(U_ale→ambig):0.000  (baseline U_total: 0.000)
+17:44:28 [INFO] caelum.evaluation: ============================================================
+17:44:28 [INFO] caelum.calibration: Lambda grid search on Val1 (200 samples, score_mode=hard, weight_fn=additive, randomize=False):
+17:44:28 [INFO] caelum.calibration:   optimal lambda* = 1000000.0000  (APSS = 1.840)
+17:44:28 [INFO] caelum.calibration: Conformal threshold on Val2 (150 samples):
+17:44:28 [INFO] caelum.calibration:   tau_hat  = 0.0000
+17:44:28 [INFO] caelum.calibration:   Val2 APSS = 1.667
+17:44:28 [INFO] caelum.calibration:   Val2 empirical coverage = 0.193 (target 0.90)
+17:44:28 [INFO] caelum.evaluation: Computing evaluation metrics for Epistemic-only / Simpleqa (150 samples)...
+17:44:28 [INFO] caelum.evaluation:   Computing coverage...
+17:44:28 [INFO] caelum.evaluation:     Coverage: processed 50/150 samples...
+17:44:28 [INFO] caelum.evaluation:     Coverage: processed 100/150 samples...
+17:44:28 [INFO] caelum.evaluation:     Coverage: processed 150/150 samples...
+17:44:28 [INFO] caelum.evaluation:     Coverage = 0.207
+17:44:28 [INFO] caelum.evaluation:   Computing APSS...
+17:44:28 [INFO] caelum.evaluation:     APSS: processed 50/150 samples...
+17:44:28 [INFO] caelum.evaluation:     APSS: processed 100/150 samples...
+17:44:28 [INFO] caelum.evaluation:     APSS: processed 150/150 samples...
+17:44:28 [INFO] caelum.evaluation:     APSS = 1.67
+17:44:28 [INFO] caelum.evaluation:   Computing AUROC metrics...
+17:44:28 [INFO] caelum.evaluation:   Computing AUPR metrics...
+17:44:28 [INFO] caelum.evaluation: ============================================================
+17:44:28 [INFO] caelum.evaluation: Evaluation results for Epistemic-only / Simpleqa
+17:44:28 [INFO] caelum.evaluation: ------------------------------------------------------------
+17:44:28 [INFO] caelum.evaluation:   Coverage:          0.207  (target >= 0.90)
+17:44:28 [INFO] caelum.evaluation:   APSS:              1.667
+17:44:28 [INFO] caelum.evaluation:   λ*:                1000000.0000
+17:44:28 [INFO] caelum.evaluation:   τ̂:                 0.0000
+17:44:28 [INFO] caelum.evaluation:   AUROC(U_epi→hall): 0.399  (baseline U_total: 0.389)
+17:44:28 [INFO] caelum.evaluation:   AUROC(U_ale→ambig):0.500  (baseline U_total: 0.500)
+17:44:28 [INFO] caelum.evaluation:   AUPR(U_epi→hall): 0.746  (baseline U_total: 0.730)
+17:44:28 [INFO] caelum.evaluation:   AUPR(U_ale→ambig):0.000  (baseline U_total: 0.000)
+17:44:28 [INFO] caelum.evaluation: ============================================================
+17:44:28 [INFO] caelum.evaluation: Generating uncertainty scatter plot (color by: correctness)...
+17:44:28 [INFO] caelum.evaluation:   Data points: 150 samples
+17:44:28 [INFO] caelum.evaluation: Saved scatter plot to /scratch/iazizi/caelum/src/plots/scatter_Simpleqa.png
+17:44:28 [INFO] clear_llm: Finished Simpleqa in 207.8 minutes.
+17:44:28 [INFO] clear_llm: 
+| Method | Dataset | Coverage | APSS | AUROC (Hall.) | AUROC (Ambig.) | λ* |
+|--------|---------|----------|------|---------------|----------------|----|
+| CAELUM | Simpleqa | 0.207 | 1.66 | 0.399 | 0.500 | 0.283 |
+| Vanilla | Simpleqa | 0.207 | 1.66 | 0.399 | 0.500 | 0.000 |
+| EpistemicOnly | Simpleqa | 0.207 | 1.67 | 0.399 | 0.500 | 1000000.000 |
+| SemanticEntropy | Simpleqa | nan | nan | 0.389 | 0.500 | nan |
+17:44:28 [INFO] clear_llm: Saved results to /scratch/iazizi/caelum/src/results/results_summary.json
+17:44:28 [INFO] clear_llm: Saved results table to /scratch/iazizi/caelum/src/results/results_table.md
+17:44:28 [INFO] clear_llm: ======================================================================
+17:44:28 [INFO] clear_llm: TOTAL RUNTIME: 207.8 minutes (12467 seconds)
+17:44:28 [INFO] clear_llm: Log saved to: /scratch/iazizi/caelum/src/results/pipeline_gemma_4_e4b_it_vne_simpleqa_500.txt
+17:44:28 [INFO] clear_llm: ======================================================================

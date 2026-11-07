@@ -1,0 +1,17 @@
+# Credentials and editor state
+.env
+.vscode/
+
+# Python and build products
+__pycache__/
+*.pyc
+**/.build/
+
+# Local outputs from running the code
+/slurm/logs/
+/results/plots/
+/results/exported_tables/
+/results/**/*.md
+/results/*.txt
+/results/*.log
+/results/*.err

@@ -1,0 +1,15 @@
+{
+ "input": "unc_ambiginst_gemma_4_e4b_it_vne_304.json",
+ "input_sha256": "8d60c5d6f0cbee2e257cad01f048e06b8fb9a4a7228492ca94f60e43120cd0e6",
+ "n": 304,
+ "label_resolution": {
+  "gpu": 304,
+  "cpu": 0,
+  "failed": 0
+ },
+ "sts_unique_pairs": 41722,
+ "seconds": 462.1103301048279,
+ "model": "cross-encoder/stsb-roberta-large",
+ "revision": "2b12c2c0088918e76151fd5937b7bba986ef1f98",
+ "job": "20002176"
+}

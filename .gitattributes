@@ -1,0 +1,5 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+# Slurm scripts are copied from Windows workstations to Linux compute nodes.
+*.sh text eol=lf
+*.pdf binary

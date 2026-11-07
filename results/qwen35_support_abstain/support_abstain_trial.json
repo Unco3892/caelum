@@ -1,0 +1,205 @@
+{
+  "alpha": 0.1,
+  "seed": 42,
+  "definition": "generated semantic clusters + ABSTAIN_NOT_IN_SUPPORT",
+  "cells": {
+    "qwen3.5_35b_a3b__opennq": {
+      "n_test": 30,
+      "n_matched_test": 23,
+      "n_unmatched_test": 7,
+      "match_rate_test": 0.7666666666666667,
+      "lambda_star": 0.32979950540153935,
+      "tau_hat": 0.7488751001759457,
+      "semantic_coverage": 0.7666666666666667,
+      "augmented_coverage": 1.0,
+      "matched_semantic_coverage": 1.0,
+      "apss_semantic": 1.4666666666666666,
+      "apss_augmented": 2.3,
+      "abstain_rate": 0.8333333333333334,
+      "abstain_count": 25,
+      "abstain_precision_for_unmatched": 0.28,
+      "abstain_recall_for_unmatched": 1.0,
+      "abstain_f1_for_unmatched": 0.43750000000000006,
+      "unmatched_leak_rate": 0.0,
+      "matched_false_abstain_rate": 0.782608695652174,
+      "equivalence_mismatches": 0,
+      "hallucination_auroc": {
+        "abstain_effective_threshold": 0.5900621118012422,
+        "U_total": 0.6956521739130435,
+        "U_epi": 0.7701863354037267,
+        "U_ale": 0.515527950310559,
+        "R(x)": 0.7577639751552795,
+        "1-max_prop": 0.546583850931677
+      },
+      "same_abstain_budget_detector": {
+        "U_total": {
+          "precision": 0.24,
+          "recall": 0.8571428571428571,
+          "f1": 0.375
+        },
+        "U_epi": {
+          "precision": 0.24,
+          "recall": 0.8571428571428571,
+          "f1": 0.375
+        },
+        "U_ale": {
+          "precision": 0.28,
+          "recall": 1.0,
+          "f1": 0.43750000000000006
+        },
+        "R(x)": {
+          "precision": 0.28,
+          "recall": 1.0,
+          "f1": 0.43750000000000006
+        },
+        "1-max_prop": {
+          "precision": 0.24,
+          "recall": 0.8571428571428571,
+          "f1": 0.375
+        }
+      },
+      "model": "qwen3.5_35b_a3b",
+      "dataset": "opennq",
+      "n_samples": 100,
+      "source_file": "unc_opennq_qwen3.5_35b_a3b_vne_100.json"
+    },
+    "qwen3.5_35b_a3b__simpleqa": {
+      "n_test": 30,
+      "n_matched_test": 19,
+      "n_unmatched_test": 11,
+      "match_rate_test": 0.6333333333333333,
+      "lambda_star": 0.0,
+      "tau_hat": 0.8240896927339821,
+      "semantic_coverage": 0.6333333333333333,
+      "augmented_coverage": 0.9666666666666667,
+      "matched_semantic_coverage": 1.0,
+      "apss_semantic": 2.3333333333333335,
+      "apss_augmented": 3.3,
+      "abstain_rate": 0.9666666666666667,
+      "abstain_count": 29,
+      "abstain_precision_for_unmatched": 0.3448275862068966,
+      "abstain_recall_for_unmatched": 0.9090909090909091,
+      "abstain_f1_for_unmatched": 0.5000000000000001,
+      "unmatched_leak_rate": 0.09090909090909091,
+      "matched_false_abstain_rate": 1.0,
+      "equivalence_mismatches": 0,
+      "hallucination_auroc": {
+        "abstain_effective_threshold": 0.5406698564593302,
+        "U_total": 0.5645933014354066,
+        "U_epi": 0.583732057416268,
+        "U_ale": 0.5406698564593302,
+        "R(x)": 0.45933014354066987,
+        "1-max_prop": 0.583732057416268
+      },
+      "same_abstain_budget_detector": {
+        "U_total": {
+          "precision": 0.3448275862068966,
+          "recall": 0.9090909090909091,
+          "f1": 0.5000000000000001
+        },
+        "U_epi": {
+          "precision": 0.3793103448275862,
+          "recall": 1.0,
+          "f1": 0.5499999999999999
+        },
+        "U_ale": {
+          "precision": 0.3448275862068966,
+          "recall": 0.9090909090909091,
+          "f1": 0.5000000000000001
+        },
+        "R(x)": {
+          "precision": 0.3448275862068966,
+          "recall": 0.9090909090909091,
+          "f1": 0.5000000000000001
+        },
+        "1-max_prop": {
+          "precision": 0.3793103448275862,
+          "recall": 1.0,
+          "f1": 0.5499999999999999
+        }
+      },
+      "model": "qwen3.5_35b_a3b",
+      "dataset": "simpleqa",
+      "n_samples": 100,
+      "source_file": "unc_simpleqa_qwen3.5_35b_a3b_vne_100.json"
+    },
+    "qwen3.5_35b_a3b__popqa": {
+      "n_test": 30,
+      "n_matched_test": 20,
+      "n_unmatched_test": 10,
+      "match_rate_test": 0.6666666666666666,
+      "lambda_star": 0.0,
+      "tau_hat": 0.7579199309124919,
+      "semantic_coverage": 0.6666666666666666,
+      "augmented_coverage": 0.9666666666666667,
+      "matched_semantic_coverage": 1.0,
+      "apss_semantic": 4.166666666666667,
+      "apss_augmented": 4.833333333333333,
+      "abstain_rate": 0.6666666666666666,
+      "abstain_count": 20,
+      "abstain_precision_for_unmatched": 0.45,
+      "abstain_recall_for_unmatched": 0.9,
+      "abstain_f1_for_unmatched": 0.6,
+      "unmatched_leak_rate": 0.1,
+      "matched_false_abstain_rate": 0.55,
+      "equivalence_mismatches": 0,
+      "hallucination_auroc": {
+        "abstain_effective_threshold": 0.845,
+        "U_total": 0.905,
+        "U_epi": 0.885,
+        "U_ale": 0.845,
+        "R(x)": 0.155,
+        "1-max_prop": 0.8975
+      },
+      "same_abstain_budget_detector": {
+        "U_total": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666
+        },
+        "U_epi": {
+          "precision": 0.45,
+          "recall": 0.9,
+          "f1": 0.6
+        },
+        "U_ale": {
+          "precision": 0.45,
+          "recall": 0.9,
+          "f1": 0.6
+        },
+        "R(x)": {
+          "precision": 0.15,
+          "recall": 0.3,
+          "f1": 0.2
+        },
+        "1-max_prop": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666
+        }
+      },
+      "model": "qwen3.5_35b_a3b",
+      "dataset": "popqa",
+      "n_samples": 100,
+      "source_file": "unc_popqa_qwen3.5_35b_a3b_vne_100.json"
+    }
+  },
+  "summary": {
+    "alpha": 0.1,
+    "target_coverage": 0.9,
+    "n_cells": 3,
+    "mean_match_rate_test": 0.6888888888888888,
+    "mean_semantic_coverage": 0.6888888888888888,
+    "mean_augmented_coverage": 0.9777777777777779,
+    "n_cells_augmented_ge_target": 3,
+    "mean_matched_semantic_coverage": 1.0,
+    "mean_apss_semantic": 2.6555555555555554,
+    "mean_apss_augmented": 3.477777777777778,
+    "mean_abstain_rate": 0.8222222222222223,
+    "mean_abstain_precision_for_unmatched": 0.3582758620689655,
+    "mean_abstain_recall_for_unmatched": 0.9363636363636364,
+    "mean_unmatched_leak_rate": 0.06363636363636364,
+    "mean_matched_false_abstain_rate": 0.7775362318840578,
+    "total_equivalence_mismatches": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+ "input": "unc_triviaqa_ministral_3_8b_instruct_2512_vne_300.json",
+ "input_sha256": "e3d8d6f558003a01cf4fb485e0caa0c794afa421e0def15bb8e0c708a0c43907",
+ "n": 300,
+ "label_resolution": {
+  "gpu": 300,
+  "cpu": 0,
+  "failed": 0
+ },
+ "sts_unique_pairs": 233415,
+ "seconds": 1750.6930179595947,
+ "model": "cross-encoder/stsb-roberta-large",
+ "revision": "2b12c2c0088918e76151fd5937b7bba986ef1f98",
+ "job": "20002154"
+}

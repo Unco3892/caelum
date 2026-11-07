@@ -1,0 +1,334 @@
+{
+  "alpha": 0.1,
+  "seeds": [
+    42,
+    43,
+    44,
+    45
+  ],
+  "protocol": {
+    "randomize": false,
+    "weight_fn": "additive",
+    "selection_method": "argmin_apss",
+    "split": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "labels": "frozen heuristic",
+    "sd": "population (ddof=0)",
+    "variation": "data splits; generated answers are reused"
+  },
+  "sources": [
+    {
+      "seed": 42,
+      "path": "results/stage3_results.json",
+      "sha256_lf": "839c66dd303680c901089153449bf0137e6a6995729bd2f4d1ba75845d4584d4"
+    },
+    {
+      "seed": 43,
+      "path": "results/split_seeds/seed43/stage3_results.json",
+      "sha256_lf": "ff4dfae8697adc403458dce3bdb796c61fbc3b3c38fa67854ce28307c17e2bd3"
+    },
+    {
+      "seed": 44,
+      "path": "results/split_seeds/seed44/stage3_results.json",
+      "sha256_lf": "81bd17e0ae8752e5e02ced2d3989588ea933bbe94ca2512b3f4f7c06862d4a81"
+    },
+    {
+      "seed": 45,
+      "path": "results/split_seeds/seed45/stage3_results.json",
+      "sha256_lf": "89cc252c573f9f760edf50e7af64afc6d7916c1440a62515bf995a2a74c4e058"
+    }
+  ],
+  "cells": {
+    "qwen3_8b__triviaqa": {
+      "model": "qwen3_8b",
+      "dataset": "triviaqa",
+      "methods": {
+        "CAELUM": {
+          "lam_per_seed": [
+            47.42419852602448,
+            43.12707459615798,
+            32.5461783498046,
+            9.868473971838977
+          ],
+          "lam_mean": 33.24148136095651,
+          "lam_std": 14.540076860914754
+        }
+      }
+    },
+    "qwen3_8b__ambigqa": {
+      "model": "qwen3_8b",
+      "dataset": "ambigqa",
+      "methods": {
+        "CAELUM": {
+          "lam_per_seed": [
+            7.5378935489956715,
+            84.86917881294367,
+            7.4730863419127616,
+            4.591980128368688
+          ],
+          "lam_mean": 26.118034708055198,
+          "lam_std": 33.94084451095652
+        }
+      }
+    },
+    "qwen3_8b__opennq": {
+      "model": "qwen3_8b",
+      "dataset": "opennq",
+      "methods": {
+        "CAELUM": {
+          "lam_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "lam_mean": 0.0,
+          "lam_std": 0.0
+        }
+      }
+    },
+    "qwen3_8b__ambiginst": {
+      "model": "qwen3_8b",
+      "dataset": "ambiginst",
+      "methods": {
+        "CAELUM": {
+          "lam_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "lam_mean": 0.0,
+          "lam_std": 0.0
+        }
+      }
+    },
+    "qwen3_8b__simpleqa": {
+      "model": "qwen3_8b",
+      "dataset": "simpleqa",
+      "methods": {
+        "CAELUM": {
+          "lam_per_seed": [
+            0.0,
+            28.200057899468863,
+            0.0,
+            0.0
+          ],
+          "lam_mean": 7.050014474867216,
+          "lam_std": 12.210983264566035
+        }
+      }
+    },
+    "qwen3_8b__popqa": {
+      "model": "qwen3_8b",
+      "dataset": "popqa",
+      "methods": {
+        "CAELUM": {
+          "lam_per_seed": [
+            3.1459368459476478,
+            15.355006336570678,
+            5.639622051458343,
+            96.77206311194985
+          ],
+          "lam_mean": 30.22815708648163,
+          "lam_std": 38.68896726032267
+        }
+      }
+    },
+    "ministral_3_8b_instruct_2512__triviaqa": {
+      "model": "ministral_3_8b_instruct_2512",
+      "dataset": "triviaqa",
+      "methods": {
+        "CAELUM": {
+          "lam_per_seed": [
+            26.961869356817978,
+            63.3869711256927,
+            99.14024778060782,
+            62.95061828571975
+          ],
+          "lam_mean": 63.10992663720956,
+          "lam_std": 25.51944464345931
+        }
+      }
+    },
+    "ministral_3_8b_instruct_2512__ambigqa": {
+      "model": "ministral_3_8b_instruct_2512",
+      "dataset": "ambigqa",
+      "methods": {
+        "CAELUM": {
+          "lam_per_seed": [
+            18.407720014689563,
+            28.74087593615021,
+            70.06481828654114,
+            73.91796465554594
+          ],
+          "lam_mean": 47.78284472323171,
+          "lam_std": 24.520528984317703
+        }
+      }
+    },
+    "ministral_3_8b_instruct_2512__opennq": {
+      "model": "ministral_3_8b_instruct_2512",
+      "dataset": "opennq",
+      "methods": {
+        "CAELUM": {
+          "lam_per_seed": [
+            6.190845987423968,
+            9.582967163063751,
+            10.739894123412451,
+            42.83018990289129
+          ],
+          "lam_mean": 17.335974294197865,
+          "lam_std": 14.813729338622375
+        }
+      }
+    },
+    "ministral_3_8b_instruct_2512__ambiginst": {
+      "model": "ministral_3_8b_instruct_2512",
+      "dataset": "ambiginst",
+      "methods": {
+        "CAELUM": {
+          "lam_per_seed": [
+            0.0,
+            64.71426157485831,
+            36.791712255227466,
+            8.231898369213964
+          ],
+          "lam_mean": 27.434468049824936,
+          "lam_std": 25.488868864193662
+        }
+      }
+    },
+    "ministral_3_8b_instruct_2512__simpleqa": {
+      "model": "ministral_3_8b_instruct_2512",
+      "dataset": "simpleqa",
+      "methods": {
+        "CAELUM": {
+          "lam_per_seed": [
+            0.31860310208356274,
+            3.1135081006804133,
+            49.51650688214501,
+            0.5902010801718444
+          ],
+          "lam_mean": 13.384704791270208,
+          "lam_std": 20.889153539315586
+        }
+      }
+    },
+    "ministral_3_8b_instruct_2512__popqa": {
+      "model": "ministral_3_8b_instruct_2512",
+      "dataset": "popqa",
+      "methods": {
+        "CAELUM": {
+          "lam_per_seed": [
+            1.4264284755467083,
+            45.498806015004845,
+            11.33052412941465,
+            55.11248580808258
+          ],
+          "lam_mean": 28.342061107012196,
+          "lam_std": 22.49918445636302
+        }
+      }
+    },
+    "gemma_4_e4b_it__triviaqa": {
+      "model": "gemma_4_e4b_it",
+      "dataset": "triviaqa",
+      "methods": {
+        "CAELUM": {
+          "lam_per_seed": [
+            45.73513864746506,
+            27.148760106825023,
+            10.870512005166928,
+            14.731602776237056
+          ],
+          "lam_mean": 24.621503383923518,
+          "lam_std": 13.592944111871706
+        }
+      }
+    },
+    "gemma_4_e4b_it__ambigqa": {
+      "model": "gemma_4_e4b_it",
+      "dataset": "ambigqa",
+      "methods": {
+        "CAELUM": {
+          "lam_per_seed": [
+            9.321804703416083,
+            10.610845719804523,
+            21.87761623949552,
+            17.96801080173495
+          ],
+          "lam_mean": 14.944569366112768,
+          "lam_std": 5.186641017021548
+        }
+      }
+    },
+    "gemma_4_e4b_it__opennq": {
+      "model": "gemma_4_e4b_it",
+      "dataset": "opennq",
+      "methods": {
+        "CAELUM": {
+          "lam_per_seed": [
+            0.0,
+            0.13251041069286382,
+            0.0,
+            34.63378846082794
+          ],
+          "lam_mean": 8.6915747178802,
+          "lam_std": 14.977841782549508
+        }
+      }
+    },
+    "gemma_4_e4b_it__ambiginst": {
+      "model": "gemma_4_e4b_it",
+      "dataset": "ambiginst",
+      "methods": {
+        "CAELUM": {
+          "lam_per_seed": [
+            6.169500446561342,
+            1.637759020005231,
+            1.9230917289101586,
+            46.69280883804212
+          ],
+          "lam_mean": 14.105790008379712,
+          "lam_std": 18.899526596646915
+        }
+      }
+    },
+    "gemma_4_e4b_it__simpleqa": {
+      "model": "gemma_4_e4b_it",
+      "dataset": "simpleqa",
+      "methods": {
+        "CAELUM": {
+          "lam_per_seed": [
+            0.2828134111047474,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "lam_mean": 0.07070335277618685,
+          "lam_std": 0.12246179927382166
+        }
+      }
+    },
+    "gemma_4_e4b_it__popqa": {
+      "model": "gemma_4_e4b_it",
+      "dataset": "popqa",
+      "methods": {
+        "CAELUM": {
+          "lam_per_seed": [
+            8.506482247558337,
+            0.0,
+            10.889300933334333,
+            22.02926463053456
+          ],
+          "lam_mean": 10.356261952856807,
+          "lam_std": 7.861567411497915
+        }
+      }
+    }
+  }
+}

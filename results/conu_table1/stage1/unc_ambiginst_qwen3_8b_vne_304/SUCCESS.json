@@ -1,0 +1,15 @@
+{
+ "input": "unc_ambiginst_qwen3_8b_vne_304.json",
+ "input_sha256": "f2f709697bd6606abb401134edf021a89ba7e9727843db0e60ba0f5c8b1c405d",
+ "n": 304,
+ "label_resolution": {
+  "gpu": 304,
+  "cpu": 0,
+  "failed": 0
+ },
+ "sts_unique_pairs": 12282,
+ "seconds": 180.14887857437134,
+ "model": "cross-encoder/stsb-roberta-large",
+ "revision": "2b12c2c0088918e76151fd5937b7bba986ef1f98",
+ "job": "20002178"
+}

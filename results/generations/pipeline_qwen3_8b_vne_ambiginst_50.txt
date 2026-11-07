@@ -1,0 +1,214 @@
+12:49:23 [INFO] clear_llm: ======================================================================
+12:49:23 [INFO] clear_llm: CAELUM Experiment Pipeline
+12:49:23 [INFO] clear_llm: ======================================================================
+12:49:23 [INFO] clear_llm: Log file: /scratch/iazizi/caelum/src/results/pipeline_qwen3_8b_vne_ambiginst_50.txt
+12:49:23 [INFO] clear_llm: Config: {
+  "dataset": "ambiginst",
+  "n_samples": 50,
+  "triviaqa_path": null,
+  "ambigqa_path": null,
+  "opennq_path": null,
+  "ambiginst_path": "/scratch/iazizi/caelum/data/eval/AmbigInst.json",
+  "simpleqa_path": null,
+  "popqa_path": null,
+  "condambigqa_path": null,
+  "model_name": "Qwen/Qwen3-8B",
+  "backend": "hf",
+  "engine_dir": null,
+  "clarif_provider": "none",
+  "clarif_model": null,
+  "n_clarifications": 5,
+  "n_answers": 10,
+  "uncertainty_method": "vne",
+  "vne_gamma": 1.0,
+  "cluster_threshold": 0.7,
+  "use_nli": false,
+  "alpha": 0.1,
+  "weight_fn": "additive",
+  "randomize": false,
+  "seed": 42,
+  "regenerate": false
+}
+12:49:23 [INFO] caelum.utils: Loaded 50 AmbigInst samples from /scratch/iazizi/caelum/data/eval/AmbigInst.json
+12:49:23 [INFO] clear_llm: === Stage: Generation (ambigqa, 50 samples) ===
+12:49:23 [INFO] caelum.generation: Loading model Qwen/Qwen3-8B …
+12:49:27 [INFO] caelum.generation: flash_attn not installed, using SDPA attention
+12:49:49 [INFO] caelum.generation: torch.compile applied (reduce-overhead mode)
+12:49:49 [INFO] caelum.generation: [1/50] Generating for question_id=5
+12:50:09 [INFO] caelum.generation: [2/50] Generating for question_id=7
+12:50:23 [INFO] caelum.generation: [3/50] Generating for question_id=9
+12:50:34 [INFO] caelum.generation: [4/50] Generating for question_id=17
+12:50:52 [INFO] caelum.generation: [5/50] Generating for question_id=24
+12:51:06 [INFO] caelum.generation: [6/50] Generating for question_id=25
+12:51:19 [INFO] caelum.generation: [7/50] Generating for question_id=33
+12:51:33 [INFO] caelum.generation: [8/50] Generating for question_id=42
+12:51:50 [INFO] caelum.generation: [9/50] Generating for question_id=45
+12:52:11 [INFO] caelum.generation: [10/50] Generating for question_id=46
+12:52:37 [INFO] caelum.generation: [11/50] Generating for question_id=57
+12:53:00 [INFO] caelum.generation: [12/50] Generating for question_id=60
+12:53:19 [INFO] caelum.generation: [13/50] Generating for question_id=73
+12:53:34 [INFO] caelum.generation: [14/50] Generating for question_id=76
+12:53:56 [INFO] caelum.generation: [15/50] Generating for question_id=77
+12:54:19 [INFO] caelum.generation: [16/50] Generating for question_id=78
+12:54:33 [INFO] caelum.generation: [17/50] Generating for question_id=90
+12:54:46 [INFO] caelum.generation: [18/50] Generating for question_id=92
+12:55:00 [INFO] caelum.generation: [19/50] Generating for question_id=101
+12:55:08 [INFO] caelum.generation: [20/50] Generating for question_id=109
+12:55:20 [INFO] caelum.generation: [21/50] Generating for question_id=111
+12:55:30 [INFO] caelum.generation: [22/50] Generating for question_id=116
+12:55:39 [INFO] caelum.generation: [23/50] Generating for question_id=118
+12:55:50 [INFO] caelum.generation: [24/50] Generating for question_id=119
+12:55:58 [INFO] caelum.generation: [25/50] Generating for question_id=125
+12:56:13 [INFO] caelum.generation: [26/50] Generating for question_id=140
+12:56:32 [INFO] caelum.generation: [27/50] Generating for question_id=143
+12:56:47 [INFO] caelum.generation: [28/50] Generating for question_id=147
+12:57:08 [INFO] caelum.generation: [29/50] Generating for question_id=154
+12:57:22 [INFO] caelum.generation: [30/50] Generating for question_id=157
+12:57:35 [INFO] caelum.generation: [31/50] Generating for question_id=167
+12:57:51 [INFO] caelum.generation: [32/50] Generating for question_id=176
+12:58:00 [INFO] caelum.generation: [33/50] Generating for question_id=180
+12:58:12 [INFO] caelum.generation: [34/50] Generating for question_id=193
+12:58:22 [INFO] caelum.generation: [35/50] Generating for question_id=209
+12:58:33 [INFO] caelum.generation: [36/50] Generating for question_id=213
+12:58:38 [INFO] caelum.generation: [37/50] Generating for question_id=221
+12:58:57 [INFO] caelum.generation: [38/50] Generating for question_id=229
+12:59:07 [INFO] caelum.generation: [39/50] Generating for question_id=232
+12:59:16 [INFO] caelum.generation: [40/50] Generating for question_id=233
+12:59:24 [INFO] caelum.generation: [41/50] Generating for question_id=240
+12:59:36 [INFO] caelum.generation: [42/50] Generating for question_id=244
+12:59:51 [INFO] caelum.generation: [43/50] Generating for question_id=247
+13:00:01 [INFO] caelum.generation: [44/50] Generating for question_id=255
+13:00:16 [INFO] caelum.generation: [45/50] Generating for question_id=278
+13:00:30 [INFO] caelum.generation: [46/50] Generating for question_id=280
+13:00:43 [INFO] caelum.generation: [47/50] Generating for question_id=282
+13:00:54 [INFO] caelum.generation: [48/50] Generating for question_id=285
+13:01:07 [INFO] caelum.generation: [49/50] Generating for question_id=288
+13:01:21 [INFO] caelum.generation: [50/50] Generating for question_id=293
+13:01:32 [INFO] caelum.generation: Model unloaded and GPU memory freed.
+13:01:32 [INFO] clear_llm: Saved generations to /scratch/iazizi/caelum/src/results/gen_ambiginst_qwen3_8b_50.json (12.1 min)
+13:01:32 [INFO] clear_llm: === Stage: Uncertainty Decomposition (50 samples) ===
+13:01:40 [INFO] caelum.uncertainty: Using VNE uncertainty decomposition
+13:01:42 [INFO] caelum.uncertainty: [20/50] VNE: U_total=0.000  U_epi=0.000  U_ale=0.000  K=1  correct_k=0
+13:01:43 [INFO] caelum.uncertainty: [40/50] VNE: U_total=0.000  U_epi=0.000  U_ale=0.000  K=1  correct_k=0
+13:01:44 [INFO] caelum.uncertainty: Match rate: 49/50 (98.0%)
+13:01:44 [INFO] clear_llm: Saved uncertainties to /scratch/iazizi/caelum/src/results/unc_ambiginst_qwen3_8b_vne_50.json (0.2 min)
+13:01:44 [INFO] clear_llm: === Stage: Calibrate & Evaluate (Ambiginst, 50 samples) ===
+13:01:44 [INFO] caelum.utils: Split 50 items -> Val1=20, Val2=15, Test=15
+13:01:44 [INFO] clear_llm: Split: Val1=20, Val2=15, Test=15
+13:01:44 [INFO] caelum.calibration: Lambda grid search on Val1 (20 samples, score_mode=hard, weight_fn=additive, randomize=False):
+13:01:44 [INFO] caelum.calibration:   optimal lambda* = 0.0000  (APSS = 1.100)
+13:01:44 [INFO] caelum.calibration: Conformal threshold on Val2 (15 samples):
+13:01:44 [INFO] caelum.calibration:   tau_hat  = 0.5968
+13:01:44 [INFO] caelum.calibration:   Val2 APSS = 2.200
+13:01:44 [INFO] caelum.calibration:   Val2 empirical coverage = 0.933 (target 0.90)
+13:01:44 [INFO] caelum.evaluation: Computing evaluation metrics for CAELUM / Ambiginst (15 samples)...
+13:01:44 [INFO] caelum.evaluation:   Computing coverage...
+13:01:44 [INFO] caelum.evaluation:     Coverage = 1.000
+13:01:44 [INFO] caelum.evaluation:   Computing APSS...
+13:01:44 [INFO] caelum.evaluation:     APSS = 1.60
+13:01:44 [INFO] caelum.evaluation:   Computing AUROC metrics...
+13:01:44 [INFO] caelum.evaluation:   Computing AUPR metrics...
+13:01:44 [INFO] caelum.evaluation: ============================================================
+13:01:44 [INFO] caelum.evaluation: Evaluation results for CAELUM / Ambiginst
+13:01:44 [INFO] caelum.evaluation: ------------------------------------------------------------
+13:01:44 [INFO] caelum.evaluation:   Coverage:          1.000  (target >= 0.90)
+13:01:44 [INFO] caelum.evaluation:   APSS:              1.600
+13:01:44 [INFO] caelum.evaluation:   λ*:                0.0000
+13:01:44 [INFO] caelum.evaluation:   τ̂:                 0.5968
+13:01:44 [INFO] caelum.evaluation:   AUROC(U_epi→hall): 0.500  (baseline U_total: 0.500)
+13:01:44 [INFO] caelum.evaluation:   AUROC(U_ale→ambig):0.444  (baseline U_total: 0.593)
+13:01:44 [INFO] caelum.evaluation:   AUPR(U_epi→hall): 0.000  (baseline U_total: 0.000)
+13:01:44 [INFO] caelum.evaluation:   AUPR(U_ale→ambig):0.719  (baseline U_total: 0.822)
+13:01:44 [INFO] caelum.evaluation: ============================================================
+13:01:44 [INFO] clear_llm: Stratified coverage on TEST (by U_total quartile):
+13:01:44 [INFO] clear_llm:   Q1: n=  0  coverage=0.000  APSS=0.00  edge<=0.000
+13:01:44 [INFO] clear_llm:   Q2: n=  7  coverage=1.000  APSS=1.14  edge<=0.632
+13:01:44 [INFO] clear_llm:   Q3: n=  4  coverage=1.000  APSS=1.75  edge<=0.771
+13:01:44 [INFO] clear_llm:   Q4: n=  4  coverage=1.000  APSS=2.25  edge<=1.131
+13:01:44 [INFO] caelum.evaluation: R(x) diagnostic evaluation:
+13:01:44 [INFO] caelum.evaluation:   mean R(correct)=-18.745  mean R(incorrect)=nan  mean R(ambig)=-17.548
+13:01:44 [INFO] caelum.evaluation:   AUROC R(x)->hall: 0.500   AUROC -R(x)->ambig: 0.444
+13:01:44 [INFO] caelum.evaluation:   R>0 (epistemic): 0.0%   R<0 (aleatoric): 100.0%
+13:01:44 [INFO] clear_llm: 
+R(x) Distribution:
+        R < -2:   15 (100.0%) ##################################################
+   -2 < R < -1:    0 (  0.0%) 
+    -1 < R < 0:    0 (  0.0%) 
+     0 < R < 1:    0 (  0.0%) 
+     1 < R < 2:    0 (  0.0%) 
+         R > 2:    0 (  0.0%) 
+        median: -22.326
+          mean: -18.745
+13:01:44 [INFO] caelum.evaluation: Generating lambda optimization curve...
+13:01:48 [INFO] caelum.evaluation:   Lambda grid size: 4011 points
+13:01:48 [INFO] caelum.evaluation:   Optimal lambda*: 0.0000
+13:01:49 [INFO] caelum.evaluation: Saved lambda curve to /scratch/iazizi/caelum/src/plots/lambda_curve_Ambiginst.png
+13:01:49 [INFO] caelum.evaluation: Generating diagnostic scatter plot...
+13:01:49 [INFO] caelum.evaluation: Saved diagnostic scatter to /scratch/iazizi/caelum/src/plots/diagnostic_scatter_Ambiginst.png
+13:01:49 [INFO] caelum.calibration: Lambda grid search on Val1 (20 samples, score_mode=hard, weight_fn=additive, randomize=False):
+13:01:49 [INFO] caelum.calibration:   optimal lambda* = 0.0000  (APSS = 1.100)
+13:01:49 [INFO] caelum.calibration: Conformal threshold on Val2 (15 samples):
+13:01:49 [INFO] caelum.calibration:   tau_hat  = 0.5968
+13:01:49 [INFO] caelum.calibration:   Val2 APSS = 2.200
+13:01:49 [INFO] caelum.calibration:   Val2 empirical coverage = 0.933 (target 0.90)
+13:01:49 [INFO] caelum.evaluation: Computing evaluation metrics for Vanilla / Ambiginst (15 samples)...
+13:01:49 [INFO] caelum.evaluation:   Computing coverage...
+13:01:49 [INFO] caelum.evaluation:     Coverage = 1.000
+13:01:49 [INFO] caelum.evaluation:   Computing APSS...
+13:01:49 [INFO] caelum.evaluation:     APSS = 1.60
+13:01:49 [INFO] caelum.evaluation:   Computing AUROC metrics...
+13:01:49 [INFO] caelum.evaluation:   Computing AUPR metrics...
+13:01:49 [INFO] caelum.evaluation: ============================================================
+13:01:49 [INFO] caelum.evaluation: Evaluation results for Vanilla / Ambiginst
+13:01:49 [INFO] caelum.evaluation: ------------------------------------------------------------
+13:01:49 [INFO] caelum.evaluation:   Coverage:          1.000  (target >= 0.90)
+13:01:49 [INFO] caelum.evaluation:   APSS:              1.600
+13:01:49 [INFO] caelum.evaluation:   λ*:                0.0000
+13:01:49 [INFO] caelum.evaluation:   τ̂:                 0.5968
+13:01:49 [INFO] caelum.evaluation:   AUROC(U_epi→hall): 0.500  (baseline U_total: 0.500)
+13:01:49 [INFO] caelum.evaluation:   AUROC(U_ale→ambig):0.444  (baseline U_total: 0.593)
+13:01:49 [INFO] caelum.evaluation:   AUPR(U_epi→hall): 0.000  (baseline U_total: 0.000)
+13:01:49 [INFO] caelum.evaluation:   AUPR(U_ale→ambig):0.719  (baseline U_total: 0.822)
+13:01:49 [INFO] caelum.evaluation: ============================================================
+13:01:49 [INFO] caelum.calibration: Lambda grid search on Val1 (20 samples, score_mode=hard, weight_fn=additive, randomize=False):
+13:01:49 [INFO] caelum.calibration:   optimal lambda* = 1000000.0000  (APSS = 1.550)
+13:01:49 [INFO] caelum.calibration: Conformal threshold on Val2 (15 samples):
+13:01:49 [INFO] caelum.calibration:   tau_hat  = 0.0000
+13:01:49 [INFO] caelum.calibration:   Val2 APSS = 2.067
+13:01:49 [INFO] caelum.calibration:   Val2 empirical coverage = 0.933 (target 0.90)
+13:01:49 [INFO] caelum.evaluation: Computing evaluation metrics for Epistemic-only / Ambiginst (15 samples)...
+13:01:49 [INFO] caelum.evaluation:   Computing coverage...
+13:01:49 [INFO] caelum.evaluation:     Coverage = 1.000
+13:01:49 [INFO] caelum.evaluation:   Computing APSS...
+13:01:49 [INFO] caelum.evaluation:     APSS = 1.47
+13:01:49 [INFO] caelum.evaluation:   Computing AUROC metrics...
+13:01:49 [INFO] caelum.evaluation:   Computing AUPR metrics...
+13:01:49 [INFO] caelum.evaluation: ============================================================
+13:01:49 [INFO] caelum.evaluation: Evaluation results for Epistemic-only / Ambiginst
+13:01:49 [INFO] caelum.evaluation: ------------------------------------------------------------
+13:01:49 [INFO] caelum.evaluation:   Coverage:          1.000  (target >= 0.90)
+13:01:49 [INFO] caelum.evaluation:   APSS:              1.467
+13:01:49 [INFO] caelum.evaluation:   λ*:                1000000.0000
+13:01:49 [INFO] caelum.evaluation:   τ̂:                 0.0000
+13:01:49 [INFO] caelum.evaluation:   AUROC(U_epi→hall): 0.500  (baseline U_total: 0.500)
+13:01:49 [INFO] caelum.evaluation:   AUROC(U_ale→ambig):0.444  (baseline U_total: 0.593)
+13:01:49 [INFO] caelum.evaluation:   AUPR(U_epi→hall): 0.000  (baseline U_total: 0.000)
+13:01:49 [INFO] caelum.evaluation:   AUPR(U_ale→ambig):0.719  (baseline U_total: 0.822)
+13:01:49 [INFO] caelum.evaluation: ============================================================
+13:01:49 [INFO] caelum.evaluation: Generating uncertainty scatter plot (color by: ambiguity)...
+13:01:49 [INFO] caelum.evaluation:   Data points: 15 samples
+13:01:49 [INFO] caelum.evaluation: Saved scatter plot to /scratch/iazizi/caelum/src/plots/scatter_Ambiginst.png
+13:01:49 [INFO] clear_llm: Finished Ambiginst in 12.4 minutes.
+13:01:49 [INFO] clear_llm: 
+| Method | Dataset | Coverage | APSS | AUROC (Hall.) | AUROC (Ambig.) | λ* |
+|--------|---------|----------|------|---------------|----------------|----|
+| CAELUM | Ambiginst | 1.000 | 1.60 | 0.500 | 0.444 | 0.000 |
+| Vanilla | Ambiginst | 1.000 | 1.60 | 0.500 | 0.444 | 0.000 |
+| EpistemicOnly | Ambiginst | 1.000 | 1.47 | 0.500 | 0.444 | 1000000.000 |
+| SemanticEntropy | Ambiginst | nan | nan | 0.500 | 0.593 | nan |
+13:01:49 [INFO] clear_llm: Saved results to /scratch/iazizi/caelum/src/results/results_summary.json
+13:01:49 [INFO] clear_llm: Saved results table to /scratch/iazizi/caelum/src/results/results_table.md
+13:01:49 [INFO] clear_llm: ======================================================================
+13:01:49 [INFO] clear_llm: TOTAL RUNTIME: 12.4 minutes (746 seconds)
+13:01:49 [INFO] clear_llm: Log saved to: /scratch/iazizi/caelum/src/results/pipeline_qwen3_8b_vne_ambiginst_50.txt
+13:01:49 [INFO] clear_llm: ======================================================================

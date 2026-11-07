@@ -1,0 +1,15 @@
+{
+ "input": "unc_opennq_qwen3_8b_vne_300.json",
+ "input_sha256": "74bc5544c8a796da0223df0daa4f2e9bc585970a4dc1f24dcdd40e9aaddadde7",
+ "n": 300,
+ "label_resolution": {
+  "gpu": 300,
+  "cpu": 0,
+  "failed": 0
+ },
+ "sts_unique_pairs": 60084,
+ "seconds": 292.51660799980164,
+ "model": "cross-encoder/stsb-roberta-large",
+ "revision": "2b12c2c0088918e76151fd5937b7bba986ef1f98",
+ "job": "20002150"
+}

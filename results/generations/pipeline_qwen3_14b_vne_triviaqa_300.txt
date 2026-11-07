@@ -1,0 +1,160 @@
+10:44:19 [INFO] clear_llm: ======================================================================
+10:44:19 [INFO] clear_llm: CAELUM Experiment Pipeline
+10:44:19 [INFO] clear_llm: ======================================================================
+10:44:19 [INFO] clear_llm: Log file: /scratch/iazizi/caelum/src/results/pipeline_qwen3_14b_vne_triviaqa_300.txt
+10:44:19 [INFO] clear_llm: Config: {
+  "dataset": "triviaqa",
+  "n_samples": 300,
+  "triviaqa_path": "/scratch/iazizi/caelum/data/eval/TriviaQA.json",
+  "ambigqa_path": null,
+  "opennq_path": null,
+  "ambiginst_path": null,
+  "simpleqa_path": null,
+  "popqa_path": null,
+  "condambigqa_path": null,
+  "model_name": "Qwen/Qwen3-14B",
+  "backend": "hf",
+  "engine_dir": null,
+  "clarif_provider": "none",
+  "clarif_model": null,
+  "n_clarifications": 5,
+  "n_answers": 10,
+  "uncertainty_method": "vne",
+  "vne_gamma": 1.0,
+  "cluster_threshold": 0.7,
+  "use_nli": false,
+  "alpha": 0.1,
+  "weight_fn": "additive",
+  "randomize": false,
+  "seed": 42,
+  "regenerate": false
+}
+10:44:19 [INFO] caelum.utils: Loaded 300 TriviaQA samples from /scratch/iazizi/caelum/data/eval/TriviaQA.json
+10:44:19 [INFO] clear_llm: Loading cached generations from /scratch/iazizi/caelum/src/results/gen_triviaqa_qwen3_14b_300.json
+10:44:19 [INFO] clear_llm: Loading cached uncertainties from /scratch/iazizi/caelum/src/results/unc_triviaqa_qwen3_14b_vne_300.json
+10:44:19 [INFO] clear_llm: === Stage: Calibrate & Evaluate (Triviaqa, 300 samples) ===
+10:44:19 [INFO] caelum.utils: Split 300 items -> Val1=120, Val2=90, Test=90
+10:44:19 [INFO] clear_llm: Split: Val1=120, Val2=90, Test=90
+10:44:24 [INFO] caelum.calibration: Lambda grid search on Val1 (120 samples, score_mode=hard, weight_fn=additive, randomize=False, selection=argmin_apss, support_cond=False):
+10:44:24 [INFO] caelum.calibration:   Val1 matched: quantile subset=120/120, objective subset=120/120
+10:44:24 [INFO] caelum.calibration:   optimal lambda* = 11.4091  (objective = 1.350)
+10:44:24 [INFO] caelum.calibration: Conformal threshold on Val2 (90 samples, 90 matched):
+10:44:24 [INFO] caelum.calibration:   tau_hat  = 0.2697
+10:44:24 [INFO] caelum.calibration:   Val2 APSS = 1.522
+10:44:24 [INFO] caelum.calibration:   Val2 empirical coverage = 0.811 (target 0.90)
+10:44:24 [INFO] caelum.calibration:   Val2 matched-stratum coverage = 1.000
+10:44:24 [INFO] caelum.evaluation: Computing evaluation metrics for CAELUM / Triviaqa (90 samples)...
+10:44:24 [INFO] caelum.evaluation:   Computing coverage...
+10:44:24 [INFO] caelum.evaluation:     Coverage = 0.833
+10:44:24 [INFO] caelum.evaluation:   Computing APSS...
+10:44:24 [INFO] caelum.evaluation:     APSS = 1.57
+10:44:24 [INFO] caelum.evaluation:   Computing AUROC metrics...
+10:44:24 [INFO] caelum.evaluation:   Computing AUPR metrics...
+10:44:24 [INFO] caelum.evaluation: ============================================================
+10:44:24 [INFO] caelum.evaluation: Evaluation results for CAELUM / Triviaqa
+10:44:24 [INFO] caelum.evaluation: ------------------------------------------------------------
+10:44:24 [INFO] caelum.evaluation:   Coverage:          0.833  (target >= 0.90)
+10:44:24 [INFO] caelum.evaluation:   APSS:              1.567
+10:44:24 [INFO] caelum.evaluation:   λ*:                11.4091
+10:44:24 [INFO] caelum.evaluation:   τ̂:                 0.2697
+10:44:24 [INFO] caelum.evaluation:   AUROC(U_epi→hall): 0.782  (baseline U_total: 0.789)
+10:44:24 [INFO] caelum.evaluation:   AUROC(U_ale→ambig):0.500  (baseline U_total: 0.500)
+10:44:24 [INFO] caelum.evaluation:   AUPR(U_epi→hall): 0.607  (baseline U_total: 0.557)
+10:44:24 [INFO] caelum.evaluation:   AUPR(U_ale→ambig):0.000  (baseline U_total: 0.000)
+10:44:24 [INFO] caelum.evaluation: ============================================================
+10:44:24 [INFO] clear_llm: Stratified coverage on TEST (by U_total quartile):
+10:44:24 [INFO] clear_llm:   Q1: n= 23  coverage=0.957  APSS=1.00  edge<=0.474
+10:44:24 [INFO] clear_llm:   Q2: n= 22  coverage=0.955  APSS=1.00  edge<=0.640
+10:44:24 [INFO] clear_llm:   Q3: n= 22  coverage=0.773  APSS=1.14  edge<=0.980
+10:44:24 [INFO] clear_llm:   Q4: n= 23  coverage=0.652  APSS=3.09  edge<=1.858
+10:44:24 [INFO] caelum.evaluation: R(x) diagnostic evaluation:
+10:44:24 [INFO] caelum.evaluation:   mean R(correct)=-0.684  mean R(incorrect)=0.728  mean R(ambig)=nan
+10:44:24 [INFO] caelum.evaluation:   AUROC R(x)->hall: 0.767   AUROC -R(x)->ambig: 0.500
+10:44:24 [INFO] caelum.evaluation:   R>0 (epistemic): 68.9%   R<0 (aleatoric): 31.1%
+10:44:24 [INFO] clear_llm: 
+R(x) Distribution:
+        R < -2:   11 ( 12.2%) ######
+   -2 < R < -1:    7 (  7.8%) ###
+    -1 < R < 0:   10 ( 11.1%) #####
+     0 < R < 1:   26 ( 28.9%) ##############
+     1 < R < 2:   23 ( 25.6%) ############
+         R > 2:   13 ( 14.4%) #######
+        median: +0.800
+          mean: -0.449
+10:44:24 [INFO] caelum.evaluation: Generating lambda optimization curve...
+10:44:26 [INFO] caelum.evaluation:   Lambda grid size: 4011 points
+10:44:26 [INFO] caelum.evaluation:   Optimal lambda*: 11.4091
+10:44:27 [INFO] caelum.evaluation: Saved lambda curve to /scratch/iazizi/caelum/src/plots/lambda_curve_Triviaqa.png
+10:44:27 [INFO] caelum.evaluation: Generating diagnostic scatter plot...
+10:44:27 [INFO] caelum.evaluation: Saved diagnostic scatter to /scratch/iazizi/caelum/src/plots/diagnostic_scatter_Triviaqa.png
+10:44:27 [INFO] caelum.calibration: Lambda grid search on Val1 (120 samples, score_mode=hard, weight_fn=additive, randomize=False, selection=argmin_apss, support_cond=False):
+10:44:27 [INFO] caelum.calibration:   Val1 matched: quantile subset=120/120, objective subset=120/120
+10:44:27 [INFO] caelum.calibration:   optimal lambda* = 0.0000  (objective = 1.408)
+10:44:27 [INFO] caelum.calibration: Conformal threshold on Val2 (90 samples, 90 matched):
+10:44:27 [INFO] caelum.calibration:   tau_hat  = 0.6938
+10:44:27 [INFO] caelum.calibration:   Val2 APSS = 1.522
+10:44:27 [INFO] caelum.calibration:   Val2 empirical coverage = 0.811 (target 0.90)
+10:44:27 [INFO] caelum.calibration:   Val2 matched-stratum coverage = 1.000
+10:44:27 [INFO] caelum.evaluation: Computing evaluation metrics for Vanilla / Triviaqa (90 samples)...
+10:44:27 [INFO] caelum.evaluation:   Computing coverage...
+10:44:27 [INFO] caelum.evaluation:     Coverage = 0.833
+10:44:27 [INFO] caelum.evaluation:   Computing APSS...
+10:44:27 [INFO] caelum.evaluation:     APSS = 1.59
+10:44:27 [INFO] caelum.evaluation:   Computing AUROC metrics...
+10:44:27 [INFO] caelum.evaluation:   Computing AUPR metrics...
+10:44:27 [INFO] caelum.evaluation: ============================================================
+10:44:27 [INFO] caelum.evaluation: Evaluation results for Vanilla / Triviaqa
+10:44:27 [INFO] caelum.evaluation: ------------------------------------------------------------
+10:44:27 [INFO] caelum.evaluation:   Coverage:          0.833  (target >= 0.90)
+10:44:27 [INFO] caelum.evaluation:   APSS:              1.589
+10:44:27 [INFO] caelum.evaluation:   λ*:                0.0000
+10:44:27 [INFO] caelum.evaluation:   τ̂:                 0.6938
+10:44:27 [INFO] caelum.evaluation:   AUROC(U_epi→hall): 0.782  (baseline U_total: 0.789)
+10:44:27 [INFO] caelum.evaluation:   AUROC(U_ale→ambig):0.500  (baseline U_total: 0.500)
+10:44:27 [INFO] caelum.evaluation:   AUPR(U_epi→hall): 0.607  (baseline U_total: 0.557)
+10:44:27 [INFO] caelum.evaluation:   AUPR(U_ale→ambig):0.000  (baseline U_total: 0.000)
+10:44:27 [INFO] caelum.evaluation: ============================================================
+10:44:27 [INFO] caelum.calibration: Lambda grid search on Val1 (120 samples, score_mode=hard, weight_fn=additive, randomize=False, selection=argmin_apss, support_cond=False):
+10:44:27 [INFO] caelum.calibration:   Val1 matched: quantile subset=120/120, objective subset=120/120
+10:44:27 [INFO] caelum.calibration:   optimal lambda* = 1000000.0000  (objective = 1.350)
+10:44:27 [INFO] caelum.calibration: Conformal threshold on Val2 (90 samples, 90 matched):
+10:44:27 [INFO] caelum.calibration:   tau_hat  = 0.0000
+10:44:27 [INFO] caelum.calibration:   Val2 APSS = 1.511
+10:44:27 [INFO] caelum.calibration:   Val2 empirical coverage = 0.811 (target 0.90)
+10:44:27 [INFO] caelum.calibration:   Val2 matched-stratum coverage = 1.000
+10:44:27 [INFO] caelum.evaluation: Computing evaluation metrics for Epistemic-only / Triviaqa (90 samples)...
+10:44:27 [INFO] caelum.evaluation:   Computing coverage...
+10:44:27 [INFO] caelum.evaluation:     Coverage = 0.833
+10:44:27 [INFO] caelum.evaluation:   Computing APSS...
+10:44:27 [INFO] caelum.evaluation:     APSS = 1.56
+10:44:27 [INFO] caelum.evaluation:   Computing AUROC metrics...
+10:44:27 [INFO] caelum.evaluation:   Computing AUPR metrics...
+10:44:27 [INFO] caelum.evaluation: ============================================================
+10:44:27 [INFO] caelum.evaluation: Evaluation results for Epistemic-only / Triviaqa
+10:44:27 [INFO] caelum.evaluation: ------------------------------------------------------------
+10:44:27 [INFO] caelum.evaluation:   Coverage:          0.833  (target >= 0.90)
+10:44:27 [INFO] caelum.evaluation:   APSS:              1.556
+10:44:27 [INFO] caelum.evaluation:   λ*:                1000000.0000
+10:44:27 [INFO] caelum.evaluation:   τ̂:                 0.0000
+10:44:27 [INFO] caelum.evaluation:   AUROC(U_epi→hall): 0.782  (baseline U_total: 0.789)
+10:44:27 [INFO] caelum.evaluation:   AUROC(U_ale→ambig):0.500  (baseline U_total: 0.500)
+10:44:27 [INFO] caelum.evaluation:   AUPR(U_epi→hall): 0.607  (baseline U_total: 0.557)
+10:44:27 [INFO] caelum.evaluation:   AUPR(U_ale→ambig):0.000  (baseline U_total: 0.000)
+10:44:27 [INFO] caelum.evaluation: ============================================================
+10:44:27 [INFO] caelum.evaluation: Generating uncertainty scatter plot (color by: correctness)...
+10:44:27 [INFO] caelum.evaluation:   Data points: 90 samples
+10:44:27 [INFO] caelum.evaluation: Saved scatter plot to /scratch/iazizi/caelum/src/plots/scatter_Triviaqa.png
+10:44:27 [INFO] clear_llm: Finished Triviaqa in 0.1 minutes.
+10:44:27 [INFO] clear_llm: 
+| Method | Dataset | Coverage | APSS | AUROC (Hall.) | AUROC (Ambig.) | λ* |
+|--------|---------|----------|------|---------------|----------------|----|
+| CAELUM | Triviaqa | 0.833 | 1.57 | 0.782 | 0.500 | 11.409 |
+| Vanilla | Triviaqa | 0.833 | 1.59 | 0.782 | 0.500 | 0.000 |
+| EpistemicOnly | Triviaqa | 0.833 | 1.56 | 0.782 | 0.500 | 1000000.000 |
+| SemanticEntropy | Triviaqa | nan | nan | 0.789 | 0.500 | nan |
+10:44:27 [INFO] clear_llm: Saved results to /scratch/iazizi/caelum/src/results/results_summary.json
+10:44:27 [INFO] clear_llm: Saved results table to /scratch/iazizi/caelum/src/results/results_table.md
+10:44:27 [INFO] clear_llm: ======================================================================
+10:44:27 [INFO] clear_llm: TOTAL RUNTIME: 0.1 minutes (8 seconds)
+10:44:27 [INFO] clear_llm: Log saved to: /scratch/iazizi/caelum/src/results/pipeline_qwen3_14b_vne_triviaqa_300.txt
+10:44:27 [INFO] clear_llm: ======================================================================

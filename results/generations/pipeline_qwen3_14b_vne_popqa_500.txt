@@ -1,0 +1,178 @@
+10:44:43 [INFO] clear_llm: ======================================================================
+10:44:43 [INFO] clear_llm: CAELUM Experiment Pipeline
+10:44:43 [INFO] clear_llm: ======================================================================
+10:44:43 [INFO] clear_llm: Log file: /scratch/iazizi/caelum/src/results/pipeline_qwen3_14b_vne_popqa_500.txt
+10:44:43 [INFO] clear_llm: Config: {
+  "dataset": "popqa",
+  "n_samples": 500,
+  "triviaqa_path": null,
+  "ambigqa_path": null,
+  "opennq_path": null,
+  "ambiginst_path": null,
+  "simpleqa_path": null,
+  "popqa_path": "/scratch/iazizi/caelum/data/eval/PopQA.json",
+  "condambigqa_path": null,
+  "model_name": "Qwen/Qwen3-14B",
+  "backend": "hf",
+  "engine_dir": null,
+  "clarif_provider": "none",
+  "clarif_model": null,
+  "n_clarifications": 5,
+  "n_answers": 10,
+  "uncertainty_method": "vne",
+  "vne_gamma": 1.0,
+  "cluster_threshold": 0.7,
+  "use_nli": false,
+  "alpha": 0.1,
+  "weight_fn": "additive",
+  "randomize": false,
+  "seed": 42,
+  "regenerate": false
+}
+10:44:43 [INFO] caelum.utils: Loaded 500 PopQA samples from /scratch/iazizi/caelum/data/eval/PopQA.json
+10:44:43 [INFO] clear_llm: Loading cached generations from /scratch/iazizi/caelum/src/results/gen_popqa_qwen3_14b_500.json
+10:44:43 [INFO] clear_llm: Loading cached uncertainties from /scratch/iazizi/caelum/src/results/unc_popqa_qwen3_14b_vne_500.json
+10:44:43 [INFO] clear_llm: === Stage: Calibrate & Evaluate (Popqa, 500 samples) ===
+10:44:43 [INFO] caelum.utils: Split 500 items -> Val1=200, Val2=150, Test=150
+10:44:43 [INFO] clear_llm: Split: Val1=200, Val2=150, Test=150
+10:44:50 [INFO] caelum.calibration: Lambda grid search on Val1 (200 samples, score_mode=hard, weight_fn=additive, randomize=False, selection=argmin_apss, support_cond=False):
+10:44:50 [INFO] caelum.calibration:   Val1 matched: quantile subset=200/200, objective subset=200/200
+10:44:50 [INFO] caelum.calibration:   optimal lambda* = 28.4446  (objective = 1.780)
+10:44:50 [INFO] caelum.calibration: Conformal threshold on Val2 (150 samples, 150 matched):
+10:44:50 [INFO] caelum.calibration:   tau_hat  = 0.1093
+10:44:50 [INFO] caelum.calibration:   Val2 APSS = 1.967
+10:44:50 [INFO] caelum.calibration:   Val2 empirical coverage = 0.547 (target 0.90)
+10:44:50 [INFO] caelum.calibration:   Val2 matched-stratum coverage = 1.000
+10:44:50 [INFO] caelum.evaluation: Computing evaluation metrics for CAELUM / Popqa (150 samples)...
+10:44:50 [INFO] caelum.evaluation:   Computing coverage...
+10:44:50 [INFO] caelum.evaluation:     Coverage: processed 50/150 samples...
+10:44:50 [INFO] caelum.evaluation:     Coverage: processed 100/150 samples...
+10:44:50 [INFO] caelum.evaluation:     Coverage: processed 150/150 samples...
+10:44:50 [INFO] caelum.evaluation:     Coverage = 0.520
+10:44:50 [INFO] caelum.evaluation:   Computing APSS...
+10:44:50 [INFO] caelum.evaluation:     APSS: processed 50/150 samples...
+10:44:50 [INFO] caelum.evaluation:     APSS: processed 100/150 samples...
+10:44:50 [INFO] caelum.evaluation:     APSS: processed 150/150 samples...
+10:44:50 [INFO] caelum.evaluation:     APSS = 1.69
+10:44:50 [INFO] caelum.evaluation:   Computing AUROC metrics...
+10:44:50 [INFO] caelum.evaluation:   Computing AUPR metrics...
+10:44:50 [INFO] caelum.evaluation: ============================================================
+10:44:50 [INFO] caelum.evaluation: Evaluation results for CAELUM / Popqa
+10:44:50 [INFO] caelum.evaluation: ------------------------------------------------------------
+10:44:50 [INFO] caelum.evaluation:   Coverage:          0.520  (target >= 0.90)
+10:44:50 [INFO] caelum.evaluation:   APSS:              1.693
+10:44:50 [INFO] caelum.evaluation:   λ*:                28.4446
+10:44:50 [INFO] caelum.evaluation:   τ̂:                 0.1093
+10:44:50 [INFO] caelum.evaluation:   AUROC(U_epi→hall): 0.783  (baseline U_total: 0.778)
+10:44:50 [INFO] caelum.evaluation:   AUROC(U_ale→ambig):0.500  (baseline U_total: 0.500)
+10:44:50 [INFO] caelum.evaluation:   AUPR(U_epi→hall): 0.728  (baseline U_total: 0.717)
+10:44:50 [INFO] caelum.evaluation:   AUPR(U_ale→ambig):0.000  (baseline U_total: 0.000)
+10:44:50 [INFO] caelum.evaluation: ============================================================
+10:44:50 [INFO] clear_llm: Stratified coverage on TEST (by U_total quartile):
+10:44:50 [INFO] clear_llm:   Q1: n= 38  coverage=0.868  APSS=1.00  edge<=0.586
+10:44:50 [INFO] clear_llm:   Q2: n= 37  coverage=0.622  APSS=1.11  edge<=0.934
+10:44:50 [INFO] clear_llm:   Q3: n= 37  coverage=0.270  APSS=1.73  edge<=1.250
+10:44:50 [INFO] clear_llm:   Q4: n= 38  coverage=0.316  APSS=2.92  edge<=1.823
+10:44:50 [INFO] caelum.evaluation: R(x) diagnostic evaluation:
+10:44:50 [INFO] caelum.evaluation:   mean R(correct)=0.980  mean R(incorrect)=2.767  mean R(ambig)=nan
+10:44:50 [INFO] caelum.evaluation:   AUROC R(x)->hall: 0.741   AUROC -R(x)->ambig: 0.500
+10:44:50 [INFO] caelum.evaluation:   R>0 (epistemic): 93.3%   R<0 (aleatoric): 6.7%
+10:44:50 [INFO] clear_llm: 
+R(x) Distribution:
+        R < -2:    6 (  4.0%) ##
+   -2 < R < -1:    1 (  0.7%) 
+    -1 < R < 0:    3 (  2.0%) #
+     0 < R < 1:   10 (  6.7%) ###
+     1 < R < 2:   19 ( 12.7%) ######
+         R > 2:  111 ( 74.0%) #####################################
+        median: +2.624
+          mean: +1.838
+10:44:50 [INFO] caelum.evaluation: Generating lambda optimization curve...
+10:44:51 [INFO] caelum.evaluation:   Lambda grid size: 4011 points
+10:44:51 [INFO] caelum.evaluation:   Optimal lambda*: 28.4446
+10:44:51 [INFO] caelum.evaluation: Saved lambda curve to /scratch/iazizi/caelum/src/plots/lambda_curve_Popqa.png
+10:44:51 [INFO] caelum.evaluation: Generating diagnostic scatter plot...
+10:44:51 [INFO] caelum.evaluation: Saved diagnostic scatter to /scratch/iazizi/caelum/src/plots/diagnostic_scatter_Popqa.png
+10:44:51 [INFO] caelum.calibration: Lambda grid search on Val1 (200 samples, score_mode=hard, weight_fn=additive, randomize=False, selection=argmin_apss, support_cond=False):
+10:44:51 [INFO] caelum.calibration:   Val1 matched: quantile subset=200/200, objective subset=200/200
+10:44:51 [INFO] caelum.calibration:   optimal lambda* = 0.0000  (objective = 1.815)
+10:44:51 [INFO] caelum.calibration: Conformal threshold on Val2 (150 samples, 150 matched):
+10:44:51 [INFO] caelum.calibration:   tau_hat  = 0.6699
+10:44:51 [INFO] caelum.calibration:   Val2 APSS = 2.007
+10:44:51 [INFO] caelum.calibration:   Val2 empirical coverage = 0.547 (target 0.90)
+10:44:51 [INFO] caelum.calibration:   Val2 matched-stratum coverage = 1.000
+10:44:51 [INFO] caelum.evaluation: Computing evaluation metrics for Vanilla / Popqa (150 samples)...
+10:44:51 [INFO] caelum.evaluation:   Computing coverage...
+10:44:51 [INFO] caelum.evaluation:     Coverage: processed 50/150 samples...
+10:44:51 [INFO] caelum.evaluation:     Coverage: processed 100/150 samples...
+10:44:51 [INFO] caelum.evaluation:     Coverage: processed 150/150 samples...
+10:44:51 [INFO] caelum.evaluation:     Coverage = 0.520
+10:44:51 [INFO] caelum.evaluation:   Computing APSS...
+10:44:51 [INFO] caelum.evaluation:     APSS: processed 50/150 samples...
+10:44:51 [INFO] caelum.evaluation:     APSS: processed 100/150 samples...
+10:44:51 [INFO] caelum.evaluation:     APSS: processed 150/150 samples...
+10:44:51 [INFO] caelum.evaluation:     APSS = 1.72
+10:44:51 [INFO] caelum.evaluation:   Computing AUROC metrics...
+10:44:51 [INFO] caelum.evaluation:   Computing AUPR metrics...
+10:44:51 [INFO] caelum.evaluation: ============================================================
+10:44:51 [INFO] caelum.evaluation: Evaluation results for Vanilla / Popqa
+10:44:51 [INFO] caelum.evaluation: ------------------------------------------------------------
+10:44:51 [INFO] caelum.evaluation:   Coverage:          0.520  (target >= 0.90)
+10:44:51 [INFO] caelum.evaluation:   APSS:              1.720
+10:44:51 [INFO] caelum.evaluation:   λ*:                0.0000
+10:44:51 [INFO] caelum.evaluation:   τ̂:                 0.6699
+10:44:51 [INFO] caelum.evaluation:   AUROC(U_epi→hall): 0.783  (baseline U_total: 0.778)
+10:44:51 [INFO] caelum.evaluation:   AUROC(U_ale→ambig):0.500  (baseline U_total: 0.500)
+10:44:51 [INFO] caelum.evaluation:   AUPR(U_epi→hall): 0.728  (baseline U_total: 0.717)
+10:44:51 [INFO] caelum.evaluation:   AUPR(U_ale→ambig):0.000  (baseline U_total: 0.000)
+10:44:51 [INFO] caelum.evaluation: ============================================================
+10:44:51 [INFO] caelum.calibration: Lambda grid search on Val1 (200 samples, score_mode=hard, weight_fn=additive, randomize=False, selection=argmin_apss, support_cond=False):
+10:44:51 [INFO] caelum.calibration:   Val1 matched: quantile subset=200/200, objective subset=200/200
+10:44:51 [INFO] caelum.calibration:   optimal lambda* = 1000000.0000  (objective = 1.780)
+10:44:51 [INFO] caelum.calibration: Conformal threshold on Val2 (150 samples, 150 matched):
+10:44:51 [INFO] caelum.calibration:   tau_hat  = 0.0000
+10:44:51 [INFO] caelum.calibration:   Val2 APSS = 1.953
+10:44:51 [INFO] caelum.calibration:   Val2 empirical coverage = 0.547 (target 0.90)
+10:44:51 [INFO] caelum.calibration:   Val2 matched-stratum coverage = 1.000
+10:44:51 [INFO] caelum.evaluation: Computing evaluation metrics for Epistemic-only / Popqa (150 samples)...
+10:44:51 [INFO] caelum.evaluation:   Computing coverage...
+10:44:51 [INFO] caelum.evaluation:     Coverage: processed 50/150 samples...
+10:44:51 [INFO] caelum.evaluation:     Coverage: processed 100/150 samples...
+10:44:51 [INFO] caelum.evaluation:     Coverage: processed 150/150 samples...
+10:44:51 [INFO] caelum.evaluation:     Coverage = 0.520
+10:44:51 [INFO] caelum.evaluation:   Computing APSS...
+10:44:51 [INFO] caelum.evaluation:     APSS: processed 50/150 samples...
+10:44:51 [INFO] caelum.evaluation:     APSS: processed 100/150 samples...
+10:44:51 [INFO] caelum.evaluation:     APSS: processed 150/150 samples...
+10:44:51 [INFO] caelum.evaluation:     APSS = 1.67
+10:44:51 [INFO] caelum.evaluation:   Computing AUROC metrics...
+10:44:51 [INFO] caelum.evaluation:   Computing AUPR metrics...
+10:44:51 [INFO] caelum.evaluation: ============================================================
+10:44:51 [INFO] caelum.evaluation: Evaluation results for Epistemic-only / Popqa
+10:44:51 [INFO] caelum.evaluation: ------------------------------------------------------------
+10:44:51 [INFO] caelum.evaluation:   Coverage:          0.520  (target >= 0.90)
+10:44:51 [INFO] caelum.evaluation:   APSS:              1.673
+10:44:51 [INFO] caelum.evaluation:   λ*:                1000000.0000
+10:44:51 [INFO] caelum.evaluation:   τ̂:                 0.0000
+10:44:51 [INFO] caelum.evaluation:   AUROC(U_epi→hall): 0.783  (baseline U_total: 0.778)
+10:44:51 [INFO] caelum.evaluation:   AUROC(U_ale→ambig):0.500  (baseline U_total: 0.500)
+10:44:51 [INFO] caelum.evaluation:   AUPR(U_epi→hall): 0.728  (baseline U_total: 0.717)
+10:44:51 [INFO] caelum.evaluation:   AUPR(U_ale→ambig):0.000  (baseline U_total: 0.000)
+10:44:51 [INFO] caelum.evaluation: ============================================================
+10:44:51 [INFO] caelum.evaluation: Generating uncertainty scatter plot (color by: correctness)...
+10:44:51 [INFO] caelum.evaluation:   Data points: 150 samples
+10:44:52 [INFO] caelum.evaluation: Saved scatter plot to /scratch/iazizi/caelum/src/plots/scatter_Popqa.png
+10:44:52 [INFO] clear_llm: Finished Popqa in 0.1 minutes.
+10:44:52 [INFO] clear_llm: 
+| Method | Dataset | Coverage | APSS | AUROC (Hall.) | AUROC (Ambig.) | λ* |
+|--------|---------|----------|------|---------------|----------------|----|
+| CAELUM | Popqa | 0.520 | 1.69 | 0.783 | 0.500 | 28.445 |
+| Vanilla | Popqa | 0.520 | 1.72 | 0.783 | 0.500 | 0.000 |
+| EpistemicOnly | Popqa | 0.520 | 1.67 | 0.783 | 0.500 | 1000000.000 |
+| SemanticEntropy | Popqa | nan | nan | 0.778 | 0.500 | nan |
+10:44:52 [INFO] clear_llm: Saved results to /scratch/iazizi/caelum/src/results/results_summary.json
+10:44:52 [INFO] clear_llm: Saved results table to /scratch/iazizi/caelum/src/results/results_table.md
+10:44:52 [INFO] clear_llm: ======================================================================
+10:44:52 [INFO] clear_llm: TOTAL RUNTIME: 0.1 minutes (9 seconds)
+10:44:52 [INFO] clear_llm: Log saved to: /scratch/iazizi/caelum/src/results/pipeline_qwen3_14b_vne_popqa_500.txt
+10:44:52 [INFO] clear_llm: ======================================================================

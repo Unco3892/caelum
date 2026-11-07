@@ -1,0 +1,15 @@
+{
+ "input": "unc_simpleqa_gemma_4_e4b_it_vne_500.json",
+ "input_sha256": "41967a0527b25d3f73f1cf1933765a6aaaba30ff363dd0ba084f37d0cef11b55",
+ "n": 500,
+ "label_resolution": {
+  "gpu": 500,
+  "cpu": 0,
+  "failed": 0
+ },
+ "sts_unique_pairs": 228990,
+ "seconds": 1456.3918385505676,
+ "model": "cross-encoder/stsb-roberta-large",
+ "revision": "2b12c2c0088918e76151fd5937b7bba986ef1f98",
+ "job": "20002164"
+}

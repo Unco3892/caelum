@@ -1,0 +1,15 @@
+{
+ "input": "unc_opennq_ministral_3_8b_instruct_2512_vne_300.json",
+ "input_sha256": "cf774877bf3d6f35993db366b7d99cf72ce808255f18d55b3d7181a2d12e0662",
+ "n": 300,
+ "label_resolution": {
+  "gpu": 300,
+  "cpu": 0,
+  "failed": 0
+ },
+ "sts_unique_pairs": 259444,
+ "seconds": 1662.7640838623047,
+ "model": "cross-encoder/stsb-roberta-large",
+ "revision": "2b12c2c0088918e76151fd5937b7bba986ef1f98",
+ "job": "20002156"
+}

@@ -1,0 +1,15 @@
+{
+ "input": "unc_popqa_ministral_3_8b_instruct_2512_vne_500.json",
+ "input_sha256": "f071346779f3a594389871b68d46cc1dcf3512900843c146b24b448570d573cc",
+ "n": 500,
+ "label_resolution": {
+  "gpu": 500,
+  "cpu": 0,
+  "failed": 0
+ },
+ "sts_unique_pairs": 504049,
+ "seconds": 2819.4735538959503,
+ "model": "cross-encoder/stsb-roberta-large",
+ "revision": "2b12c2c0088918e76151fd5937b7bba986ef1f98",
+ "job": "20002159"
+}

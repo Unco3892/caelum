@@ -1,0 +1,2702 @@
+[
+    {
+        "question_id": 0,
+        "datapoint_id": 1452,
+        "question": "dogs name in the grinch who stole christmas",
+        "gt_answer": "Max",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 1,
+        "datapoint_id": 304,
+        "question": "where is the 7th game of the world series played",
+        "gt_answer": "at the site of the team holding the home advantage across the series",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 2,
+        "datapoint_id": 3838,
+        "question": "who designed the earth day flag in 1969",
+        "gt_answer": "John McConnell",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 3,
+        "datapoint_id": 3443,
+        "question": "when did sierra nevada brewery open in asheville",
+        "gt_answer": "early 2014",
+        "annotation_idx": 2,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 4,
+        "datapoint_id": 3198,
+        "question": "who is the actor that plays jt on the young and the restless",
+        "gt_answer": "Thaddeus Rowe Luckinbill",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 5,
+        "datapoint_id": 1923,
+        "question": "who plays sheila carter on the bold and the beautiful",
+        "gt_answer": "Kimberlin Brown",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 6,
+        "datapoint_id": 1285,
+        "question": "who sang what are we doing in love",
+        "gt_answer": "Dottie West with the uncredited vocals of Kenny Rogers",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 7,
+        "datapoint_id": 7514,
+        "question": "when did little polveir win the grand national",
+        "gt_answer": "1989",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 8,
+        "datapoint_id": 1094,
+        "question": "what is the latest version of chrome for linux",
+        "gt_answer": "67.0",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 9,
+        "datapoint_id": 5880,
+        "question": "when was the last time the boston red sox pitched a no-hitter",
+        "gt_answer": "May 19 , 2008",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 10,
+        "datapoint_id": 429,
+        "question": "who played mrs warboys in one foot in the grave",
+        "gt_answer": "Doreen Mantle",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 11,
+        "datapoint_id": 408,
+        "question": "what was the full name of the titanic",
+        "gt_answer": "RMS Titanic",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 12,
+        "datapoint_id": 1183,
+        "question": "who won season 2 of great british baking show",
+        "gt_answer": "Joanne Wheatley",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 13,
+        "datapoint_id": 3111,
+        "question": "when is season 3 of grace and frankie being released",
+        "gt_answer": "March 24 , 2017",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 14,
+        "datapoint_id": 3325,
+        "question": "who played the middle sister on full house",
+        "gt_answer": "Jodie Sweetin",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 15,
+        "datapoint_id": 7057,
+        "question": "where is san miguel de allende in mexico",
+        "gt_answer": "in the far eastern part of the state of Guanajuato in central Mexico",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 16,
+        "datapoint_id": 372,
+        "question": "sending money home to the native country is an example of",
+        "gt_answer": "remittance",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 17,
+        "datapoint_id": 7727,
+        "question": "who sponsored the phoenix open before waste management",
+        "gt_answer": "the investment bank Friedman Billings Ramsey",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 18,
+        "datapoint_id": 2856,
+        "question": "when did britain set up east indian trading company",
+        "gt_answer": "31 December 1600",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 19,
+        "datapoint_id": 5836,
+        "question": "what olympic athlete has won the most medals",
+        "gt_answer": "Michael Phelps",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 20,
+        "datapoint_id": 3147,
+        "question": "where is wake forest located in north carolina",
+        "gt_answer": "almost entirely in Wake County , it lies just north of the state capital , Raleigh",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 21,
+        "datapoint_id": 6291,
+        "question": "who sang the superbowl national anthem in 2017",
+        "gt_answer": "Luke Bryan",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 22,
+        "datapoint_id": 3869,
+        "question": "which movie wins 4 awards in 75th golden globe award",
+        "gt_answer": "Three Billboards Outside Ebbing , Missouri",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 23,
+        "datapoint_id": 80,
+        "question": "who breaks a tie in the us senate",
+        "gt_answer": "The Vice President of the United States",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 24,
+        "datapoint_id": 2239,
+        "question": "who wrote the song city of new orleans",
+        "gt_answer": "Steve Goodman",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 25,
+        "datapoint_id": 5885,
+        "question": "how many levels are there on the eiffel tower",
+        "gt_answer": "three",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 26,
+        "datapoint_id": 4707,
+        "question": "who sang let me tell you about the birds and the bees",
+        "gt_answer": "Jewel Akens",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 27,
+        "datapoint_id": 2192,
+        "question": "who sings i want to dance with you",
+        "gt_answer": "George Strait",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 28,
+        "datapoint_id": 3067,
+        "question": "who was executed for being an american spy during the revolutionary war",
+        "gt_answer": "Nathan Hale",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 29,
+        "datapoint_id": 4646,
+        "question": "who plays bianca in that's so raven",
+        "gt_answer": "Erica Rivera",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 30,
+        "datapoint_id": 1180,
+        "question": "actor who plays dr avery on grey's anatomy",
+        "gt_answer": "Jesse Wesley Williams",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 31,
+        "datapoint_id": 5282,
+        "question": "when was 13 reasons why released on netflix",
+        "gt_answer": "March 31 , 2017",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 32,
+        "datapoint_id": 1211,
+        "question": "when is i can only imagine coming out",
+        "gt_answer": "March 16 , 2018",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 33,
+        "datapoint_id": 4978,
+        "question": "how many jimmy johns are there in the us",
+        "gt_answer": "more than 2,500",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 34,
+        "datapoint_id": 4772,
+        "question": "who was the father of the princes in the tower",
+        "gt_answer": "Edward IV of England",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 35,
+        "datapoint_id": 3706,
+        "question": "where was the german fleet scuttled in 1919",
+        "gt_answer": "Scapa Flow , Orkney , Scotland",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 36,
+        "datapoint_id": 551,
+        "question": "who wrote when a man loves a woman",
+        "gt_answer": "Calvin Lewis and Andrew Wright",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 37,
+        "datapoint_id": 6442,
+        "question": "how many super bowl games has the patriots played in",
+        "gt_answer": "ten",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 38,
+        "datapoint_id": 7422,
+        "question": "when was the first case of alzheimer's diagnosed",
+        "gt_answer": "1901",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 39,
+        "datapoint_id": 1684,
+        "question": "where are most nutrients absorbed in the human digestive tract",
+        "gt_answer": "The small intestine or small bowel",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 40,
+        "datapoint_id": 5261,
+        "question": "when will miraculous ladybug season 2 episode 12 come out",
+        "gt_answer": "30 March 2018",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 41,
+        "datapoint_id": 962,
+        "question": "who sings don't take your guns to town",
+        "gt_answer": "Johnny Cash",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 42,
+        "datapoint_id": 7582,
+        "question": "who plays rachel on jessie punch dumped love",
+        "gt_answer": "Isabella Palmieri",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 43,
+        "datapoint_id": 4087,
+        "question": "when did are you smarter than a 5th grader first air",
+        "gt_answer": "February 27 , 2007",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 44,
+        "datapoint_id": 5025,
+        "question": "when's the last time army won the army navy game",
+        "gt_answer": "2017",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 45,
+        "datapoint_id": 2751,
+        "question": "who does the voice of mickey mouse on mickey mouse clubhouse",
+        "gt_answer": "Wayne Allwine in Seasons 1\u20133 and Bret Iwan in Season 4",
+        "annotation_idx": null,
+        "annotation_type": "manual",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 46,
+        "datapoint_id": 835,
+        "question": "how many pennsylvania house of representatives are there",
+        "gt_answer": "203",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 47,
+        "datapoint_id": 585,
+        "question": "when did the nba add the three point line",
+        "gt_answer": "1979 -- 80 season",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 48,
+        "datapoint_id": 3267,
+        "question": "what us state forms the western boundary of montana",
+        "gt_answer": "Idaho",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 49,
+        "datapoint_id": 4015,
+        "question": "who told the story of the prodigal son",
+        "gt_answer": "Jesus Christ",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 50,
+        "datapoint_id": 971,
+        "question": "when did the nba create the 3 point line",
+        "gt_answer": "In the 1979 -- 80 season",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 51,
+        "datapoint_id": 1274,
+        "question": "when will the flash season 4 be released",
+        "gt_answer": "October 10 , 2017",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 52,
+        "datapoint_id": 6360,
+        "question": "where did aeneas go when he left carthage",
+        "gt_answer": "Sicily",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 53,
+        "datapoint_id": 5065,
+        "question": "when did lynyrd skynyrd's plane crash happen",
+        "gt_answer": "October 20 , 1977",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 54,
+        "datapoint_id": 2264,
+        "question": "make it or break it who goes to the olympics",
+        "gt_answer": "Payson, Lauren, Kaylie, Jordan, and Colleen",
+        "annotation_idx": null,
+        "annotation_type": "manual",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 55,
+        "datapoint_id": 5140,
+        "question": "who played young monica in love and basketball",
+        "gt_answer": "Kyla Pratt",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 56,
+        "datapoint_id": 4926,
+        "question": "who is the secretary of state for northern ireland",
+        "gt_answer": "Karen Bradley",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 57,
+        "datapoint_id": 3009,
+        "question": "who led the conquest of the incas in south america",
+        "gt_answer": "Francisco Pizarro",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 58,
+        "datapoint_id": 3723,
+        "question": "sweet leavened bread prepared for easter in romania",
+        "gt_answer": "Cozonac ( Romanian pronunciation : ( kozo\u02c8nak ) ) or Kozunak",
+        "annotation_idx": 3,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 59,
+        "datapoint_id": 864,
+        "question": "when did day light savings start in the us",
+        "gt_answer": "1918",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 60,
+        "datapoint_id": 2427,
+        "question": "who was appointed to manage the national recovery administration",
+        "gt_answer": "Hugh S. Johnson",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 61,
+        "datapoint_id": 7392,
+        "question": "who is the longest serving chief minister in india as on jan 2015",
+        "gt_answer": "Jyotirindra Basu",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 62,
+        "datapoint_id": 2271,
+        "question": "where was the movie i am number 4 filmed",
+        "gt_answer": "20 locations all within the Pittsburgh metropolitan area",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 63,
+        "datapoint_id": 6504,
+        "question": "when was the last time a hurricane hit the uk",
+        "gt_answer": "autumn of 2017",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 64,
+        "datapoint_id": 5273,
+        "question": "has there ever been a tornado in alaska",
+        "gt_answer": "YES",
+        "annotation_idx": 0,
+        "annotation_type": "yes_no",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 65,
+        "datapoint_id": 3749,
+        "question": "which british city is farthest from the sea",
+        "gt_answer": "Coton in the Elms",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 66,
+        "datapoint_id": 7633,
+        "question": "delhi is on the banks of which river",
+        "gt_answer": "Yamuna",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 67,
+        "datapoint_id": 3122,
+        "question": "when did holland become involved in world war 2",
+        "gt_answer": "10 May 1940",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 68,
+        "datapoint_id": 4485,
+        "question": "who wrote the song if i were a boy",
+        "gt_answer": "BC Jean and Toby Gad",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 69,
+        "datapoint_id": 700,
+        "question": "who got the most passing yards in the nfl",
+        "gt_answer": "Peyton Manning",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 70,
+        "datapoint_id": 3290,
+        "question": "what mlb teams did deion sanders play for",
+        "gt_answer": "New York Yankees , the Atlanta Braves , the Cincinnati Reds and the San Francisco Giants",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 71,
+        "datapoint_id": 4390,
+        "question": "who was the voice of templeton in charlotte's web",
+        "gt_answer": "Paul Lynde",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 72,
+        "datapoint_id": 5601,
+        "question": "who did the voiceover in michael jackson's thriller",
+        "gt_answer": "Vincent Price",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 73,
+        "datapoint_id": 3735,
+        "question": "who played solomon in little house on the prairie",
+        "gt_answer": "Todd Bridges",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 74,
+        "datapoint_id": 808,
+        "question": "who is the longest serving member of the house in history",
+        "gt_answer": "John Dingell",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 75,
+        "datapoint_id": 3023,
+        "question": "what was the religion in persia before islam",
+        "gt_answer": "the Zoroastrian religion",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 76,
+        "datapoint_id": 7803,
+        "question": "who scored fastest 10000 runs in test cricket",
+        "gt_answer": "Brian Lara, Sachin Tendulkar and Kumar Sangakkara",
+        "annotation_idx": null,
+        "annotation_type": "manual",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 77,
+        "datapoint_id": 4372,
+        "question": "who developed a set of postulates to prove that specific microorganisms cause disease",
+        "gt_answer": "Robert Koch and Friedrich Loeffler",
+        "annotation_idx": null,
+        "annotation_type": "manual",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 78,
+        "datapoint_id": 3042,
+        "question": "when does wonder woman come out on blue ray",
+        "gt_answer": "September 19 , 2017",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 79,
+        "datapoint_id": 6965,
+        "question": "where did the northernmost land action of the american civil war occur",
+        "gt_answer": "St. Albans , Vermont",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 80,
+        "datapoint_id": 5518,
+        "question": "who was the 11th prime minister of canada",
+        "gt_answer": "R.B. Bennett",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 81,
+        "datapoint_id": 6440,
+        "question": "when was the debating club established in almora",
+        "gt_answer": "1871",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 82,
+        "datapoint_id": 1986,
+        "question": "who won the national championship in volleyball 2017",
+        "gt_answer": "Ohio State",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 83,
+        "datapoint_id": 3711,
+        "question": "actress who plays penelope garcia on criminal minds",
+        "gt_answer": "Kirsten Simone Vangsness",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 84,
+        "datapoint_id": 3478,
+        "question": "when is the 5th round fa cup played",
+        "gt_answer": "February 2018",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 85,
+        "datapoint_id": 7435,
+        "question": "who did kenny rogers sing mary did you know with",
+        "gt_answer": "Wynonna Judd",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 86,
+        "datapoint_id": 3694,
+        "question": "when do love and hip hop new york come back on",
+        "gt_answer": "October 30 , 2017",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 87,
+        "datapoint_id": 5978,
+        "question": "when did vat change from 17.5 to 20",
+        "gt_answer": "4 January 2011",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 88,
+        "datapoint_id": 5552,
+        "question": "has the astros baseball team ever won a world series",
+        "gt_answer": "YES",
+        "annotation_idx": 0,
+        "annotation_type": "yes_no",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 89,
+        "datapoint_id": 5035,
+        "question": "branch of science that deals with the structure of human body parts",
+        "gt_answer": "Human anatomy",
+        "annotation_idx": 2,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 90,
+        "datapoint_id": 1905,
+        "question": "who lives in the blue house in balamory",
+        "gt_answer": "Edie McCredie",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 91,
+        "datapoint_id": 7111,
+        "question": "is there a name for the at symbol",
+        "gt_answer": "YES",
+        "annotation_idx": 0,
+        "annotation_type": "yes_no",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 92,
+        "datapoint_id": 6892,
+        "question": "who sold out jesus for 30 pieces of silver",
+        "gt_answer": "Judas Iscariot",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 93,
+        "datapoint_id": 1130,
+        "question": "when did men's curling start in the olympics",
+        "gt_answer": "1998",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 94,
+        "datapoint_id": 598,
+        "question": "where is connective tissue found in the body",
+        "gt_answer": "between other tissues everywhere in the body",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 95,
+        "datapoint_id": 1402,
+        "question": "where was lars and the real girl filmed",
+        "gt_answer": "Alton , Elora , King Township , Toronto , Uxbridge , and Whitevale , all located in the Canadian province of Ontario",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 96,
+        "datapoint_id": 2149,
+        "question": "what is the meaning of the name gomez",
+        "gt_answer": "man",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 97,
+        "datapoint_id": 2240,
+        "question": "who became king of erebor after thorin dies",
+        "gt_answer": "his cousin D\u00e1in",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 98,
+        "datapoint_id": 783,
+        "question": "who has been appointed as the election commissioner of india",
+        "gt_answer": "Om Prakash Rawat",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 99,
+        "datapoint_id": 5345,
+        "question": "when does season 8 of hawaii five o premiere",
+        "gt_answer": "September 29 , 2017",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 100,
+        "datapoint_id": 5319,
+        "question": "who is the writer of a walk to remember",
+        "gt_answer": "American writer Nicholas Sparks",
+        "annotation_idx": 2,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 101,
+        "datapoint_id": 6574,
+        "question": "what is on a mcchicken sandwich from mcdonalds",
+        "gt_answer": "a toasted wheat bun , a breaded chicken patty , shredded lettuce , and mayonnaise",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 102,
+        "datapoint_id": 7341,
+        "question": "when does the good doctor episode 8 air",
+        "gt_answer": "November 20 , 2017",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 103,
+        "datapoint_id": 3534,
+        "question": "who sings i wanna rock'n'roll all night",
+        "gt_answer": "Kiss",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 104,
+        "datapoint_id": 7613,
+        "question": "when was clash royale released in the us",
+        "gt_answer": "March 2 , 2016",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 105,
+        "datapoint_id": 137,
+        "question": "who wrote the text for jeanie with the light brown hair",
+        "gt_answer": "Stephen Foster",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 106,
+        "datapoint_id": 1489,
+        "question": "in 1945 which party came into power in england",
+        "gt_answer": "Labour Party",
+        "annotation_idx": 2,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 107,
+        "datapoint_id": 7425,
+        "question": "who wrote the theme to last of the mohicans",
+        "gt_answer": "Scottish singer - songwriter Dougie MacLean",
+        "annotation_idx": 2,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 108,
+        "datapoint_id": 4090,
+        "question": "when was the 50th star added to the united states flag",
+        "gt_answer": "1960",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 109,
+        "datapoint_id": 6082,
+        "question": "who holds the most home runs in mlb history",
+        "gt_answer": "Barry Bonds",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 110,
+        "datapoint_id": 2222,
+        "question": "where did students for a democratic society start",
+        "gt_answer": "University of Michigan campus at Ann Arbor , Michigan",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 111,
+        "datapoint_id": 6367,
+        "question": "when was the last time the military drafted",
+        "gt_answer": "1973",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 112,
+        "datapoint_id": 29,
+        "question": "when does the 14th season of grey's anatomy come out",
+        "gt_answer": "September 28 , 2017",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 113,
+        "datapoint_id": 3695,
+        "question": "how many gallons of water in the gulf of mexico",
+        "gt_answer": "660 quadrillion US gallons",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 114,
+        "datapoint_id": 6989,
+        "question": "who was originally cast as phoebe on charmed",
+        "gt_answer": "Lori Rom",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 115,
+        "datapoint_id": 2543,
+        "question": "what is the name of son of lord krishna",
+        "gt_answer": "Pradyumna",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 116,
+        "datapoint_id": 7073,
+        "question": "how many numbers are in the euromillions draw",
+        "gt_answer": "7",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 117,
+        "datapoint_id": 1365,
+        "question": "how many gold medals did australia win in the 2000 olympics",
+        "gt_answer": "16",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 118,
+        "datapoint_id": 4144,
+        "question": "who used the word physiology for the first time",
+        "gt_answer": "Jean Fernel ( 1497 -- 1558 ) , a French physician",
+        "annotation_idx": 2,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 119,
+        "datapoint_id": 5205,
+        "question": "who sings you are a magnet and i am steel",
+        "gt_answer": "Walter Egan",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 120,
+        "datapoint_id": 2256,
+        "question": "is 50 shades of grey inspired by twilight",
+        "gt_answer": "YES",
+        "annotation_idx": 0,
+        "annotation_type": "yes_no",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 121,
+        "datapoint_id": 7441,
+        "question": "when did world war 2 end in the pacific",
+        "gt_answer": "September 2 , 1945",
+        "annotation_idx": 4,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 122,
+        "datapoint_id": 7353,
+        "question": "who stars in kevin probably save the world",
+        "gt_answer": "Jason Ritter, JoAnna Garcia Swisher, Kimberly H\u00e9bert Gregory, India de Beaufort, J. August Richards, Chloe East, and Dustin Ybarra",
+        "annotation_idx": null,
+        "annotation_type": "manual",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 123,
+        "datapoint_id": 15,
+        "question": "is there a basketball team in las vegas",
+        "gt_answer": "YES",
+        "annotation_idx": 0,
+        "annotation_type": "yes_no",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 124,
+        "datapoint_id": 4484,
+        "question": "the xix of the social security act of 1965 established",
+        "gt_answer": "Medicaid",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 125,
+        "datapoint_id": 6814,
+        "question": "when is star wars the force awakens set",
+        "gt_answer": "30 years after Return of the Jedi",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 126,
+        "datapoint_id": 239,
+        "question": "when does season 3 of the riveras start",
+        "gt_answer": "March 11 , 2018",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 127,
+        "datapoint_id": 1466,
+        "question": "how many medals did austria win in the 2011 alpine skiing world championships",
+        "gt_answer": "8",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 128,
+        "datapoint_id": 5049,
+        "question": "who was the first british team to win the european cup",
+        "gt_answer": "Celtic",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 129,
+        "datapoint_id": 4285,
+        "question": "who plays the voice of the hormone monster",
+        "gt_answer": "Nick Kroll",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 130,
+        "datapoint_id": 3405,
+        "question": "who plays hope on the bold and beautiful",
+        "gt_answer": "Kimberly Marie `` Kim '' Matula",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 131,
+        "datapoint_id": 730,
+        "question": "when did the movie napoleon dynamite come out",
+        "gt_answer": "June 11 , 2004",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 132,
+        "datapoint_id": 3414,
+        "question": "who started the guinness book of world records",
+        "gt_answer": "Sir Hugh Beaver created the concept, and twin brothers Norris and Ross McWhirter co-founded the book",
+        "annotation_idx": null,
+        "annotation_type": "manual",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 133,
+        "datapoint_id": 1077,
+        "question": "what class of ship is the carnival glory",
+        "gt_answer": "Conquest - class cruise ship",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 134,
+        "datapoint_id": 6786,
+        "question": "what movie is count on me by bruno mars in",
+        "gt_answer": "'Diary of a Wimpy Kid: The Long Haul' and 'A Turtle's Tale: Sammy's Adventures'",
+        "annotation_idx": null,
+        "annotation_type": "manual",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 135,
+        "datapoint_id": 830,
+        "question": "where is the tv series death in paradise filmed",
+        "gt_answer": "the French island of Guadeloupe in the Lesser Antilles",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 136,
+        "datapoint_id": 7375,
+        "question": "who won every men's biathlon event in the 2002 winter olympics",
+        "gt_answer": "The Norwegian biathlete Ole Einar Bj\u00f8rndalen",
+        "annotation_idx": null,
+        "annotation_type": "manual",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 137,
+        "datapoint_id": 1696,
+        "question": "who is the most losing team in nfl history",
+        "gt_answer": "Arizona Cardinals",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 138,
+        "datapoint_id": 1737,
+        "question": "who plays the evil doctor in wonder woman",
+        "gt_answer": "Spanish actress Elena Anaya",
+        "annotation_idx": 2,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 139,
+        "datapoint_id": 6635,
+        "question": "who plays izabella in transformers the last knight",
+        "gt_answer": "Isabela Moner",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 140,
+        "datapoint_id": 7563,
+        "question": "this type of nuclear decay effectively turns a proton into a neutron",
+        "gt_answer": "beta decay",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 141,
+        "datapoint_id": 2294,
+        "question": "who plays the first nfl game of the season",
+        "gt_answer": "the most recent Super Bowl champion",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 142,
+        "datapoint_id": 7325,
+        "question": "who wrote hit me baby one more time",
+        "gt_answer": "Max Martin",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 143,
+        "datapoint_id": 5891,
+        "question": "when does season 7 game of thrones dvd release",
+        "gt_answer": "December 12 , 2017",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 144,
+        "datapoint_id": 3029,
+        "question": "where does the sweetness of fruit come from",
+        "gt_answer": "Fructose",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 145,
+        "datapoint_id": 2866,
+        "question": "who played santa in the santa clause movies",
+        "gt_answer": "Tim Allen",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 146,
+        "datapoint_id": 4339,
+        "question": "where does sound travel fastest solid liquid or gas",
+        "gt_answer": "solids",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 147,
+        "datapoint_id": 5203,
+        "question": "what are the monomer building blocks of dna and rna",
+        "gt_answer": "Nucleotides",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 148,
+        "datapoint_id": 6123,
+        "question": "who is playing halftime show super bowl 2018",
+        "gt_answer": "Justin Timberlake",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 149,
+        "datapoint_id": 7207,
+        "question": "how many customers does edf have in the uk",
+        "gt_answer": "5.7 million customer accounts",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 150,
+        "datapoint_id": 6329,
+        "question": "when was theme from a summer place released",
+        "gt_answer": "1959",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 151,
+        "datapoint_id": 1627,
+        "question": "who is the girl in green day 21 guns",
+        "gt_answer": "Lisa Stelly",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 152,
+        "datapoint_id": 3486,
+        "question": "where does the band imagine dragons come from",
+        "gt_answer": "Las Vegas , Nevada",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 153,
+        "datapoint_id": 3220,
+        "question": "who does dwyane wade play for right now",
+        "gt_answer": "the Miami Heat",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 154,
+        "datapoint_id": 784,
+        "question": "who played the virgin in conan the destroyer",
+        "gt_answer": "Olivia d'Abo",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 155,
+        "datapoint_id": 4671,
+        "question": "character in macbeth who is murdered and appears as a ghost",
+        "gt_answer": "Lord Banquo",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 156,
+        "datapoint_id": 266,
+        "question": "who is young george bailey in it's a wonderful life",
+        "gt_answer": "Robert James Anderson",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 157,
+        "datapoint_id": 7615,
+        "question": "german word for pleasure from someone else's pain",
+        "gt_answer": "Schadenfreude",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 158,
+        "datapoint_id": 3306,
+        "question": "who won the mens single ice skating 2018",
+        "gt_answer": "Yuzuru Hanyu",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 159,
+        "datapoint_id": 86,
+        "question": "who scored the most points in a single game in the nba",
+        "gt_answer": "Wilt Chamberlain",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 160,
+        "datapoint_id": 859,
+        "question": "who played the beast in the movie beauty and the beast",
+        "gt_answer": "Dan Stevens",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 161,
+        "datapoint_id": 735,
+        "question": "when was the last time the dodgers played yankees in the world series",
+        "gt_answer": "1981",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 162,
+        "datapoint_id": 3287,
+        "question": "who's the model on let's make a deal",
+        "gt_answer": "Tiffany Adams Coyne",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 163,
+        "datapoint_id": 820,
+        "question": "where does the phrase good bye felicia come from",
+        "gt_answer": "a scene in the American stoner buddy crime comedy film Friday ( 1995 )",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 164,
+        "datapoint_id": 425,
+        "question": "what is the full scientific name for the e. coli bacteria",
+        "gt_answer": "Escherichia coli",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 165,
+        "datapoint_id": 4566,
+        "question": "when did the lion king start on broadway",
+        "gt_answer": "November 13 , 1997",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 166,
+        "datapoint_id": 7165,
+        "question": "who does the voice of alistair in dragon age",
+        "gt_answer": "Steve Valentine",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 167,
+        "datapoint_id": 3394,
+        "question": "which is the site of the light dependent reactions of photosynthesis",
+        "gt_answer": "the thylakoid membranes",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 168,
+        "datapoint_id": 3870,
+        "question": "whats the movie called with justin timberlake and time",
+        "gt_answer": "In Time",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 169,
+        "datapoint_id": 6778,
+        "question": "when is the world consumer right day celebrated",
+        "gt_answer": "15 March",
+        "annotation_idx": 4,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 170,
+        "datapoint_id": 3061,
+        "question": "who wrote it's a long long way to pasadena",
+        "gt_answer": "David Hemmings , Harry Vanda & George Young",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 171,
+        "datapoint_id": 1825,
+        "question": "who sings the theme song for the tv show cops",
+        "gt_answer": "the Jamaican reggae band Inner Circle",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 172,
+        "datapoint_id": 6612,
+        "question": "where in the constitution is the executive branch referenced",
+        "gt_answer": "Article Two",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 173,
+        "datapoint_id": 3426,
+        "question": "who plays the saint of killers on preacher",
+        "gt_answer": "Graham McTavish",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 174,
+        "datapoint_id": 5676,
+        "question": "when does congress declare war for the first time",
+        "gt_answer": "June 18 , 1812",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 175,
+        "datapoint_id": 2736,
+        "question": "when does season 8 of shameless come back",
+        "gt_answer": "November 5 , 2017",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 176,
+        "datapoint_id": 1185,
+        "question": "who does marge's voice on the simpsons",
+        "gt_answer": "Julie Deborah Kavner",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 177,
+        "datapoint_id": 6015,
+        "question": "when was the last time astros was in the world series",
+        "gt_answer": "2022",
+        "annotation_idx": null,
+        "annotation_type": "manual",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 178,
+        "datapoint_id": 4902,
+        "question": "who killed missy in a bend in the road",
+        "gt_answer": "Sarah 's brother , Brian",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 179,
+        "datapoint_id": 5893,
+        "question": "when did hootie and the blowfish come out",
+        "gt_answer": "1986",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 180,
+        "datapoint_id": 5718,
+        "question": "mount everest is part of what mountain range",
+        "gt_answer": "Himalayas",
+        "annotation_idx": 2,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 181,
+        "datapoint_id": 6562,
+        "question": "who sang how can you mend a broken heart first",
+        "gt_answer": "the Bee Gees",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 182,
+        "datapoint_id": 681,
+        "question": "when did korn's follow the leader come out",
+        "gt_answer": "August 18 , 1998",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 183,
+        "datapoint_id": 1246,
+        "question": "who plays the robot maid in richie rich",
+        "gt_answer": "Brooke Wexler",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 184,
+        "datapoint_id": 751,
+        "question": "where is wind power used most in the united states",
+        "gt_answer": "Texas",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 185,
+        "datapoint_id": 5621,
+        "question": "when does jim propose to pam on the office",
+        "gt_answer": "In the Season 5 premiere",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 186,
+        "datapoint_id": 4680,
+        "question": "phase change from gas to solid is called",
+        "gt_answer": "Deposition",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 187,
+        "datapoint_id": 1391,
+        "question": "who played emma in h2o just add water",
+        "gt_answer": "Claire Rhiannon Holt",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 188,
+        "datapoint_id": 3499,
+        "question": "where does the cell spend most of its time in the cell cycle",
+        "gt_answer": "Interphase",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 189,
+        "datapoint_id": 2748,
+        "question": "where was the super bowl 52 played at",
+        "gt_answer": "U.S. Bank Stadium in Minneapolis , Minnesota",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 190,
+        "datapoint_id": 6270,
+        "question": "when did the us take over wake island",
+        "gt_answer": "January 17 , 1899",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 191,
+        "datapoint_id": 1946,
+        "question": "who played lionel in as time goes by",
+        "gt_answer": "Geoffrey Dyson Palmer , OBE",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 192,
+        "datapoint_id": 2632,
+        "question": "when will the 2018 oscar nominations be announced",
+        "gt_answer": "Tuesday , January 23 , 2018",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 193,
+        "datapoint_id": 6511,
+        "question": "when did the astros change from the national league to the american league",
+        "gt_answer": "2013",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 194,
+        "datapoint_id": 3517,
+        "question": "when does bill nye saves the world season 2 come out",
+        "gt_answer": "December 29 , 2017",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 195,
+        "datapoint_id": 920,
+        "question": "where is hallmark channel home and family filmed",
+        "gt_answer": "Los Angeles , California",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 196,
+        "datapoint_id": 6199,
+        "question": "who plays nathan's mother on general hospital",
+        "gt_answer": "Donna Mills",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 197,
+        "datapoint_id": 7567,
+        "question": "where does a brisket come from on a cow",
+        "gt_answer": "the breast or lower chest",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 198,
+        "datapoint_id": 1243,
+        "question": "is supernatural going to have a season 13",
+        "gt_answer": "YES",
+        "annotation_idx": 0,
+        "annotation_type": "yes_no",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 199,
+        "datapoint_id": 643,
+        "question": "who played chaka on land of the lost tv show",
+        "gt_answer": "Phillip Paley",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 200,
+        "datapoint_id": 7481,
+        "question": "where are alkali metals located on the periodic table",
+        "gt_answer": "Group 1 and the s-block",
+        "annotation_idx": null,
+        "annotation_type": "manual",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 201,
+        "datapoint_id": 186,
+        "question": "when did under the cork tree come out",
+        "gt_answer": "May 3 , 2005",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 202,
+        "datapoint_id": 3365,
+        "question": "gabbar is back is a remake of which telugu movie",
+        "gt_answer": "Tagore",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 203,
+        "datapoint_id": 2321,
+        "question": "do irish passport holders need visa for thailand",
+        "gt_answer": "NO",
+        "annotation_idx": 0,
+        "annotation_type": "yes_no",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 204,
+        "datapoint_id": 5663,
+        "question": "who won the fifth season of america's got talent",
+        "gt_answer": "Soul singer Michael Grimm",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 205,
+        "datapoint_id": 6706,
+        "question": "who was originally cast to play indiana jones",
+        "gt_answer": "Tom Selleck",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 206,
+        "datapoint_id": 3052,
+        "question": "who sang the theme song for the man with the golden gun",
+        "gt_answer": "Lulu",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 207,
+        "datapoint_id": 2289,
+        "question": "what is the title of the person who runs the house of representatives",
+        "gt_answer": "Speaker of the House",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 208,
+        "datapoint_id": 5269,
+        "question": "when was the first epistle of john written",
+        "gt_answer": "AD 95 -- 110",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 209,
+        "datapoint_id": 23,
+        "question": "who was the first chief minister of west bengal",
+        "gt_answer": "Prafulla Chandra Ghosh of the Indian National Congress",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 210,
+        "datapoint_id": 5416,
+        "question": "when did response to state of the union start",
+        "gt_answer": "1966",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 211,
+        "datapoint_id": 3713,
+        "question": "who is president of india in present time",
+        "gt_answer": "Ram Nath Kovind",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 212,
+        "datapoint_id": 6375,
+        "question": "what is the longest panic at the disco song title",
+        "gt_answer": "There 's a Good Reason These Tables Are Numbered Honey , You Just Have n't Thought Of It Yet",
+        "annotation_idx": 3,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 213,
+        "datapoint_id": 3957,
+        "question": "who introduced the first chrismas tree to the uk",
+        "gt_answer": "Charlotte of Mecklenburg - Strelitz",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 214,
+        "datapoint_id": 7631,
+        "question": "when did ireland gain its independence from england",
+        "gt_answer": "1922",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 215,
+        "datapoint_id": 6796,
+        "question": "the type of display that google glass presents to its users is called what",
+        "gt_answer": "head - up display",
+        "annotation_idx": 3,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 216,
+        "datapoint_id": 2187,
+        "question": "dendrites and cell bodies are components of what type of matter found in the brain",
+        "gt_answer": "Grey matter",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 217,
+        "datapoint_id": 2732,
+        "question": "who won the battle of saratoga in 1777",
+        "gt_answer": "the Americans",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 218,
+        "datapoint_id": 4116,
+        "question": "how many pages are in the book inside out and back again",
+        "gt_answer": "263",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 219,
+        "datapoint_id": 3090,
+        "question": "how many episodes are there in modern family",
+        "gt_answer": "250",
+        "annotation_idx": null,
+        "annotation_type": "manual",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 220,
+        "datapoint_id": 734,
+        "question": "when was the biltmore house opened to the public",
+        "gt_answer": "March 1930",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 221,
+        "datapoint_id": 7495,
+        "question": "colby chees is named after a town in what state",
+        "gt_answer": "Wisconsin",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 222,
+        "datapoint_id": 4359,
+        "question": "where does prime rib come from on a cow",
+        "gt_answer": "the primal rib",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 223,
+        "datapoint_id": 727,
+        "question": "when was the last time the crows were in the grand final",
+        "gt_answer": "2017",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 224,
+        "datapoint_id": 630,
+        "question": "name of black man in to kill a mockingbird",
+        "gt_answer": "Thomas `` Tom '' Robinson",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 225,
+        "datapoint_id": 6645,
+        "question": "does the jungle book take place in india",
+        "gt_answer": "YES",
+        "annotation_idx": 0,
+        "annotation_type": "yes_no",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 226,
+        "datapoint_id": 7021,
+        "question": "where do green tree frogs go during the day",
+        "gt_answer": "cool , dark , and moist areas , such as tree holes or rock crevices",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 227,
+        "datapoint_id": 7357,
+        "question": "who said that religion is the opiate of the masses",
+        "gt_answer": "German philosopher and economist Karl Marx",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 228,
+        "datapoint_id": 2220,
+        "question": "is fortnite and fortnite battle royale the same",
+        "gt_answer": "NO",
+        "annotation_idx": 1,
+        "annotation_type": "yes_no",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 229,
+        "datapoint_id": 722,
+        "question": "when did red bull come to the united states",
+        "gt_answer": "1997",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 230,
+        "datapoint_id": 7094,
+        "question": "india's first arctic research station set up in 2008 what is the name",
+        "gt_answer": "Himadri Station",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 231,
+        "datapoint_id": 972,
+        "question": "what theater number was the aurora shooting in",
+        "gt_answer": "Theater 9",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 232,
+        "datapoint_id": 2658,
+        "question": "who sang the song with reba does he love you",
+        "gt_answer": "Linda Davis",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 233,
+        "datapoint_id": 822,
+        "question": "distinctive characteristics of animals classified as vertebrates include",
+        "gt_answer": "have a vertebral column ( spine )",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 234,
+        "datapoint_id": 821,
+        "question": "when does dragon ball super episode 113 start",
+        "gt_answer": "October 29 , 2017",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 235,
+        "datapoint_id": 3354,
+        "question": "when did i'm coming out come out",
+        "gt_answer": "August 22 , 1980",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 236,
+        "datapoint_id": 5629,
+        "question": "who does the head of the fbi report to",
+        "gt_answer": "the Attorney General",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 237,
+        "datapoint_id": 1597,
+        "question": "where does the story the great gatsby take place",
+        "gt_answer": "the fictional town of West Egg on prosperous Long Island",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 238,
+        "datapoint_id": 3465,
+        "question": "how many episodes curse of oak island season 5",
+        "gt_answer": "18",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 239,
+        "datapoint_id": 514,
+        "question": "who wrote yakkity yak don't talk back",
+        "gt_answer": "Jerry Leiber and Mike Stoller",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 240,
+        "datapoint_id": 989,
+        "question": "when did the battle of badr take place",
+        "gt_answer": "Tuesday , 13 March 624 CE ( 17 Ramadan , 2 AH in the Islamic calendar )",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 241,
+        "datapoint_id": 5827,
+        "question": "who was the main character in their eyes were watching god",
+        "gt_answer": "Janie Crawford",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 242,
+        "datapoint_id": 7791,
+        "question": "how many wins does tiger woods have on the pga tour",
+        "gt_answer": "79",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 243,
+        "datapoint_id": 7276,
+        "question": "who won the icc under 19 world cup 2018",
+        "gt_answer": "India",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 244,
+        "datapoint_id": 4405,
+        "question": "where is salamis in ancient greece on a map",
+        "gt_answer": "in the Saronic Gulf , about 1 nautical mile ( 2 km ) off - coast from Piraeus and about 16 kilometres ( 10 miles ) west of Athens",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 245,
+        "datapoint_id": 3666,
+        "question": "who is the head of the department of homeland security 2017",
+        "gt_answer": "Kirstjen Nielsen",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 246,
+        "datapoint_id": 2945,
+        "question": "what is the approximate volume of blood in your body",
+        "gt_answer": "approximately 5 liters",
+        "annotation_idx": 2,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 247,
+        "datapoint_id": 4362,
+        "question": "who enforces the charter of rights and freedoms",
+        "gt_answer": "the courts",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 248,
+        "datapoint_id": 3399,
+        "question": "where can the mona lisa be found today",
+        "gt_answer": "Louvre Museum in Paris",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 249,
+        "datapoint_id": 1780,
+        "question": "total number of mna in pakistan national assembly",
+        "gt_answer": "332",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 250,
+        "datapoint_id": 4159,
+        "question": "when did frank sinatra first sing new york new york",
+        "gt_answer": "1978",
+        "annotation_idx": null,
+        "annotation_type": "manual",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 251,
+        "datapoint_id": 6419,
+        "question": "what year did the price is right first air",
+        "gt_answer": "1956",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 252,
+        "datapoint_id": 890,
+        "question": "when did the first battle of ypres end",
+        "gt_answer": "22 November 1914",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 253,
+        "datapoint_id": 125,
+        "question": "who plays charles on have and have nots",
+        "gt_answer": "Nick Sager",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 254,
+        "datapoint_id": 6438,
+        "question": "who played junior on in the heat of the night",
+        "gt_answer": "Christian LeBlanc",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 255,
+        "datapoint_id": 7777,
+        "question": "which us ship was captured off the coast of massachusetts by the british",
+        "gt_answer": "USS Chesapeake",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 256,
+        "datapoint_id": 1257,
+        "question": "when did first fast and furious come out",
+        "gt_answer": "2001",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 257,
+        "datapoint_id": 901,
+        "question": "when was the cat and mouse act introduced",
+        "gt_answer": "1913",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 258,
+        "datapoint_id": 7431,
+        "question": "what color is the golden gate bridge in san francisco",
+        "gt_answer": "orange vermilion called international orange",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 259,
+        "datapoint_id": 3049,
+        "question": "how long is the bridge between new brunswick and prince edward island",
+        "gt_answer": "12.9 - kilometre ( 8 mi )",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 260,
+        "datapoint_id": 7059,
+        "question": "who was tammy from basketball wives married to",
+        "gt_answer": "Kenny Anderson",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 261,
+        "datapoint_id": 1832,
+        "question": "where is kruger national park in south africa",
+        "gt_answer": "in the north - east of South Africa , in the eastern parts of Limpopo and Mpumalanga provinces",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 262,
+        "datapoint_id": 4819,
+        "question": "when did the ouija board game come out",
+        "gt_answer": "July 1 , 1890",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 263,
+        "datapoint_id": 3438,
+        "question": "when was corporal punishment banned in south africa",
+        "gt_answer": "1997",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 264,
+        "datapoint_id": 5128,
+        "question": "bosnia and herzegovina croatia macedonia and slovenia all used to be parts of",
+        "gt_answer": "Yugoslavia",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 265,
+        "datapoint_id": 3956,
+        "question": "when did jelly beans became associated with easter",
+        "gt_answer": "during the 1930s",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 266,
+        "datapoint_id": 7504,
+        "question": "when did the newest macbook pro come out",
+        "gt_answer": "October 30, 2024",
+        "annotation_idx": null,
+        "annotation_type": "manual",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 267,
+        "datapoint_id": 4206,
+        "question": "when did the golden state warriors win the finals",
+        "gt_answer": "1947, 1956, 1975, 2015, 2017, 2018, 2022",
+        "annotation_idx": null,
+        "annotation_type": "manual",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 268,
+        "datapoint_id": 98,
+        "question": "how many cracker barrels in the united states",
+        "gt_answer": "more than 600",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 269,
+        "datapoint_id": 7617,
+        "question": "who scored the most points in a game nba history",
+        "gt_answer": "Wilt Chamberlain",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 270,
+        "datapoint_id": 4155,
+        "question": "dead poets society where does it take place",
+        "gt_answer": "fictional elite conservative Vermont boarding school Welton Academy",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 271,
+        "datapoint_id": 1314,
+        "question": "who sings the theme song for living single",
+        "gt_answer": "Queen Latifah",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 272,
+        "datapoint_id": 1866,
+        "question": "who sang a whiter shade of pale first",
+        "gt_answer": "Procol Harum",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 273,
+        "datapoint_id": 1512,
+        "question": "who is the owner of reading football club",
+        "gt_answer": "Dai Yongge and Dai Xiuli ( majority )",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 274,
+        "datapoint_id": 1369,
+        "question": "how many counties does the state of georgia have",
+        "gt_answer": "159 counties",
+        "annotation_idx": 3,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 275,
+        "datapoint_id": 3766,
+        "question": "what is the inner core of the earth made from",
+        "gt_answer": "an iron -- nickel alloy and some other elements",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 276,
+        "datapoint_id": 3936,
+        "question": "the first permanent european settlement on future united states soil was located where",
+        "gt_answer": "St. Augustine",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 277,
+        "datapoint_id": 3022,
+        "question": "who added a press room to the white house",
+        "gt_answer": "President Richard Nixon",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 278,
+        "datapoint_id": 4766,
+        "question": "who is the actress that plays penny on the big bang theory",
+        "gt_answer": "Kaley Christine Cuoco",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 279,
+        "datapoint_id": 2928,
+        "question": "what mall did they use in back to the future",
+        "gt_answer": "Puente Hills Mall , located in the City of Industry , California , United States",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 280,
+        "datapoint_id": 3700,
+        "question": "where did the name huey helicopter come from",
+        "gt_answer": "designation of HU - 1 , which came to be pronounced as `` Huey ''",
+        "annotation_idx": 2,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 281,
+        "datapoint_id": 7058,
+        "question": "how many episodes of sabrina the teenage witch are there",
+        "gt_answer": "163",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 282,
+        "datapoint_id": 645,
+        "question": "where was it happened at the world fair filmed",
+        "gt_answer": "Seattle , Washington",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 283,
+        "datapoint_id": 3859,
+        "question": "what's the dwarf's name in game of thrones",
+        "gt_answer": "Tyrion Lannister",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 284,
+        "datapoint_id": 558,
+        "question": "who did puss in boots grew up with",
+        "gt_answer": "Humpty Alexander Dumpty , a talking egg",
+        "annotation_idx": 2,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 285,
+        "datapoint_id": 30,
+        "question": "when was the first hunger games book published",
+        "gt_answer": "September 14 , 2008",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 286,
+        "datapoint_id": 4595,
+        "question": "what's the largest city park in the united states",
+        "gt_answer": "Franklin Mountains State Park",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 287,
+        "datapoint_id": 1767,
+        "question": "who is the guy who walked across the twin towers",
+        "gt_answer": "Philippe Petit",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 288,
+        "datapoint_id": 3668,
+        "question": "who wore number 7 for the green bay packers",
+        "gt_answer": "Don Majkowski",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 289,
+        "datapoint_id": 6178,
+        "question": "who is the actor that plays dr. sean murphy",
+        "gt_answer": "Freddie Highmore",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 290,
+        "datapoint_id": 7581,
+        "question": "what year did bennie and the jets come out",
+        "gt_answer": "1973",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 291,
+        "datapoint_id": 5968,
+        "question": "when did john steinbeck write of mice and me",
+        "gt_answer": "1937",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 292,
+        "datapoint_id": 7720,
+        "question": "who developed the first printing press in 1430s",
+        "gt_answer": "Johannes Gutenberg",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 293,
+        "datapoint_id": 2083,
+        "question": "when did how you remind me come out",
+        "gt_answer": "August 21 , 2001",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 294,
+        "datapoint_id": 7516,
+        "question": "who did the original spirit in the sky",
+        "gt_answer": "Norman Greenbaum",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 295,
+        "datapoint_id": 452,
+        "question": "who wrote i'm in the mood for dancing",
+        "gt_answer": "Ben Findon , Mike Myers and Bob Puzey",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 296,
+        "datapoint_id": 7595,
+        "question": "who is the longest railway station in india",
+        "gt_answer": "Gorakhpur Junction",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 297,
+        "datapoint_id": 2073,
+        "question": "what type of political system does el salvador have",
+        "gt_answer": "presidential representative democratic republic",
+        "annotation_idx": 1,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    },
+    {
+        "question_id": 298,
+        "datapoint_id": 6010,
+        "question": "does the district of columbia have their own license plates",
+        "gt_answer": "YES",
+        "annotation_idx": 0,
+        "annotation_type": "yes_no",
+        "short_answer_idx": null
+    },
+    {
+        "question_id": 299,
+        "datapoint_id": 1733,
+        "question": "what is the cross on a letter t called",
+        "gt_answer": "crossbar",
+        "annotation_idx": 0,
+        "annotation_type": "short_answer",
+        "short_answer_idx": 0
+    }
+]

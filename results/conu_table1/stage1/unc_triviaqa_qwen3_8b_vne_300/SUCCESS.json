@@ -1,0 +1,15 @@
+{
+ "input": "unc_triviaqa_qwen3_8b_vne_300.json",
+ "input_sha256": "cde0448893c5f2110e6d99689e05a93df3ba94764b9d9da96e088af0ddfdc66a",
+ "n": 300,
+ "label_resolution": {
+  "gpu": 300,
+  "cpu": 0,
+  "failed": 0
+ },
+ "sts_unique_pairs": 39701,
+ "seconds": 255.9865152835846,
+ "model": "cross-encoder/stsb-roberta-large",
+ "revision": "2b12c2c0088918e76151fd5937b7bba986ef1f98",
+ "job": "20002148"
+}

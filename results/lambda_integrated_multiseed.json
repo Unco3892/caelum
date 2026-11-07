@@ -1,0 +1,258 @@
+{
+  "alpha": 0.1,
+  "seeds": [
+    42,
+    43,
+    44,
+    45
+  ],
+  "protocol": {
+    "randomize": true,
+    "weight_fn": "additive",
+    "selection_method": "argmin_apss",
+    "split": "four 25% splits (V0, V1, V2, test)",
+    "labels": "frozen heuristic",
+    "sd": "population (ddof=0)",
+    "variation": "data splits; generated answers are reused"
+  },
+  "sources": [
+    {
+      "seed": 42,
+      "path": "results/stratified_lambdastar_results.json",
+      "sha256_lf": "75fc517c826d606abaefcb41725d5a58bf9b86da7a98df632b71d4718d8fd806"
+    },
+    {
+      "seed": 43,
+      "path": "results/split_seeds/seed43/stratified_lambdastar_results.json",
+      "sha256_lf": "14614a04d3c8009aefec97463e2e91641698ce289c09aa854c37f797be285e22"
+    },
+    {
+      "seed": 44,
+      "path": "results/split_seeds/seed44/stratified_lambdastar_results.json",
+      "sha256_lf": "3ea7825ee7f4bc5faf7d9f3d588a38f7fe8115777cdc2f8d4a2dd6bd76b59106"
+    },
+    {
+      "seed": 45,
+      "path": "results/split_seeds/seed45/stratified_lambdastar_results.json",
+      "sha256_lf": "e370fba0184edaf4c84ea194e4a4893fecf6311c1b35294e8e97a10161c24cc1"
+    }
+  ],
+  "cells": {
+    "qwen3_8b__triviaqa": {
+      "model": "qwen3_8b",
+      "dataset": "triviaqa",
+      "lam_per_seed": [
+        29.750892588808753,
+        2.9258361398412163,
+        17.875162558164952,
+        0.0
+      ],
+      "lam_mean": 12.63797282170373,
+      "lam_std": 11.98253035944798
+    },
+    "qwen3_8b__ambigqa": {
+      "model": "qwen3_8b",
+      "dataset": "ambigqa",
+      "lam_per_seed": [
+        0.0,
+        0.0,
+        0.0,
+        70.18592047908021
+      ],
+      "lam_mean": 17.546480119770052,
+      "lam_std": 30.39139506143897
+    },
+    "qwen3_8b__opennq": {
+      "model": "qwen3_8b",
+      "dataset": "opennq",
+      "lam_per_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "lam_mean": 0.0,
+      "lam_std": 0.0
+    },
+    "qwen3_8b__ambiginst": {
+      "model": "qwen3_8b",
+      "dataset": "ambiginst",
+      "lam_per_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "lam_mean": 0.0,
+      "lam_std": 0.0
+    },
+    "qwen3_8b__simpleqa": {
+      "model": "qwen3_8b",
+      "dataset": "simpleqa",
+      "lam_per_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "lam_mean": 0.0,
+      "lam_std": 0.0
+    },
+    "qwen3_8b__popqa": {
+      "model": "qwen3_8b",
+      "dataset": "popqa",
+      "lam_per_seed": [
+        0.0,
+        0.4163897210251639,
+        16.22743955057455,
+        0.0
+      ],
+      "lam_mean": 4.160957317899929,
+      "lam_std": 6.96866040860413
+    },
+    "ministral_3_8b_instruct_2512__triviaqa": {
+      "model": "ministral_3_8b_instruct_2512",
+      "dataset": "triviaqa",
+      "lam_per_seed": [
+        9.418895965228414,
+        17.84431988540366,
+        0.06,
+        0.0
+      ],
+      "lam_mean": 6.830803962658019,
+      "lam_std": 7.424611475884625
+    },
+    "ministral_3_8b_instruct_2512__ambigqa": {
+      "model": "ministral_3_8b_instruct_2512",
+      "dataset": "ambigqa",
+      "lam_per_seed": [
+        11.933009874487842,
+        0.0,
+        0.0,
+        6.576578373554206
+      ],
+      "lam_mean": 4.6273970620105125,
+      "lam_std": 4.999922336649619
+    },
+    "ministral_3_8b_instruct_2512__opennq": {
+      "model": "ministral_3_8b_instruct_2512",
+      "dataset": "opennq",
+      "lam_per_seed": [
+        2.7305491609340815,
+        0.0,
+        2.2503496384425485,
+        0.0
+      ],
+      "lam_mean": 1.2452246998441576,
+      "lam_std": 1.256745201215071
+    },
+    "ministral_3_8b_instruct_2512__ambiginst": {
+      "model": "ministral_3_8b_instruct_2512",
+      "dataset": "ambiginst",
+      "lam_per_seed": [
+        0.0,
+        1.5767033849866077,
+        0.0,
+        1.4363160053799822
+      ],
+      "lam_mean": 0.7532548475916474,
+      "lam_std": 0.7548883642396522
+    },
+    "ministral_3_8b_instruct_2512__simpleqa": {
+      "model": "ministral_3_8b_instruct_2512",
+      "dataset": "simpleqa",
+      "lam_per_seed": [
+        0.0,
+        0.19781080029332399,
+        0.0,
+        0.24420244057628218
+      ],
+      "lam_mean": 0.11050331021740153,
+      "lam_std": 0.11171394096092575
+    },
+    "ministral_3_8b_instruct_2512__popqa": {
+      "model": "ministral_3_8b_instruct_2512",
+      "dataset": "popqa",
+      "lam_per_seed": [
+        0.0,
+        0.0,
+        0.0,
+        2.111057195808544
+      ],
+      "lam_mean": 0.527764298952136,
+      "lam_std": 0.9141145802060694
+    },
+    "gemma_4_e4b_it__triviaqa": {
+      "model": "gemma_4_e4b_it",
+      "dataset": "triviaqa",
+      "lam_per_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "lam_mean": 0.0,
+      "lam_std": 0.0
+    },
+    "gemma_4_e4b_it__ambigqa": {
+      "model": "gemma_4_e4b_it",
+      "dataset": "ambigqa",
+      "lam_per_seed": [
+        37.49730022454834,
+        13.396766874259358,
+        0.0,
+        6.40840572900017
+      ],
+      "lam_mean": 14.325618206951967,
+      "lam_std": 14.192385306522942
+    },
+    "gemma_4_e4b_it__opennq": {
+      "model": "gemma_4_e4b_it",
+      "dataset": "opennq",
+      "lam_per_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "lam_mean": 0.0,
+      "lam_std": 0.0
+    },
+    "gemma_4_e4b_it__ambiginst": {
+      "model": "gemma_4_e4b_it",
+      "dataset": "ambiginst",
+      "lam_per_seed": [
+        0.25541711786765764,
+        0.0,
+        3.108135902739475,
+        0.4171094218593351
+      ],
+      "lam_mean": 0.945165610616617,
+      "lam_std": 1.2576142928013194
+    },
+    "gemma_4_e4b_it__simpleqa": {
+      "model": "gemma_4_e4b_it",
+      "dataset": "simpleqa",
+      "lam_per_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "lam_mean": 0.0,
+      "lam_std": 0.0
+    },
+    "gemma_4_e4b_it__popqa": {
+      "model": "gemma_4_e4b_it",
+      "dataset": "popqa",
+      "lam_per_seed": [
+        0.0,
+        2.831391995799379,
+        8.27465699042041,
+        0.23307731152826375
+      ],
+      "lam_mean": 2.8347815744370135,
+      "lam_std": 3.3315577316425506
+    }
+  }
+}

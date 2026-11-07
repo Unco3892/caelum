@@ -1,0 +1,182 @@
+{
+  "qwen3_8b__to__ministral_3_8b_instruct_2512": {
+    "n_aligned": 2104,
+    "src_match_rate": 0.622148288973384,
+    "tgt_match_rate": 0.6359315589353612,
+    "agreement_rate": 0.8312737642585551,
+    "auc_in_sample_on_src": 0.793255209459427,
+    "auc_transfer_to_tgt": 0.7708140633110484,
+    "delta": -0.022441146148378555
+  },
+  "qwen3_8b__to__gemma_4_e4b_it": {
+    "n_aligned": 2104,
+    "src_match_rate": 0.622148288973384,
+    "tgt_match_rate": 0.5061787072243346,
+    "agreement_rate": 0.8174904942965779,
+    "auc_in_sample_on_src": 0.793255209459427,
+    "auc_transfer_to_tgt": 0.7970231398012715,
+    "delta": 0.0037679303418445276
+  },
+  "qwen3_8b__to__qwen3_14b": {
+    "n_aligned": 2104,
+    "src_match_rate": 0.622148288973384,
+    "tgt_match_rate": 0.6159695817490495,
+    "agreement_rate": 0.8540874524714829,
+    "auc_in_sample_on_src": 0.793255209459427,
+    "auc_transfer_to_tgt": 0.751750912938516,
+    "delta": -0.04150429652091092
+  },
+  "qwen3_8b__to__qwen3_32b": {
+    "n_aligned": 2104,
+    "src_match_rate": 0.622148288973384,
+    "tgt_match_rate": 0.6625475285171103,
+    "agreement_rate": 0.8464828897338403,
+    "auc_in_sample_on_src": 0.793255209459427,
+    "auc_transfer_to_tgt": 0.7629715884979893,
+    "delta": -0.030283620961437663
+  },
+  "ministral_3_8b_instruct_2512__to__qwen3_8b": {
+    "n_aligned": 2104,
+    "src_match_rate": 0.6359315589353612,
+    "tgt_match_rate": 0.622148288973384,
+    "agreement_rate": 0.8312737642585551,
+    "auc_in_sample_on_src": 0.78792194031074,
+    "auc_transfer_to_tgt": 0.7704820521690666,
+    "delta": -0.01743988814167341
+  },
+  "ministral_3_8b_instruct_2512__to__gemma_4_e4b_it": {
+    "n_aligned": 2104,
+    "src_match_rate": 0.6359315589353612,
+    "tgt_match_rate": 0.5061787072243346,
+    "agreement_rate": 0.7961026615969582,
+    "auc_in_sample_on_src": 0.78792194031074,
+    "auc_transfer_to_tgt": 0.7819580944118352,
+    "delta": -0.005963845898904863
+  },
+  "ministral_3_8b_instruct_2512__to__qwen3_14b": {
+    "n_aligned": 2104,
+    "src_match_rate": 0.6359315589353612,
+    "tgt_match_rate": 0.6159695817490495,
+    "agreement_rate": 0.8222433460076045,
+    "auc_in_sample_on_src": 0.78792194031074,
+    "auc_transfer_to_tgt": 0.7467182916208288,
+    "delta": -0.04120364868991122
+  },
+  "ministral_3_8b_instruct_2512__to__qwen3_32b": {
+    "n_aligned": 2104,
+    "src_match_rate": 0.6359315589353612,
+    "tgt_match_rate": 0.6625475285171103,
+    "agreement_rate": 0.8307984790874525,
+    "auc_in_sample_on_src": 0.78792194031074,
+    "auc_transfer_to_tgt": 0.7636333784630307,
+    "delta": -0.024288561847709333
+  },
+  "gemma_4_e4b_it__to__qwen3_8b": {
+    "n_aligned": 2104,
+    "src_match_rate": 0.5061787072243346,
+    "tgt_match_rate": 0.622148288973384,
+    "agreement_rate": 0.8174904942965779,
+    "auc_in_sample_on_src": 0.8209320084769122,
+    "auc_transfer_to_tgt": 0.7817240103588606,
+    "delta": -0.039207998118051535
+  },
+  "gemma_4_e4b_it__to__ministral_3_8b_instruct_2512": {
+    "n_aligned": 2104,
+    "src_match_rate": 0.5061787072243346,
+    "tgt_match_rate": 0.6359315589353612,
+    "agreement_rate": 0.7961026615969582,
+    "auc_in_sample_on_src": 0.8209320084769122,
+    "auc_transfer_to_tgt": 0.7659219168940042,
+    "delta": -0.05501009158290793
+  },
+  "gemma_4_e4b_it__to__qwen3_14b": {
+    "n_aligned": 2104,
+    "src_match_rate": 0.5061787072243346,
+    "tgt_match_rate": 0.6159695817490495,
+    "agreement_rate": 0.7970532319391636,
+    "auc_in_sample_on_src": 0.8209320084769122,
+    "auc_transfer_to_tgt": 0.7544677644847818,
+    "delta": -0.06646424399213036
+  },
+  "gemma_4_e4b_it__to__qwen3_32b": {
+    "n_aligned": 2104,
+    "src_match_rate": 0.5061787072243346,
+    "tgt_match_rate": 0.6625475285171103,
+    "agreement_rate": 0.7856463878326996,
+    "auc_in_sample_on_src": 0.8209320084769122,
+    "auc_transfer_to_tgt": 0.7694045911047346,
+    "delta": -0.051527417372177586
+  },
+  "qwen3_14b__to__qwen3_8b": {
+    "n_aligned": 2104,
+    "src_match_rate": 0.6159695817490495,
+    "tgt_match_rate": 0.622148288973384,
+    "agreement_rate": 0.8540874524714829,
+    "auc_in_sample_on_src": 0.7776426514179196,
+    "auc_transfer_to_tgt": 0.7811945361334928,
+    "delta": 0.003551884715573217
+  },
+  "qwen3_14b__to__ministral_3_8b_instruct_2512": {
+    "n_aligned": 2104,
+    "src_match_rate": 0.6159695817490495,
+    "tgt_match_rate": 0.6359315589353612,
+    "agreement_rate": 0.8222433460076045,
+    "auc_in_sample_on_src": 0.7776426514179196,
+    "auc_transfer_to_tgt": 0.7725147037587764,
+    "delta": -0.0051279476591431505
+  },
+  "qwen3_14b__to__gemma_4_e4b_it": {
+    "n_aligned": 2104,
+    "src_match_rate": 0.6159695817490495,
+    "tgt_match_rate": 0.5061787072243346,
+    "agreement_rate": 0.7970532319391636,
+    "auc_in_sample_on_src": 0.7776426514179196,
+    "auc_transfer_to_tgt": 0.7998418486536802,
+    "delta": 0.022199197235760693
+  },
+  "qwen3_14b__to__qwen3_32b": {
+    "n_aligned": 2104,
+    "src_match_rate": 0.6159695817490495,
+    "tgt_match_rate": 0.6625475285171103,
+    "agreement_rate": 0.8697718631178707,
+    "auc_in_sample_on_src": 0.7776426514179196,
+    "auc_transfer_to_tgt": 0.7816825630973792,
+    "delta": 0.004039911679459607
+  },
+  "qwen3_32b__to__qwen3_8b": {
+    "n_aligned": 2104,
+    "src_match_rate": 0.6625475285171103,
+    "tgt_match_rate": 0.622148288973384,
+    "agreement_rate": 0.8464828897338403,
+    "auc_in_sample_on_src": 0.782921272253319,
+    "auc_transfer_to_tgt": 0.7687475676376897,
+    "delta": -0.014173704615629279
+  },
+  "qwen3_32b__to__ministral_3_8b_instruct_2512": {
+    "n_aligned": 2104,
+    "src_match_rate": 0.6625475285171103,
+    "tgt_match_rate": 0.6359315589353612,
+    "agreement_rate": 0.8307984790874525,
+    "auc_in_sample_on_src": 0.782921272253319,
+    "auc_transfer_to_tgt": 0.765782392175688,
+    "delta": -0.01713888007763098
+  },
+  "qwen3_32b__to__gemma_4_e4b_it": {
+    "n_aligned": 2104,
+    "src_match_rate": 0.6625475285171103,
+    "tgt_match_rate": 0.5061787072243346,
+    "agreement_rate": 0.7856463878326996,
+    "auc_in_sample_on_src": 0.782921272253319,
+    "auc_transfer_to_tgt": 0.7869276615741932,
+    "delta": 0.004006389320874271
+  },
+  "qwen3_32b__to__qwen3_14b": {
+    "n_aligned": 2104,
+    "src_match_rate": 0.6625475285171103,
+    "tgt_match_rate": 0.6159695817490495,
+    "agreement_rate": 0.8697718631178707,
+    "auc_in_sample_on_src": 0.782921272253319,
+    "auc_transfer_to_tgt": 0.7563757677851118,
+    "delta": -0.026545504468207137
+  }
+}

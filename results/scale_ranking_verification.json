@@ -1,0 +1,546 @@
+{
+  "protocol": {
+    "cache_family": "historical llm_judged_unc_full, not Nov3 fresh run",
+    "labels": "reference absent from any cluster after one-sided judge audit of heuristic negatives",
+    "seeds": [
+      42,
+      43,
+      44,
+      45
+    ],
+    "test_selection": "np.random.RandomState(seed).permutation(n)[int(.4*n)+int(.3*n):], identical to utils.split_data",
+    "signals": "cached U_epi and U_total, no model fitting needed",
+    "aggregation": "per-cell mean and population std across four overlapping split test subsets; std is not a confidence interval",
+    "source_caches_overwritten": false
+  },
+  "cells": [
+    {
+      "model": "qwen3_14b",
+      "dataset": "triviaqa",
+      "path": "results/llm_judged_unc_full/unc_triviaqa_qwen3_14b_vne_300.json",
+      "sha256": "156b09256d629704ff1cd659ff66fdec230f2a11c0ea2e7dcc0a08ae9f8abba0",
+      "n": 300,
+      "match_rate": 0.84,
+      "folds": [
+        {
+          "seed": 42,
+          "n_test": 90,
+          "epi_auc": 0.8190789473684211,
+          "total_auc": 0.8392857142857143,
+          "delta": -0.020206766917293173
+        },
+        {
+          "seed": 43,
+          "n_test": 90,
+          "epi_auc": 0.7364714603409933,
+          "total_auc": 0.6834692364714603,
+          "delta": 0.053002223869533016
+        },
+        {
+          "seed": 44,
+          "n_test": 90,
+          "epi_auc": 0.7878001297858533,
+          "total_auc": 0.7475665152498379,
+          "delta": 0.04023361453601548
+        },
+        {
+          "seed": 45,
+          "n_test": 90,
+          "epi_auc": 0.6310975609756098,
+          "total_auc": 0.7073170731707317,
+          "delta": -0.07621951219512191
+        }
+      ],
+      "epi_mean": 0.7436120246177194,
+      "epi_std": 0.07134132262348399,
+      "total_mean": 0.744409634794436,
+      "total_std": 0.0593738718406849,
+      "delta_mean": -0.0007976101767166455,
+      "delta_std": 0.05158285135169661
+    },
+    {
+      "model": "qwen3_14b",
+      "dataset": "ambigqa",
+      "path": "results/llm_judged_unc_full/unc_ambigqa_qwen3_14b_vne_200.json",
+      "sha256": "29136a1fcec8354a09873b22931055addb4da1831911eb592a6c20cba60b7b40",
+      "n": 200,
+      "match_rate": 0.73,
+      "folds": [
+        {
+          "seed": 42,
+          "n_test": 60,
+          "epi_auc": 0.687888198757764,
+          "total_auc": 0.6599378881987578,
+          "delta": 0.02795031055900621
+        },
+        {
+          "seed": 43,
+          "n_test": 60,
+          "epi_auc": 0.74875,
+          "total_auc": 0.67625,
+          "delta": 0.07250000000000001
+        },
+        {
+          "seed": 44,
+          "n_test": 60,
+          "epi_auc": 0.7824897400820793,
+          "total_auc": 0.6963064295485636,
+          "delta": 0.08618331053351569
+        },
+        {
+          "seed": 45,
+          "n_test": 60,
+          "epi_auc": 0.8058608058608059,
+          "total_auc": 0.6923076923076923,
+          "delta": 0.1135531135531136
+        }
+      ],
+      "epi_mean": 0.7562471861751623,
+      "epi_std": 0.04438282847888976,
+      "total_mean": 0.6812005025137535,
+      "total_std": 0.014388927508213786,
+      "delta_mean": 0.07504668366140888,
+      "delta_std": 0.03094884310505526
+    },
+    {
+      "model": "qwen3_14b",
+      "dataset": "opennq",
+      "path": "results/llm_judged_unc_full/unc_opennq_qwen3_14b_vne_300.json",
+      "sha256": "e5557b53d01e88bd9746627440263543bed07b241d65f156562505415d9173fd",
+      "n": 300,
+      "match_rate": 0.69,
+      "folds": [
+        {
+          "seed": 42,
+          "n_test": 90,
+          "epi_auc": 0.752967778405879,
+          "total_auc": 0.7111362351611079,
+          "delta": 0.04183154324477112
+        },
+        {
+          "seed": 43,
+          "n_test": 90,
+          "epi_auc": 0.6347687400318979,
+          "total_auc": 0.5911749069643806,
+          "delta": 0.043593833067517296
+        },
+        {
+          "seed": 44,
+          "n_test": 90,
+          "epi_auc": 0.7325721153846154,
+          "total_auc": 0.6358173076923077,
+          "delta": 0.09675480769230771
+        },
+        {
+          "seed": 45,
+          "n_test": 90,
+          "epi_auc": 0.7516923076923077,
+          "total_auc": 0.6541538461538461,
+          "delta": 0.09753846153846157
+        }
+      ],
+      "epi_mean": 0.718000235378675,
+      "epi_std": 0.04872808816974694,
+      "total_mean": 0.6480705739929106,
+      "total_std": 0.04301611116901646,
+      "delta_mean": 0.06992966138576442,
+      "delta_std": 0.027225513845070156
+    },
+    {
+      "model": "qwen3_14b",
+      "dataset": "ambiginst",
+      "path": "results/llm_judged_unc_full/unc_ambiginst_qwen3_14b_vne_304.json",
+      "sha256": "d78e476e018a6f1b20c319286dc872736698fe2d8265a6c47e97c9bd93d39c21",
+      "n": 304,
+      "match_rate": 0.9177631578947368,
+      "folds": [
+        {
+          "seed": 42,
+          "n_test": 92,
+          "epi_auc": 0.8410852713178295,
+          "total_auc": 0.6182170542635659,
+          "delta": 0.22286821705426363
+        },
+        {
+          "seed": 43,
+          "n_test": 92,
+          "epi_auc": 0.7395833333333333,
+          "total_auc": 0.6800595238095238,
+          "delta": 0.05952380952380942
+        },
+        {
+          "seed": 44,
+          "n_test": 92,
+          "epi_auc": 0.7978580990629184,
+          "total_auc": 0.7242302543507363,
+          "delta": 0.07362784471218209
+        },
+        {
+          "seed": 45,
+          "n_test": 92,
+          "epi_auc": 0.8243902439024391,
+          "total_auc": 0.7865853658536586,
+          "delta": 0.03780487804878052
+        }
+      ],
+      "epi_mean": 0.8007292369041301,
+      "epi_std": 0.03852115562183377,
+      "total_mean": 0.7022730495693712,
+      "total_std": 0.061541726886246616,
+      "delta_mean": 0.09845618733475892,
+      "delta_std": 0.07295394282769936
+    },
+    {
+      "model": "qwen3_14b",
+      "dataset": "simpleqa",
+      "path": "results/llm_judged_unc_full/unc_simpleqa_qwen3_14b_vne_500.json",
+      "sha256": "7e6cecc7d350c090dabff5b9eabc8870ec7b68f93967d1777ec3d2d8bb705726",
+      "n": 500,
+      "match_rate": 0.37,
+      "folds": [
+        {
+          "seed": 42,
+          "n_test": 150,
+          "epi_auc": 0.5647846889952154,
+          "total_auc": 0.5538755980861244,
+          "delta": 0.01090909090909098
+        },
+        {
+          "seed": 43,
+          "n_test": 150,
+          "epi_auc": 0.5531788472964944,
+          "total_auc": 0.569419687066746,
+          "delta": -0.01624083977025159
+        },
+        {
+          "seed": 44,
+          "n_test": 150,
+          "epi_auc": 0.5427286356821588,
+          "total_auc": 0.5491004497751124,
+          "delta": -0.0063718140929536204
+        },
+        {
+          "seed": 45,
+          "n_test": 150,
+          "epi_auc": 0.5291866028708134,
+          "total_auc": 0.4989473684210526,
+          "delta": 0.030239234449760843
+        }
+      ],
+      "epi_mean": 0.5474696937111705,
+      "epi_std": 0.013125857479213672,
+      "total_mean": 0.5428357758372588,
+      "total_std": 0.026429247324802535,
+      "delta_mean": 0.004633917873911653,
+      "delta_std": 0.017691040644913537
+    },
+    {
+      "model": "qwen3_14b",
+      "dataset": "popqa",
+      "path": "results/llm_judged_unc_full/unc_popqa_qwen3_14b_vne_500.json",
+      "sha256": "3b3258d87ce53fb773090cb92365817a59b5f8b79e0f0f744169d1c2f5f2abb4",
+      "n": 500,
+      "match_rate": 0.55,
+      "folds": [
+        {
+          "seed": 42,
+          "n_test": 150,
+          "epi_auc": 0.7825854700854702,
+          "total_auc": 0.7775997150997151,
+          "delta": 0.004985754985755042
+        },
+        {
+          "seed": 43,
+          "n_test": 150,
+          "epi_auc": 0.7487861895342565,
+          "total_auc": 0.7358388778996583,
+          "delta": 0.012947311634598169
+        },
+        {
+          "seed": 44,
+          "n_test": 150,
+          "epi_auc": 0.7507604222580068,
+          "total_auc": 0.7459295043836106,
+          "delta": 0.004830917874396157
+        },
+        {
+          "seed": 45,
+          "n_test": 150,
+          "epi_auc": 0.7003236827908651,
+          "total_auc": 0.7153389678115447,
+          "delta": -0.015015285020679614
+        }
+      ],
+      "epi_mean": 0.7456139411671496,
+      "epi_std": 0.029388139111170285,
+      "total_mean": 0.7436767662986322,
+      "total_std": 0.02247389931615092,
+      "delta_mean": 0.0019371748685174384,
+      "delta_std": 0.010323233471373275
+    },
+    {
+      "model": "qwen3_32b",
+      "dataset": "triviaqa",
+      "path": "results/llm_judged_unc_full/unc_triviaqa_qwen3_32b_vne_300.json",
+      "sha256": "b2a3cc2d250faf9e50366ca34de6a839203357a1279d30916cfa8bb8cd5c4d1c",
+      "n": 300,
+      "match_rate": 0.8733333333333333,
+      "folds": [
+        {
+          "seed": 42,
+          "n_test": 90,
+          "epi_auc": 0.7125,
+          "total_auc": 0.725,
+          "delta": -0.012499999999999956
+        },
+        {
+          "seed": 43,
+          "n_test": 90,
+          "epi_auc": 0.7828947368421052,
+          "total_auc": 0.7302631578947367,
+          "delta": 0.052631578947368474
+        },
+        {
+          "seed": 44,
+          "n_test": 90,
+          "epi_auc": 0.8243243243243243,
+          "total_auc": 0.7567567567567568,
+          "delta": 0.06756756756756754
+        },
+        {
+          "seed": 45,
+          "n_test": 90,
+          "epi_auc": 0.7451093210586882,
+          "total_auc": 0.7537399309551208,
+          "delta": -0.008630609896432606
+        }
+      ],
+      "epi_mean": 0.7662070955562794,
+      "epi_std": 0.04179012399241058,
+      "total_mean": 0.7414399614016537,
+      "total_std": 0.013973964527706712,
+      "delta_mean": 0.024767134154625864,
+      "delta_std": 0.035751059354032944
+    },
+    {
+      "model": "qwen3_32b",
+      "dataset": "ambigqa",
+      "path": "results/llm_judged_unc_full/unc_ambigqa_qwen3_32b_vne_200.json",
+      "sha256": "5adcc0533d4f86524225e76b26c4dcff9c89f8bbe1be9673f80d61e5616052b5",
+      "n": 200,
+      "match_rate": 0.8049999999999999,
+      "folds": [
+        {
+          "seed": 42,
+          "n_test": 60,
+          "epi_auc": 0.76,
+          "total_auc": 0.716,
+          "delta": 0.04400000000000004
+        },
+        {
+          "seed": 43,
+          "n_test": 60,
+          "epi_auc": 0.78,
+          "total_auc": 0.782,
+          "delta": -0.0020000000000000018
+        },
+        {
+          "seed": 44,
+          "n_test": 60,
+          "epi_auc": 0.7872340425531915,
+          "total_auc": 0.7135842880523732,
+          "delta": 0.07364975450081834
+        },
+        {
+          "seed": 45,
+          "n_test": 60,
+          "epi_auc": 0.7551020408163266,
+          "total_auc": 0.6307977736549165,
+          "delta": 0.12430426716141008
+        }
+      ],
+      "epi_mean": 0.7705840208423795,
+      "epi_std": 0.013394001354956258,
+      "total_mean": 0.7105955154268224,
+      "total_std": 0.053629332515811465,
+      "delta_mean": 0.059988505415557114,
+      "delta_std": 0.04588396790981771
+    },
+    {
+      "model": "qwen3_32b",
+      "dataset": "opennq",
+      "path": "results/llm_judged_unc_full/unc_opennq_qwen3_32b_vne_300.json",
+      "sha256": "e08b33f4c5fac286918ef72610759985f7bd40c830a1b354cbbb10e1fa1f8c93",
+      "n": 300,
+      "match_rate": 0.74,
+      "folds": [
+        {
+          "seed": 42,
+          "n_test": 90,
+          "epi_auc": 0.8057142857142857,
+          "total_auc": 0.7378571428571429,
+          "delta": 0.06785714285714284
+        },
+        {
+          "seed": 43,
+          "n_test": 90,
+          "epi_auc": 0.712,
+          "total_auc": 0.6701538461538461,
+          "delta": 0.041846153846153866
+        },
+        {
+          "seed": 44,
+          "n_test": 90,
+          "epi_auc": 0.7575757575757575,
+          "total_auc": 0.668560606060606,
+          "delta": 0.08901515151515149
+        },
+        {
+          "seed": 45,
+          "n_test": 90,
+          "epi_auc": 0.7702790395846851,
+          "total_auc": 0.7255029201817002,
+          "delta": 0.04477611940298498
+        }
+      ],
+      "epi_mean": 0.7613922707186821,
+      "epi_std": 0.033531991640320044,
+      "total_mean": 0.7005186288133238,
+      "total_std": 0.031471076762644094,
+      "delta_mean": 0.060873641905358294,
+      "delta_std": 0.019117331019386837
+    },
+    {
+      "model": "qwen3_32b",
+      "dataset": "ambiginst",
+      "path": "results/llm_judged_unc_full/unc_ambiginst_qwen3_32b_vne_304.json",
+      "sha256": "b6883939e4f715678f0996b17f96fd2a863632d49223b202272cbcf31704c9d6",
+      "n": 304,
+      "match_rate": 0.9605263157894737,
+      "folds": [
+        {
+          "seed": 42,
+          "n_test": 92,
+          "epi_auc": 0.6329588014981273,
+          "total_auc": 0.7378277153558053,
+          "delta": -0.10486891385767794
+        },
+        {
+          "seed": 43,
+          "n_test": 92,
+          "epi_auc": 0.6278409090909091,
+          "total_auc": 0.7642045454545455,
+          "delta": -0.13636363636363646
+        },
+        {
+          "seed": 44,
+          "n_test": 92,
+          "epi_auc": 0.735632183908046,
+          "total_auc": 0.7793103448275862,
+          "delta": -0.04367816091954024
+        },
+        {
+          "seed": 45,
+          "n_test": 92,
+          "epi_auc": 0.7888888888888889,
+          "total_auc": 0.5888888888888889,
+          "delta": 0.19999999999999996
+        }
+      ],
+      "epi_mean": 0.6963301958464928,
+      "epi_std": 0.06859022150651575,
+      "total_mean": 0.7175578736317065,
+      "total_std": 0.07575594664647298,
+      "delta_mean": -0.021227677785213672,
+      "delta_std": 0.13200175656094976
+    },
+    {
+      "model": "qwen3_32b",
+      "dataset": "simpleqa",
+      "path": "results/llm_judged_unc_full/unc_simpleqa_qwen3_32b_vne_500.json",
+      "sha256": "3088407cbbd2d4ea461d77da5786326a5ea36a9b3149a0be81599fa066cb464f",
+      "n": 500,
+      "match_rate": 0.406,
+      "folds": [
+        {
+          "seed": 42,
+          "n_test": 150,
+          "epi_auc": 0.5530088662516506,
+          "total_auc": 0.5351820411243162,
+          "delta": 0.017826825127334356
+        },
+        {
+          "seed": 43,
+          "n_test": 150,
+          "epi_auc": 0.5138653084323713,
+          "total_auc": 0.516883606866629,
+          "delta": -0.0030182984342577157
+        },
+        {
+          "seed": 44,
+          "n_test": 150,
+          "epi_auc": 0.6292647327130086,
+          "total_auc": 0.6358328772121876,
+          "delta": -0.006568144499178974
+        },
+        {
+          "seed": 45,
+          "n_test": 150,
+          "epi_auc": 0.5663082437275986,
+          "total_auc": 0.5827202414638748,
+          "delta": -0.016411997736276218
+        }
+      ],
+      "epi_mean": 0.5656117877811573,
+      "epi_std": 0.04149913916413168,
+      "total_mean": 0.5676546916667519,
+      "total_std": 0.04611781613430395,
+      "delta_mean": -0.002042903885594638,
+      "delta_std": 0.012477040777697672
+    },
+    {
+      "model": "qwen3_32b",
+      "dataset": "popqa",
+      "path": "results/llm_judged_unc_full/unc_popqa_qwen3_32b_vne_500.json",
+      "sha256": "e61cbc2f351e5dbc567710a166fa8f45cbc4a14a36bf41291dd93b01300ff139",
+      "n": 500,
+      "match_rate": 0.5760000000000001,
+      "folds": [
+        {
+          "seed": 42,
+          "n_test": 150,
+          "epi_auc": 0.7866161616161617,
+          "total_auc": 0.7927489177489178,
+          "delta": -0.006132756132756101
+        },
+        {
+          "seed": 43,
+          "n_test": 150,
+          "epi_auc": 0.7935185185185185,
+          "total_auc": 0.7862962962962963,
+          "delta": 0.007222222222222241
+        },
+        {
+          "seed": 44,
+          "n_test": 150,
+          "epi_auc": 0.7460416296032734,
+          "total_auc": 0.7445294431595801,
+          "delta": 0.0015121864436932198
+        },
+        {
+          "seed": 45,
+          "n_test": 150,
+          "epi_auc": 0.7459677419354838,
+          "total_auc": 0.7556818181818182,
+          "delta": -0.009714076246334469
+        }
+      ],
+      "epi_mean": 0.7680360129183594,
+      "epi_std": 0.022166086138959835,
+      "total_mean": 0.7698141188466532,
+      "total_std": 0.02022809877899179,
+      "delta_mean": -0.0017781059282937772,
+      "delta_std": 0.0065911784606808655
+    }
+  ]
+}

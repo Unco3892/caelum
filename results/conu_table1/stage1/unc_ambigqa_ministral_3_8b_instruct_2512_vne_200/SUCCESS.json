@@ -1,0 +1,15 @@
+{
+ "input": "unc_ambigqa_ministral_3_8b_instruct_2512_vne_200.json",
+ "input_sha256": "b934dfe9bf164cce26d449b8927d4767e1e22efd64e142af48165815c9643d8d",
+ "n": 200,
+ "label_resolution": {
+  "gpu": 200,
+  "cpu": 0,
+  "failed": 0
+ },
+ "sts_unique_pairs": 198284,
+ "seconds": 1334.890528678894,
+ "model": "cross-encoder/stsb-roberta-large",
+ "revision": "2b12c2c0088918e76151fd5937b7bba986ef1f98",
+ "job": "20002179"
+}

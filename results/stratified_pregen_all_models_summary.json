@@ -1,0 +1,195 @@
+{
+  "alpha": 0.1,
+  "seeds": [
+    42,
+    43,
+    44,
+    45
+  ],
+  "n_cells": 30,
+  "excluded_duplicate_caches": [
+    "unc_ambiginst_qwen3_8b_vne_50.json"
+  ],
+  "summary": {
+    "n_evaluations": 120,
+    "n_learned": 78,
+    "n_cells_with_learned": 27,
+    "cov_matched_learned": {
+      "mean": 0.7402414888902396,
+      "sd": 0.1456466021534842,
+      "n": 78
+    },
+    "cov_overall_learned": {
+      "mean": 0.6515503713044696,
+      "sd": 0.17316831783315265,
+      "n": 78
+    },
+    "classifier_auc_learned": {
+      "mean": 0.670504263485713,
+      "sd": 0.07767324142176006,
+      "n": 78
+    },
+    "cov_matched_all": {
+      "mean": 0.8292465863318768,
+      "sd": 0.16914302854494176,
+      "n": 120
+    },
+    "cov_overall_all": {
+      "mean": 0.6482194899817851,
+      "sd": 0.20788890956042172,
+      "n": 120
+    }
+  },
+  "by_model": {
+    "qwen3_8b": {
+      "n_evaluations": 24,
+      "n_learned": 12,
+      "n_cells_with_learned": 4,
+      "cov_matched_learned": {
+        "mean": 0.7362697954760619,
+        "sd": 0.04788414954145896,
+        "n": 12
+      },
+      "cov_overall_learned": {
+        "mean": 0.6269444444444444,
+        "sd": 0.09437750152770942,
+        "n": 12
+      },
+      "classifier_auc_learned": {
+        "mean": 0.6627795661131303,
+        "sd": 0.0776014859175998,
+        "n": 12
+      },
+      "cov_matched_all": {
+        "mean": 0.8640504564122476,
+        "sd": 0.13494667356407597,
+        "n": 24
+      },
+      "cov_overall_all": {
+        "mean": 0.6590972222222221,
+        "sd": 0.2085857770049532,
+        "n": 24
+      }
+    },
+    "ministral_3_8b_instruct_2512": {
+      "n_evaluations": 24,
+      "n_learned": 16,
+      "n_cells_with_learned": 6,
+      "cov_matched_learned": {
+        "mean": 0.7548708139230491,
+        "sd": 0.12249598111046943,
+        "n": 16
+      },
+      "cov_overall_learned": {
+        "mean": 0.65729081284153,
+        "sd": 0.15021919957176721,
+        "n": 16
+      },
+      "classifier_auc_learned": {
+        "mean": 0.6958284529531082,
+        "sd": 0.07177879943071674,
+        "n": 16
+      },
+      "cov_matched_all": {
+        "mean": 0.8317744523686305,
+        "sd": 0.14911432576641176,
+        "n": 24
+      },
+      "cov_overall_all": {
+        "mean": 0.6682599043715847,
+        "sd": 0.18440841689594686,
+        "n": 24
+      }
+    },
+    "gemma_4_e4b_it": {
+      "n_evaluations": 24,
+      "n_learned": 17,
+      "n_cells_with_learned": 6,
+      "cov_matched_learned": {
+        "mean": 0.6528411438558359,
+        "sd": 0.1742168006813094,
+        "n": 17
+      },
+      "cov_overall_learned": {
+        "mean": 0.5577756348441015,
+        "sd": 0.19475238766245243,
+        "n": 17
+      },
+      "classifier_auc_learned": {
+        "mean": 0.6536322026990704,
+        "sd": 0.07019483305142982,
+        "n": 17
+      },
+      "cov_matched_all": {
+        "mean": 0.7540958102312171,
+        "sd": 0.2170151887013015,
+        "n": 24
+      },
+      "cov_overall_all": {
+        "mean": 0.5557206284153006,
+        "sd": 0.23838588731544103,
+        "n": 24
+      }
+    },
+    "qwen3_14b": {
+      "n_evaluations": 24,
+      "n_learned": 13,
+      "n_cells_with_learned": 5,
+      "cov_matched_learned": {
+        "mean": 0.7906821558904554,
+        "sd": 0.09950026105633354,
+        "n": 13
+      },
+      "cov_overall_learned": {
+        "mean": 0.6982629255989911,
+        "sd": 0.15148386549222478,
+        "n": 13
+      },
+      "classifier_auc_learned": {
+        "mean": 0.6940484516832199,
+        "sd": 0.07886147987173629,
+        "n": 13
+      },
+      "cov_matched_all": {
+        "mean": 0.8859581254459544,
+        "sd": 0.12794426004552167,
+        "n": 24
+      },
+      "cov_overall_all": {
+        "mean": 0.6492833561020036,
+        "sd": 0.19262953293725263,
+        "n": 24
+      }
+    },
+    "qwen3_32b": {
+      "n_evaluations": 24,
+      "n_learned": 20,
+      "n_cells_with_learned": 6,
+      "cov_matched_learned": {
+        "mean": 0.7724249046416011,
+        "sd": 0.176426987867489,
+        "n": 20
+      },
+      "cov_overall_learned": {
+        "mean": 0.7110669398907105,
+        "sd": 0.19652682831172102,
+        "n": 20
+      },
+      "classifier_auc_learned": {
+        "mean": 0.6539172596756129,
+        "sd": 0.08554299261577139,
+        "n": 20
+      },
+      "cov_matched_all": {
+        "mean": 0.8103540872013343,
+        "sd": 0.1822609101726155,
+        "n": 24
+      },
+      "cov_overall_all": {
+        "mean": 0.7087363387978142,
+        "sd": 0.1971379798759588,
+        "n": 24
+      }
+    }
+  }
+}

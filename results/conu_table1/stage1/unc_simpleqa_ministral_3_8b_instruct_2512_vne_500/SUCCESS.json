@@ -1,0 +1,15 @@
+{
+ "input": "unc_simpleqa_ministral_3_8b_instruct_2512_vne_500.json",
+ "input_sha256": "7fcd6655095eda85ac96a2794453c174d6a5adb4db90559a243c666276aecb10",
+ "n": 500,
+ "label_resolution": {
+  "gpu": 500,
+  "cpu": 0,
+  "failed": 0
+ },
+ "sts_unique_pairs": 495416,
+ "seconds": 3532.2286624908447,
+ "model": "cross-encoder/stsb-roberta-large",
+ "revision": "2b12c2c0088918e76151fd5937b7bba986ef1f98",
+ "job": "20002158"
+}

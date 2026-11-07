@@ -1,0 +1,15 @@
+{
+ "input": "unc_simpleqa_qwen3_8b_vne_500.json",
+ "input_sha256": "530de851df443aefea2fbf34d908fa1f1551089694ce01d5c2baa31940fef76d",
+ "n": 500,
+ "label_resolution": {
+  "gpu": 500,
+  "cpu": 0,
+  "failed": 0
+ },
+ "sts_unique_pairs": 157872,
+ "seconds": 934.7173721790314,
+ "model": "cross-encoder/stsb-roberta-large",
+ "revision": "2b12c2c0088918e76151fd5937b7bba986ef1f98",
+ "job": "20002152"
+}

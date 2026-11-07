@@ -1,0 +1,356 @@
+{
+  "alpha": 0.1,
+  "seed": 42,
+  "summary": {
+    "n_cells": 18,
+    "delta_R_vs_Uepi_mean": -0.04584849704777242,
+    "delta_R_vs_Uepi_std": 0.037038725416963354,
+    "delta_R_vs_Uepi_median": -0.03908333333333336,
+    "n_cells_R_beats_Uepi": 2,
+    "n_cells_R_loses_Uepi": 16,
+    "n_cells_tied": 0,
+    "sign_test_p": 0.001312255859375,
+    "wilcoxon_stat": 4.0,
+    "wilcoxon_p": 5.340576171875e-05,
+    "delta_R_vs_Utotal_mean": -0.045873725174449764,
+    "delta_R_vs_Random_mean": 0.002885265700483105,
+    "by_lambda_regime": {
+      "low_lambda": {
+        "n": 12,
+        "delta_R_vs_Uepi_mean": -0.053541062801932354,
+        "n_R_beats_Uepi": 1
+      },
+      "high_lambda": {
+        "n": 6,
+        "delta_R_vs_Uepi_mean": -0.030463365539452558,
+        "n_R_beats_Uepi": 1
+      }
+    }
+  },
+  "per_cell": [
+    {
+      "model": "gemma_4_e4b_it",
+      "dataset": "ambiginst",
+      "n_test": 92,
+      "lambda_star": 32.210687912834345,
+      "base_accuracy": 0.8152173913043478,
+      "auc": {
+        "Random": 0.8991847826086956,
+        "U_total": 0.9627717391304348,
+        "U_epi": 0.951358695652174,
+        "U_ale": 0.9535326086956522,
+        "R(x)": 0.9214673913043478,
+        "Oracle": 0.9828804347826088
+      },
+      "delta_R_vs_Uepi": -0.029891304347826164,
+      "delta_R_vs_Utotal": -0.04130434782608694,
+      "delta_R_vs_Random": 0.02228260869565224
+    },
+    {
+      "model": "ministral_3_8b_instruct_2512",
+      "dataset": "ambiginst",
+      "n_test": 92,
+      "lambda_star": 0.05,
+      "base_accuracy": 0.782608695652174,
+      "auc": {
+        "Random": 0.8782608695652173,
+        "U_total": 0.9364130434782608,
+        "U_epi": 0.9331521739130435,
+        "U_ale": 0.9228260869565217,
+        "R(x)": 0.8967391304347827,
+        "Oracle": 0.9760869565217392
+      },
+      "delta_R_vs_Uepi": -0.0364130434782608,
+      "delta_R_vs_Utotal": -0.039673913043478115,
+      "delta_R_vs_Random": 0.01847826086956539
+    },
+    {
+      "model": "qwen3_8b",
+      "dataset": "ambiginst",
+      "n_test": 92,
+      "lambda_star": 0.0,
+      "base_accuracy": 0.9347826086956522,
+      "auc": {
+        "Random": 0.9586956521739132,
+        "U_total": 0.9896739130434782,
+        "U_epi": 0.9847826086956522,
+        "U_ale": 0.9864130434782609,
+        "R(x)": 0.9483695652173912,
+        "Oracle": 0.9978260869565216
+      },
+      "delta_R_vs_Uepi": -0.03641304347826091,
+      "delta_R_vs_Utotal": -0.04130434782608694,
+      "delta_R_vs_Random": -0.01032608695652193
+    },
+    {
+      "model": "gemma_4_e4b_it",
+      "dataset": "ambigqa",
+      "n_test": 60,
+      "lambda_star": 7.2819886887389105,
+      "base_accuracy": 0.5666666666666667,
+      "auc": {
+        "Random": 0.7741666666666667,
+        "U_total": 0.8325,
+        "U_epi": 0.8266666666666668,
+        "U_ale": 0.8200000000000002,
+        "R(x)": 0.7875000000000001,
+        "Oracle": 0.9058333333333333
+      },
+      "delta_R_vs_Uepi": -0.03916666666666668,
+      "delta_R_vs_Utotal": -0.04499999999999993,
+      "delta_R_vs_Random": 0.01333333333333342
+    },
+    {
+      "model": "ministral_3_8b_instruct_2512",
+      "dataset": "ambigqa",
+      "n_test": 60,
+      "lambda_star": 3.0391350552741656,
+      "base_accuracy": 0.65,
+      "auc": {
+        "Random": 0.8054166666666667,
+        "U_total": 0.8787499999999999,
+        "U_epi": 0.8679166666666668,
+        "U_ale": 0.87625,
+        "R(x)": 0.8029166666666666,
+        "Oracle": 0.93875
+      },
+      "delta_R_vs_Uepi": -0.06500000000000017,
+      "delta_R_vs_Utotal": -0.07583333333333331,
+      "delta_R_vs_Random": -0.0025000000000000577
+    },
+    {
+      "model": "qwen3_8b",
+      "dataset": "ambigqa",
+      "n_test": 60,
+      "lambda_star": 15.302063505192057,
+      "base_accuracy": 0.65,
+      "auc": {
+        "Random": 0.82875,
+        "U_total": 0.8495833333333335,
+        "U_epi": 0.8612500000000001,
+        "U_ale": 0.8212499999999999,
+        "R(x)": 0.8654166666666667,
+        "Oracle": 0.93875
+      },
+      "delta_R_vs_Uepi": 0.004166666666666652,
+      "delta_R_vs_Utotal": 0.015833333333333255,
+      "delta_R_vs_Random": 0.036666666666666736
+    },
+    {
+      "model": "gemma_4_e4b_it",
+      "dataset": "opennq",
+      "n_test": 90,
+      "lambda_star": 0.0,
+      "base_accuracy": 0.5444444444444444,
+      "auc": {
+        "Random": 0.8041666666666666,
+        "U_total": 0.8175,
+        "U_epi": 0.8141666666666666,
+        "U_ale": 0.8030555555555555,
+        "R(x)": 0.7419444444444445,
+        "Oracle": 0.8958333333333333
+      },
+      "delta_R_vs_Uepi": -0.07222222222222208,
+      "delta_R_vs_Utotal": -0.07555555555555549,
+      "delta_R_vs_Random": -0.06222222222222207
+    },
+    {
+      "model": "ministral_3_8b_instruct_2512",
+      "dataset": "opennq",
+      "n_test": 90,
+      "lambda_star": 21.171420594674814,
+      "base_accuracy": 0.7111111111111111,
+      "auc": {
+        "Random": 0.8716666666666667,
+        "U_total": 0.9094444444444444,
+        "U_epi": 0.9188888888888889,
+        "U_ale": 0.88,
+        "R(x)": 0.9049999999999999,
+        "Oracle": 0.9577777777777778
+      },
+      "delta_R_vs_Uepi": -0.01388888888888895,
+      "delta_R_vs_Utotal": -0.004444444444444473,
+      "delta_R_vs_Random": 0.033333333333333215
+    },
+    {
+      "model": "qwen3_8b",
+      "dataset": "opennq",
+      "n_test": 90,
+      "lambda_star": 0.0,
+      "base_accuracy": 0.7,
+      "auc": {
+        "Random": 0.8597222222222223,
+        "U_total": 0.8780555555555556,
+        "U_epi": 0.8813888888888889,
+        "U_ale": 0.8674999999999999,
+        "R(x)": 0.8330555555555554,
+        "Oracle": 0.9547222222222222
+      },
+      "delta_R_vs_Uepi": -0.04833333333333345,
+      "delta_R_vs_Utotal": -0.04500000000000015,
+      "delta_R_vs_Random": -0.02666666666666684
+    },
+    {
+      "model": "gemma_4_e4b_it",
+      "dataset": "popqa",
+      "n_test": 150,
+      "lambda_star": 14.182408815856729,
+      "base_accuracy": 0.3466666666666667,
+      "auc": {
+        "Random": 0.6773333333333333,
+        "U_total": 0.7493333333333333,
+        "U_epi": 0.7396666666666666,
+        "U_ale": 0.742,
+        "R(x)": 0.7006666666666665,
+        "Oracle": 0.7873333333333332
+      },
+      "delta_R_vs_Uepi": -0.039000000000000035,
+      "delta_R_vs_Utotal": -0.04866666666666675,
+      "delta_R_vs_Random": 0.023333333333333206
+    },
+    {
+      "model": "ministral_3_8b_instruct_2512",
+      "dataset": "popqa",
+      "n_test": 150,
+      "lambda_star": 0.0,
+      "base_accuracy": 0.43333333333333335,
+      "auc": {
+        "Random": 0.7155,
+        "U_total": 0.7848333333333333,
+        "U_epi": 0.7858333333333333,
+        "U_ale": 0.7685,
+        "R(x)": 0.6655,
+        "Oracle": 0.8398333333333334
+      },
+      "delta_R_vs_Uepi": -0.12033333333333329,
+      "delta_R_vs_Utotal": -0.11933333333333329,
+      "delta_R_vs_Random": -0.050000000000000044
+    },
+    {
+      "model": "qwen3_8b",
+      "dataset": "popqa",
+      "n_test": 150,
+      "lambda_star": 0.0,
+      "base_accuracy": 0.52,
+      "auc": {
+        "Random": 0.7586666666666668,
+        "U_total": 0.8283333333333333,
+        "U_epi": 0.8293333333333335,
+        "U_ale": 0.8019999999999999,
+        "R(x)": 0.7186666666666667,
+        "Oracle": 0.8853333333333333
+      },
+      "delta_R_vs_Uepi": -0.1106666666666668,
+      "delta_R_vs_Utotal": -0.10966666666666658,
+      "delta_R_vs_Random": -0.04000000000000015
+    },
+    {
+      "model": "gemma_4_e4b_it",
+      "dataset": "simpleqa",
+      "n_test": 150,
+      "lambda_star": 0.30672558257122756,
+      "base_accuracy": 0.18,
+      "auc": {
+        "Random": 0.5761666666666666,
+        "U_total": 0.5811666666666667,
+        "U_epi": 0.5815,
+        "U_ale": 0.5815,
+        "R(x)": 0.5865,
+        "Oracle": 0.6641666666666666
+      },
+      "delta_R_vs_Uepi": 0.0050000000000000044,
+      "delta_R_vs_Utotal": 0.005333333333333301,
+      "delta_R_vs_Random": 0.010333333333333417
+    },
+    {
+      "model": "ministral_3_8b_instruct_2512",
+      "dataset": "simpleqa",
+      "n_test": 150,
+      "lambda_star": 0.3741105882720534,
+      "base_accuracy": 0.2866666666666667,
+      "auc": {
+        "Random": 0.6248333333333331,
+        "U_total": 0.6608333333333332,
+        "U_epi": 0.6668333333333334,
+        "U_ale": 0.6491666666666664,
+        "R(x)": 0.6625000000000001,
+        "Oracle": 0.7461666666666666
+      },
+      "delta_R_vs_Uepi": -0.0043333333333333,
+      "delta_R_vs_Utotal": 0.0016666666666669272,
+      "delta_R_vs_Random": 0.03766666666666696
+    },
+    {
+      "model": "qwen3_8b",
+      "dataset": "simpleqa",
+      "n_test": 150,
+      "lambda_star": 0.0,
+      "base_accuracy": 0.32666666666666666,
+      "auc": {
+        "Random": 0.6581666666666667,
+        "U_total": 0.6941666666666666,
+        "U_epi": 0.6918333333333333,
+        "U_ale": 0.6835,
+        "R(x)": 0.6441666666666667,
+        "Oracle": 0.7738333333333334
+      },
+      "delta_R_vs_Uepi": -0.047666666666666635,
+      "delta_R_vs_Utotal": -0.04999999999999993,
+      "delta_R_vs_Random": -0.014000000000000012
+    },
+    {
+      "model": "gemma_4_e4b_it",
+      "dataset": "triviaqa",
+      "n_test": 90,
+      "lambda_star": 0.0,
+      "base_accuracy": 0.6555555555555556,
+      "auc": {
+        "Random": 0.7997222222222223,
+        "U_total": 0.8841666666666667,
+        "U_epi": 0.8930555555555555,
+        "U_ale": 0.8580555555555555,
+        "R(x)": 0.7975000000000001,
+        "Oracle": 0.9402777777777778
+      },
+      "delta_R_vs_Uepi": -0.0955555555555554,
+      "delta_R_vs_Utotal": -0.08666666666666656,
+      "delta_R_vs_Random": -0.0022222222222222365
+    },
+    {
+      "model": "ministral_3_8b_instruct_2512",
+      "dataset": "triviaqa",
+      "n_test": 90,
+      "lambda_star": 0.22438819237827662,
+      "base_accuracy": 0.7666666666666667,
+      "auc": {
+        "Random": 0.8708333333333333,
+        "U_total": 0.9402777777777777,
+        "U_epi": 0.946388888888889,
+        "U_ale": 0.9180555555555556,
+        "R(x)": 0.9363888888888888,
+        "Oracle": 0.9725
+      },
+      "delta_R_vs_Uepi": -0.01000000000000012,
+      "delta_R_vs_Utotal": -0.0038888888888888307,
+      "delta_R_vs_Random": 0.06555555555555548
+    },
+    {
+      "model": "qwen3_8b",
+      "dataset": "triviaqa",
+      "n_test": 90,
+      "lambda_star": 0.0,
+      "base_accuracy": 0.7777777777777778,
+      "auc": {
+        "Random": 0.8661111111111109,
+        "U_total": 0.9272222222222221,
+        "U_epi": 0.9305555555555556,
+        "U_ale": 0.9133333333333333,
+        "R(x)": 0.8650000000000001,
+        "Oracle": 0.975
+      },
+      "delta_R_vs_Uepi": -0.06555555555555548,
+      "delta_R_vs_Utotal": -0.06222222222222196,
+      "delta_R_vs_Random": -0.0011111111111108407
+    }
+  ]
+}
