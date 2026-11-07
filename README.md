@@ -2,7 +2,7 @@
 
 **[Ilia Azizi](https://iliaazizi.com)**<sup>1,2</sup> &nbsp; <sup>1</sup> [University of Lausanne](https://www.unil.ch/unil/en/home.html) &nbsp; <sup>2</sup> [BegooAI](https://begoo.ai/)
 
-[![NeurIPS 2026](https://img.shields.io/badge/NeurIPS-2026-8c1b13)](https://openreview.net/forum?id=eY9UXFg5E0)
+[![NeurIPS 2026](https://img.shields.io/badge/NeurIPS-2026-8c1b13)](docs/paper.pdf)
 [![Project page](https://img.shields.io/badge/Project-page-1f6feb)](https://unco3892.github.io/caelum/)
 [![Poster](https://img.shields.io/badge/Poster-PDF-555)](docs/poster.pdf)
 [![BibTeX](https://img.shields.io/badge/Cite-BibTeX-2ea44f)](#cite-this-work)
